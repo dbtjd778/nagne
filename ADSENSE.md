@@ -32,29 +32,34 @@
 
 ## 2. 신청 전 체크리스트
 
-### 필수
+이미 승인된 애드센스 계정(`pub-5211829862421684`)이 있으므로, 신규 계정 심사가 아니라
+**«사이트 추가»** 절차입니다. 옷 색깔 꿀조합·오늘만 하고 끊을게 때와 같은 흐름입니다.
 
-- [ ] **도메인 구입 및 연결** — 서브도메인(`*.netlify.app`)으로도 신청은 되지만
-      자체 도메인이 훨씬 유리합니다. 최소 며칠 이상 운영된 상태가 좋습니다.
-- [ ] `src/site.config.js` 의 `url` 을 실제 도메인으로 변경
-- [ ] `src/site.config.js` 의 `email` 을 실제로 받는 주소로 변경
-      (심사 중 연락이 갈 수 있고, 개인정보 문의 창구로도 필요합니다)
-- [ ] `index.html` 의 `<link rel="canonical">` 과 `og:url` 도메인 변경
-- [ ] `npm run build` 실행 → `sitemap.xml`, `robots.txt` 가 새 도메인으로 갱신되는지 확인
-- [ ] **개인정보처리방침 페이지** (`/privacy`) — 이미 작성되어 있습니다.
-      쿠키 사용, Google 의 제3자 광고 쿠키, 맞춤 광고 해제 방법이 모두 포함되어 있어야
-      하며 현재 포함되어 있습니다.
-- [ ] **문의처** (`/contact`) 와 **소개** (`/about`) 페이지 — 작성 완료
-- [ ] robots.txt 가 크롤러를 막고 있지 않은지 확인 (특히 `Mediapartners-Google` 차단 금지)
-- [ ] 깨진 링크 정리 — `npm run check-links` 로 확인 (아래 3번 참고)
+### 완료된 것
 
-### 승인 후
+- [x] 게시자 ID 연결 — `index.html` 광고 스크립트, `public/ads.txt`, `src/site.config.js`
+- [x] Search Console 소유확인 파일 — `public/googlec786b5ba7483f7aa.html`
+- [x] **개인정보처리방침** (`/privacy`) — 쿠키, Google 제3자 광고 쿠키, 맞춤 광고 해제 방법 포함
+- [x] **문의** (`/contact`) — 사이트 전용 이메일 + GitHub 이슈
+- [x] **소개** (`/about`) — 제작 배경, 선정 기준, 관리 방식, 한계, 운영 방식, 운영자 정보
+- [x] 프리렌더링 — 17개 페이지 전부 정적 HTML
+- [x] `sitemap.xml`, `robots.txt` 자동 생성
+- [x] 끊긴 링크 정리 (`npm run check-links`)
 
-- [ ] `index.html` 의 애드센스 스크립트 주석 해제 + `ca-pub-XXXXXXXXXXXXXXXX` 교체
-- [ ] `public/ads.txt` 의 주석 해제 + 게시자 ID 교체
-      → 배포 후 `https://도메인/ads.txt` 로 열리는지 반드시 확인
-- [ ] Google Search Console 에 도메인 등록 + `sitemap.xml` 제출
-- [ ] 광고 단위를 어디에 넣을지 결정 (카테고리 페이지 목록 중간이 자연스럽습니다)
+### 남은 것
+
+- [ ] **`allsites.mine@gmail.com` 계정을 실제로 만들기** — 아직 없다면 문의 창구가
+      동작하지 않습니다. 다른 주소를 쓰려면 `src/site.config.js` 의 `email` 만 바꾸면
+      개인정보처리방침·이용약관·문의 페이지에 한꺼번에 반영됩니다.
+- [ ] **도메인 구입 후 연결** — 애드센스에 사이트를 추가하기 **전에** 하는 편이 좋습니다.
+      나중에 도메인이 바뀌면 사이트를 다시 추가해야 합니다.
+      구입 후 `src/site.config.js` 의 `url` 과 `index.html` 의 canonical / og:url 을
+      새 도메인으로 바꾸고 `npm run build` 를 한 번 돌리면 sitemap·robots·전 페이지
+      메타 태그가 함께 갱신됩니다.
+- [ ] 배포 후 `https://도메인/ads.txt` 가 실제로 열리는지 확인
+- [ ] 애드센스 → 사이트 → 사이트 추가 → 도메인 입력 후 검토 요청
+- [ ] Search Console 에 새 속성 등록 + `sitemap.xml` 제출
+- [ ] 광고 단위 위치 결정 (카테고리 페이지 목록 중간이 자연스럽습니다)
 
 ### 하면 안 되는 것
 

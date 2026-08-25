@@ -1,3 +1,1 @@
-# Google AdSense 승인 후 아래 줄의 pub-0000000000000000 을
-# 본인의 게시자 ID 숫자로 교체하고 주석(#)을 제거하세요.
-# google.com, pub-0000000000000000, DIRECT, f08c47fec0942fa0
+google.com, pub-5211829862421684, DIRECT, f08c47fec0942fa0

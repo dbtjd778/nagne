@@ -108,12 +108,31 @@ nagne/
 (`stiffness: 210, damping: 30`), 페이드는 `cubic-bezier(0.16, 1, 0.3, 1)` 을 씁니다.
 `MotionConfig reducedMotion="user"` 로 OS 의 «동작 줄이기» 설정을 존중합니다.
 
-## 배포 전 반드시 수정할 것
+## 배포
 
-1. **`src/site.config.js`** — `url`(구매한 도메인), `email`(실제 문의 주소)
+Netlify: https://allsites-mine.netlify.app
+
+`netlify.toml` 에 빌드 명령(`npm run build`)과 배포 폴더(`dist`)가 들어 있어 저장소를
+연결하면 그대로 동작합니다.
+
+### 도메인을 새로 연결할 때
+
+1. **`src/site.config.js`** — `url` 을 새 도메인으로
 2. **`index.html`** — `<link rel="canonical">`, `og:url` 의 도메인
-3. **`public/ads.txt`** — 애드센스 승인 후 게시자 ID
-4. `npm run build` 를 한 번 실행하면 sitemap/robots 가 새 도메인으로 갱신됩니다
+3. `npm run build` → sitemap, robots, 17개 페이지의 메타 태그가 함께 갱신됩니다
+
+### 사이트 전역 설정
+
+`src/site.config.js` 한 파일에 모여 있습니다.
+
+| 키 | 쓰이는 곳 |
+| --- | --- |
+| `url` | canonical, og:url, sitemap, robots |
+| `email` | 문의 페이지, 개인정보처리방침, 이용약관 |
+| `repo` | 문의 페이지의 GitHub 이슈 링크, 소개 페이지 |
+| `adsensePublisherId` | `index.html` 광고 스크립트 및 `public/ads.txt` 와 일치해야 함 |
+| `policyUpdatedAt` | 정책 문서 최종 수정일 |
+| `otherSites` | 소개 페이지의 «만든 사람» 항목 |
 
 애드센스 준비 사항은 [ADSENSE.md](ADSENSE.md) 를 참고하세요.
 
