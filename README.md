@@ -1,7 +1,7 @@
 # 나그네 (nagne)
 
 심심할 때 열어보는 웹사이트 큐레이션 디렉토리.
-한국 사이트 42개, 외국 사이트 166개 — 총 **208개**를 12개 카테고리로 정리했습니다.
+한국 사이트 41개, 외국 사이트 165개 — 총 **206개**를 12개 카테고리로 정리했습니다.
 
 ## 기술 스택
 
@@ -23,9 +23,32 @@ npm run dev
 `http://localhost:5173` 에서 열립니다.
 
 ```bash
-npm run build     # sitemap 자동 생성 후 dist/ 로 빌드
-npm run preview   # 빌드 결과 미리보기
+npm run build        # sitemap 생성 → 클라이언트 빌드 → SSR 빌드 → 17개 페이지 프리렌더
+npm run preview      # 빌드 결과 미리보기 (아래 주의 참고)
+npm run check-links  # 등록된 외부 링크 206개의 응답 확인
 ```
+
+> `npm run preview` 로 확인할 때는 `/c/gl-quiz/` 처럼 **끝에 슬래시를 붙여야** 합니다.
+> `vite preview` 는 확장자 없는 경로에 SPA 폴백(홈 HTML)을 내려주기 때문에 슬래시가
+> 없으면 엉뚱한 페이지가 뜹니다. Netlify 는 `/c/gl-quiz` 를 `c/gl-quiz/index.html` 로
+> 정상 처리하므로 실제 배포에서는 문제가 없습니다.
+
+## 프리렌더링
+
+`npm run build` 는 세 단계로 동작합니다.
+
+1. `vite build` — 브라우저용 번들
+2. `vite build --ssr src/entry-server.jsx` — Node 에서 실행할 렌더 함수
+3. `scripts/prerender.mjs` — 17개 라우트를 `renderToString` 으로 렌더해
+   `dist/<경로>/index.html` 로 저장하고, 페이지별 `title` / `description` /
+   `canonical` / `og:` 태그를 주입
+
+덕분에 JavaScript 를 실행하지 않는 크롤러도 본문 전체를 읽을 수 있습니다.
+브라우저에서는 `main.jsx` 가 `#root` 에 내용이 있으면 `hydrateRoot` 로 이어받습니다.
+(서버 출력과 클라이언트 렌더 결과가 정확히 일치하는지 확인 완료 — 하이드레이션 경고 없음)
+
+라우트를 추가할 때는 `src/routes.meta.js` 에 항목을 넣으면 sitemap 과 프리렌더가
+함께 따라갑니다.
 
 ## 폴더 구조
 
@@ -34,7 +57,9 @@ nagne/
 ├─ index.html                  메타 태그, 폰트, 애드센스 스크립트 자리
 ├─ netlify.toml                빌드 설정 + SPA 리다이렉트 + 캐시 헤더
 ├─ scripts/
-│  └─ generate-sitemap.mjs     site.config 도메인 기준 sitemap/robots 생성
+│  ├─ generate-sitemap.mjs     routes.meta 기준 sitemap/robots 생성
+│  ├─ prerender.mjs            17개 라우트를 정적 HTML 로 렌더링
+│  └─ check-links.mjs          외부 링크 응답 점검
 ├─ public/
 │  ├─ _redirects               SPA 라우팅 (Netlify)
 │  ├─ ads.txt                  애드센스 승인 후 게시자 ID 기입
@@ -43,7 +68,9 @@ nagne/
 │  └─ favicon.svg
 └─ src/
    ├─ site.config.js           도메인·이메일·애드센스 ID (배포 전 필수 수정)
+   ├─ routes.meta.js           라우트 목록 + 페이지별 title/description
    ├─ data/sites.js            큐레이션 데이터베이스
+   ├─ entry-server.jsx         프리렌더용 SSR 엔트리
    ├─ App.jsx                  라우팅 + 페이지 전환
    ├─ components/
    │  ├─ ScrollTheme.jsx       스크롤에 따른 다크 → 라이트 색 보간

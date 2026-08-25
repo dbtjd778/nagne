@@ -1,4 +1,4 @@
-// src/site.config.js 의 도메인과 데이터를 읽어 sitemap.xml / robots.txt 를 생성합니다.
+// src/routes.meta.js 의 라우트 목록으로 sitemap.xml / robots.txt 를 생성합니다.
 // npm run build 시 자동 실행됩니다 (package.json 의 prebuild).
 
 import { writeFileSync } from 'node:fs'
@@ -6,27 +6,13 @@ import { fileURLToPath } from 'node:url'
 import { dirname, resolve } from 'node:path'
 
 import { site } from '../src/site.config.js'
-import { allCategories } from '../src/data/sites.js'
+import { routeMeta } from '../src/routes.meta.js'
 
 const root = resolve(dirname(fileURLToPath(import.meta.url)), '..')
 const base = site.url.replace(/\/$/, '')
 const today = new Date().toISOString().slice(0, 10)
 
-const staticPages = [
-  { path: '/', changefreq: 'weekly', priority: '1.0' },
-  { path: '/about', changefreq: 'monthly', priority: '0.8' },
-  { path: '/contact', changefreq: 'monthly', priority: '0.6' },
-  { path: '/privacy', changefreq: 'yearly', priority: '0.4' },
-  { path: '/terms', changefreq: 'yearly', priority: '0.4' },
-]
-
-const categoryPages = allCategories.map((c) => ({
-  path: `/c/${c.id}`,
-  changefreq: 'monthly',
-  priority: '0.9',
-}))
-
-const urls = [...staticPages, ...categoryPages]
+const urls = routeMeta
   .map(
     ({ path, changefreq, priority }) => `  <url>
     <loc>${base}${path}</loc>
@@ -57,4 +43,4 @@ Sitemap: ${base}/sitemap.xml
   'utf8'
 )
 
-console.log(`sitemap.xml / robots.txt 생성 완료 — ${urls.split('<url>').length - 1}개 URL (${base})`)
+console.log(`sitemap.xml / robots.txt 생성 완료 — ${routeMeta.length}개 URL (${base})`)
