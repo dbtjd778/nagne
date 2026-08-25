@@ -51,3 +51,13 @@ const categoryRoutes = allCategories.map((c) => ({
 }))
 
 export const routeMeta = [...staticRoutes, ...categoryRoutes]
+
+/**
+ * 정규 URL(canonical) 과 sitemap 에 쓰이는 절대 주소.
+ * Netlify 는 /about 을 /about/ 으로 301 하므로, 실제로 제공되는 형태인
+ * 끝 슬래시가 붙은 주소를 정규 주소로 삼습니다.
+ */
+export function canonicalUrl(path) {
+  const base = site.url.replace(/\/$/, '')
+  return path === '/' ? `${base}/` : `${base}${path}/`
+}

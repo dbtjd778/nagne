@@ -6,7 +6,7 @@ import { mkdirSync, readFileSync, writeFileSync } from 'node:fs'
 import { dirname, resolve } from 'node:path'
 import { fileURLToPath, pathToFileURL } from 'node:url'
 
-import { routeMeta } from '../src/routes.meta.js'
+import { routeMeta, canonicalUrl } from '../src/routes.meta.js'
 import { site } from '../src/site.config.js'
 
 const root = resolve(dirname(fileURLToPath(import.meta.url)), '..')
@@ -20,7 +20,7 @@ const escapeAttr = (s) =>
 
 for (const route of routeMeta) {
   const appHtml = render(route.path)
-  const canonical = `${base}${route.path}`
+  const canonical = canonicalUrl(route.path)
 
   const html = template
     .replace(/<title>[\s\S]*?<\/title>/, `<title>${escapeAttr(route.title)}</title>`)

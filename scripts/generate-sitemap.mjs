@@ -6,7 +6,7 @@ import { fileURLToPath } from 'node:url'
 import { dirname, resolve } from 'node:path'
 
 import { site } from '../src/site.config.js'
-import { routeMeta } from '../src/routes.meta.js'
+import { routeMeta, canonicalUrl } from '../src/routes.meta.js'
 
 const root = resolve(dirname(fileURLToPath(import.meta.url)), '..')
 const base = site.url.replace(/\/$/, '')
@@ -15,7 +15,7 @@ const today = new Date().toISOString().slice(0, 10)
 const urls = routeMeta
   .map(
     ({ path, changefreq, priority }) => `  <url>
-    <loc>${base}${path}</loc>
+    <loc>${canonicalUrl(path)}</loc>
     <lastmod>${today}</lastmod>
     <changefreq>${changefreq}</changefreq>
     <priority>${priority}</priority>
