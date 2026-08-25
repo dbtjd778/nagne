@@ -1,5 +1,5 @@
 import { useMemo, useState } from 'react'
-import { AnimatePresence, LayoutGroup, motion } from 'framer-motion'
+import { LayoutGroup, motion } from 'framer-motion'
 import { regions, allSites, totalSiteCount } from '../data/sites'
 import RegionTabs from './RegionTabs'
 import CategoryCard, { MORPH } from './CategoryCard'
@@ -72,14 +72,17 @@ export default function Directory() {
         </div>
       </div>
 
-      {/* mode="wait": 이전 목록이 완전히 사라진 뒤 새 목록이 올라옵니다. */}
-      <AnimatePresence mode="wait" initial={false}>
+      {/*
+        key 가 바뀌면 React 가 즉시 교체하고 새 목록이 페이드인됩니다.
+        AnimatePresence 의 퇴장 대기에 의존하지 않아 전환이 멈출 일이 없습니다.
+      */}
+      <div>
         {searching ? (
           <motion.div
             key="results"
             initial={{ opacity: 0, y: 12 }}
-            animate={{ opacity: 1, y: 0, transition: { duration: 0.4, ease: EASE } }}
-            exit={{ opacity: 0, y: -8, transition: { duration: 0.18, ease: 'easeOut' } }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.4, ease: EASE }}
           >
             {results.length === 0 ? (
               <p className="py-24 text-center text-[14px]" style={{ color: 'var(--muted)' }}>
@@ -107,8 +110,8 @@ export default function Directory() {
           <motion.div
             key={regionId}
             initial={{ opacity: 0, y: 14 }}
-            animate={{ opacity: 1, y: 0, transition: { duration: 0.45, ease: EASE } }}
-            exit={{ opacity: 0, y: -10, transition: { duration: 0.2, ease: 'easeOut' } }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.45, ease: EASE }}
           >
             <p
               className="mb-7 max-w-[58ch] text-[13.5px] leading-[1.85]"
@@ -136,7 +139,7 @@ export default function Directory() {
             </LayoutGroup>
           </motion.div>
         )}
-      </AnimatePresence>
+      </div>
     </section>
   )
 }

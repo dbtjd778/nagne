@@ -1,6 +1,6 @@
 import { useEffect } from 'react'
 import { Route, Routes, useLocation } from 'react-router-dom'
-import { AnimatePresence, MotionConfig, motion } from 'framer-motion'
+import { MotionConfig } from 'framer-motion'
 
 import ScrollTheme from './components/ScrollTheme'
 import Header from './components/Header'
@@ -13,8 +13,6 @@ import Terms from './pages/Terms'
 import Contact from './pages/Contact'
 import Category from './pages/Category'
 import NotFound from './pages/NotFound'
-
-const EASE = [0.16, 1, 0.3, 1]
 
 function ScrollToTop() {
   const { pathname } = useLocation()
@@ -35,25 +33,23 @@ export default function App() {
       <ScrollTheme animate={isHome}>
         <Header />
 
+        {/*
+          페이지 전환에 AnimatePresence 를 쓰지 않습니다.
+          mode="wait" 는 이전 페이지의 퇴장 애니메이션이 끝났다는 신호를 받아야
+          새 페이지를 마운트하는데, 그 신호가 오지 않으면(탭이 백그라운드로 내려가
+          requestAnimationFrame 이 멈추는 경우 등) 새 페이지가 영원히 뜨지 않습니다.
+          각 페이지가 자체 등장 애니메이션을 갖고 있으므로 전환 효과는 그대로입니다.
+        */}
         <main>
-          <AnimatePresence mode="wait" initial={false}>
-            <motion.div
-              key={location.pathname}
-              initial={{ opacity: 0 }}
-              animate={{ opacity: 1, transition: { duration: 0.4, ease: EASE } }}
-              exit={{ opacity: 0, transition: { duration: 0.18, ease: 'easeOut' } }}
-            >
-              <Routes location={location}>
-                <Route path="/" element={<Home />} />
-                <Route path="/about" element={<About />} />
-                <Route path="/privacy" element={<Privacy />} />
-                <Route path="/terms" element={<Terms />} />
-                <Route path="/contact" element={<Contact />} />
-                <Route path="/c/:categoryId" element={<Category />} />
-                <Route path="*" element={<NotFound />} />
-              </Routes>
-            </motion.div>
-          </AnimatePresence>
+          <Routes location={location}>
+            <Route path="/" element={<Home />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/privacy" element={<Privacy />} />
+            <Route path="/terms" element={<Terms />} />
+            <Route path="/contact" element={<Contact />} />
+            <Route path="/c/:categoryId" element={<Category />} />
+            <Route path="*" element={<NotFound />} />
+          </Routes>
         </main>
 
         <Footer />

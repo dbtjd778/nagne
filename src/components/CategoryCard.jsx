@@ -1,6 +1,6 @@
 import { useEffect, useRef } from 'react'
 import { Link } from 'react-router-dom'
-import { AnimatePresence, motion } from 'framer-motion'
+import { motion } from 'framer-motion'
 import SiteCard from './SiteCard'
 
 const EASE = [0.16, 1, 0.3, 1]
@@ -69,13 +69,17 @@ export default function CategoryCard({ data, index, isOpen, onToggle }) {
         </div>
       </motion.button>
 
-      <AnimatePresence initial={false}>
-        {isOpen && (
+      {/*
+        닫을 때는 즉시 언마운트하고, 박스가 줄어드는 모습은 부모의 layout 애니메이션이
+        담당합니다. 퇴장 애니메이션 완료 신호를 기다리지 않으므로 펼침 상태가
+        멈춰버릴 여지가 없습니다.
+      */}
+      {isOpen && (
           <motion.div
             key="panel"
             initial={{ opacity: 0 }}
-            animate={{ opacity: 1, transition: { duration: 0.5, ease: EASE, delay: 0.12 } }}
-            exit={{ opacity: 0, transition: { duration: 0.14, ease: 'easeOut' } }}
+            animate={{ opacity: 1 }}
+            transition={{ duration: 0.5, ease: EASE, delay: 0.12 }}
             className="px-6 pb-8 md:px-8"
           >
             <motion.p
@@ -115,8 +119,7 @@ export default function CategoryCard({ data, index, isOpen, onToggle }) {
               </button>
             </div>
           </motion.div>
-        )}
-      </AnimatePresence>
+      )}
     </motion.article>
   )
 }
