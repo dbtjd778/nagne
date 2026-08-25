@@ -51,6 +51,13 @@ export default function SiteCard({ site, index, showCategory = false }) {
             className="ml-auto shrink-0 rounded-full border px-2 py-[2px] font-mono text-[10px]"
             style={{ borderColor: 'var(--line)', color: 'var(--muted)' }}
           >
+            {/*
+              한국·외국 양쪽에 같은 이름의 카테고리가 있어 지역을 함께 표시합니다.
+              카테고리 이름 자체가 가운뎃점을 쓰므로, 구분자는 이동 경로와 같은 / 를 씁니다.
+            */}
+            {site.regionLabel && (
+              <span style={{ opacity: 0.55 }}>{site.regionLabel.replace(' 사이트', '')} / </span>
+            )}
             {site.categoryName}
           </span>
         )}
