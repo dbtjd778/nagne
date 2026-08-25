@@ -1,0 +1,106 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* ScrollTheme 이 스크롤에 따라 아래 값들을 실시간으로 덮어씁니다. */
+    --bg: #111111;
+    --fg: #f2f2f2;
+    --muted: #8a8a8a;
+    --line: rgba(255, 255, 255, 0.14);
+    --surface: rgba(255, 255, 255, 0.035);
+    --surface-hover: rgba(255, 255, 255, 0.07);
+  }
+
+  html {
+    scroll-behavior: smooth;
+    -webkit-text-size-adjust: 100%;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+  }
+
+  body {
+    margin: 0;
+    background-color: #111111;
+    color: var(--fg);
+    font-feature-settings: 'ss01', 'cv01';
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+    word-break: keep-all;
+  }
+
+  ::selection {
+    background: var(--fg);
+    color: var(--bg);
+  }
+
+  *:focus-visible {
+    outline: 1px solid var(--fg);
+    outline-offset: 3px;
+  }
+}
+
+@layer components {
+  .wrap {
+    @apply mx-auto w-full max-w-[1180px] px-6 md:px-10;
+  }
+
+  .rule {
+    border-color: var(--line);
+  }
+
+  .muted {
+    color: var(--muted);
+  }
+
+  .eyebrow {
+    @apply font-mono text-[11px] uppercase tracking-[0.22em];
+    color: var(--muted);
+  }
+
+  .prose-page {
+    @apply text-[15px] leading-[1.85];
+  }
+
+  .prose-page h2 {
+    @apply mb-3 mt-12 text-lg font-semibold tracking-tight;
+  }
+
+  .prose-page h3 {
+    @apply mb-2 mt-8 text-[15px] font-semibold;
+  }
+
+  .prose-page p {
+    @apply mb-4;
+    color: var(--muted);
+  }
+
+  .prose-page ul {
+    @apply mb-4 list-disc space-y-1.5 pl-5;
+    color: var(--muted);
+  }
+
+  .prose-page a {
+    @apply underline underline-offset-4;
+    color: var(--fg);
+  }
+}
+
+/* 스크롤바 (WebKit) */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--line);
+  border-radius: 99px;
+}
