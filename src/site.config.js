@@ -8,6 +8,6 @@ export const site = {
   email: 'dbtjd779@gmail.com',
   repo: 'https://github.com/dbtjd778/nagne',
   adsensePublisherId: 'ca-pub-5211829862421684',
-  adsEnabled: false,
+  adsEnabled: true,
   policyUpdatedAt: '2026년 10월 20일',
 }

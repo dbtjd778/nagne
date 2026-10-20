@@ -84,3 +84,5 @@
   .search-box input::placeholder{font-size:12px}
   .site-list .site-card-bottom{margin-top:auto}
 }
+
+.privacy-choices{padding:0;text-align:left;color:inherit;font-size:inherit}.privacy-choices:hover{text-decoration:underline;text-underline-offset:4px}

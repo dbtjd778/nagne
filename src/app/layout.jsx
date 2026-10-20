@@ -4,7 +4,13 @@ import { site } from '../site.config'
 import Footer from '../components/Footer'
 import ScrollEffects from '../components/ScrollEffects'
 import { BookmarkProvider } from '../components/Bookmarks'
-import { pageMetadata, homeTitle } from '../lib/metadata'
+import { pageMetadata, homeTitle, isProduction } from '../lib/metadata'
+import Advertising from '../components/Advertising'
+import { allCategories } from '../data/sites'
+import { guides } from '../data/guides'
+
+const knownPaths = ['/', '/guides/', '/about/', '/contact/', '/privacy/', '/terms/',
+  ...allCategories.map(c => `/c/${c.id}/`), ...guides.map(g => `/guide/${g.slug}/`)]
 
 export const metadata = {
   ...pageMetadata(homeTitle,site.description),
@@ -16,5 +22,5 @@ export const metadata = {
 export const viewport = { width:'device-width',initialScale:1,themeColor:'#173f35' }
 
 export default function RootLayout({ children }) {
-  return <html lang="ko"><body id="top"><a className="skip-link" href="#main-content">본문 바로가기</a><ScrollEffects/><BookmarkProvider><Header/><main id="main-content">{children}</main><Footer/></BookmarkProvider></body></html>
+  return <html lang="ko"><body id="top"><a className="skip-link" href="#main-content">본문 바로가기</a><ScrollEffects/><BookmarkProvider><Header/><main id="main-content">{children}</main><Footer/></BookmarkProvider><Advertising enabled={isProduction && site.adsEnabled} productionOrigin={site.url} publisherId={site.adsensePublisherId} knownPaths={knownPaths}/></body></html>
 }

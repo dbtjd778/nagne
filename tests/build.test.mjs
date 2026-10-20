@@ -41,11 +41,12 @@ test('sitemap includes all detail pages and old SPA catch-all is gone',()=>{
 test('every assigned logo is a local existing asset',()=>{
  for(const s of allSites.filter(s=>s.icon)){assert.ok(s.icon.startsWith('/icons/'));assert.ok(existsSync(`public${s.icon}`),s.icon)}
 })
-test('advertising readiness preserves seller identity without enabling ad requests',()=>{
- assert.equal(site.adsEnabled,false)
+test('advertising uses a gated loader and preserves the public seller identity',()=>{
+ assert.equal(site.adsEnabled,true)
  assert.equal(read('ads.txt').trim(),`google.com, ${site.adsensePublisherId.replace(/^ca-/,'')}, DIRECT, f08c47fec0942fa0`)
  for(const path of ['index.html','about/index.html','privacy/index.html','contact/index.html','terms/index.html','404.html',...allCategories.map(c=>`c/${c.id}/index.html`),...guides.map(g=>`guide/${g.slug}/index.html`)]){
   const html=read(path)
+  assert.ok(html.includes(`id="advertising-runtime" hidden="" data-enabled="${production ? 'true' : 'false'}"`),path)
   assert.ok(!/adsbygoogle|pagead2\.googlesyndication\.com/.test(html),path)
   assert.ok(!html.includes('나그네'),path)
  }
