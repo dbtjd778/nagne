@@ -21,6 +21,7 @@ export default async function Category({params}) {
   return <article className="wrap content-page category-page">
     <JsonLd data={{'@context':'https://schema.org','@type':'CollectionPage',name:`${c.category} 사이트 추천`,url:canonical(`/c/${c.id}`),description:c.blurb,mainEntity:{'@type':'ItemList',numberOfItems:items.length,itemListElement:items.map((s,i)=>({'@type':'ListItem',position:i+1,name:s.name,url:/^https?:\/\//.test(s.url)?s.url:`https://${s.url}`}))}}}/>
     <PageHeading title={c.id==='gl-games' ? '웹게임' : `${c.category} 사이트`} description={c.blurb} eyebrow={c.id==='gl-games' ? `설치 없이 즐기는 · ${items.length}개 게임` : `${c.regionLabel} · ${items.length}곳`}/>
+    <nav className="category-tools" aria-label="목록 도구"><Link href={`/?category=${c.id}#directory`}>이 카테고리에서 검색</Link><Link href="/?saved=1#directory">저장한 사이트 보기 ↗</Link></nav>
     <div className="site-grid">{items.slice(0,12).map(s=><SiteCard key={s.url} site={s}/>)}</div>
     <AdSlot placement={`category-${c.id}`}/>
     <div className="site-grid">{items.slice(12).map(s=><SiteCard key={s.url} site={s}/>)}</div>

@@ -19,3 +19,68 @@
 @media(max-width:520px){.header nav{gap:12px;font-size:11px}}
 .header .wordmark{white-space:nowrap;flex-shrink:0}
 @media(max-width:380px){.header nav a:nth-child(3){display:none}.header-inner{gap:12px}.hero h1{font-size:28px}}
+
+/* First-visit navigation: readable cards, visible filters and comfortable controls. */
+.search-box{min-width:0}
+.random-button{flex-shrink:0}
+.site-title-link:after{content:'';position:absolute;inset:0;border-radius:8px}
+.site-card:focus-within{border-color:#68865a}
+.save-button{position:relative;z-index:1;min-width:44px;min-height:44px;margin:-6px -10px -6px 0;color:#738367;border-radius:5px}
+.save-button svg{width:18px;height:18px}
+.save-button:hover{background:#eff4e8}
+.site-desc,.site-list .site-desc{display:block;overflow:visible;-webkit-line-clamp:unset;line-height:1.8}
+.site-card-head{min-height:36px}
+.site-title-link>svg{display:none}
+.view-options{margin-bottom:5px}
+.view-options button{min-width:44px;min-height:44px}
+.sort-label select{min-height:44px}
+.region-tabs button{min-height:44px}
+.clear-search{display:grid;place-items:center;min-width:44px;min-height:44px;margin-right:-12px;border-radius:4px;color:#667858}
+.search-box input::-webkit-search-cancel-button{display:none}
+.active-filters{display:flex;flex-wrap:wrap;align-items:center;gap:6px;margin:-4px 0 18px}
+.active-filters button{display:inline-flex;align-items:center;gap:8px;min-height:36px;padding:5px 10px;border-radius:5px;background:#eaf0e3;color:#456039;font-size:12px;max-width:100%}
+.active-filters button>span{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.active-filters .reset-filters{background:transparent;color:#68795c;text-decoration:underline;text-underline-offset:3px}
+.saved-hint{font-size:12px;color:#68795c;margin:-3px 0 18px}
+.save-toast{position:fixed;bottom:max(24px,env(safe-area-inset-bottom));left:50%;transform:translate(-50%,12px);z-index:90;pointer-events:none;opacity:0;transition:opacity .18s,transform .18s;max-width:calc(100% - 32px);width:max-content}
+.save-toast.is-visible{opacity:1;transform:translate(-50%,0)}
+.save-toast>span{display:flex;align-items:center;gap:9px;padding:13px 20px;border-radius:8px;background:#224d3f;color:#fff;box-shadow:0 8px 28px #15332724;font-size:13px;line-height:1.6}
+.random-actions{display:flex;justify-content:center;gap:16px;margin-top:10px}
+.random-actions button{display:inline-flex;align-items:center;gap:7px;min-height:44px;font-size:13px;color:#566e43}
+.random-actions button[aria-pressed=true]{font-weight:650;color:#224d3f}
+.random-actions button[aria-pressed=true] svg{fill:#dce8ce}
+.dialog-close{min-width:44px;min-height:44px;display:grid;place-items:center;right:7px;top:7px}
+.random-dialog{max-height:calc(100dvh - 32px);overflow:auto}
+.category-tools{display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px 20px;margin:-12px 0 22px;font-size:13px}
+.category-tools a{display:inline-flex;align-items:center;min-height:44px;text-decoration:underline;text-underline-offset:4px;color:#47613d}
+.contact-option>a{min-height:44px}
+.contact-alternative{border-top:1px solid var(--line);padding-top:14px;margin-top:20px!important}
+.contact-alternative small{display:block;font-size:11px;margin-top:4px}
+@media(max-width:760px){
+  .mobile-category select,.mobile-category button{min-height:44px;font-size:12px}
+  .active-filters button{min-height:44px}
+  .site-title-link h3{font-size:14px}
+  .search-box input{font-size:16px}
+  .search-box input::placeholder{font-size:13px}
+  .site-list .site-card{grid-template-columns:170px 1fr}
+}
+@media(max-width:520px){
+  .site-grid,.category-page .site-grid{grid-template-columns:1fr;gap:10px}
+  .site-card,.category-page .site-card{padding:16px 18px;min-height:154px}
+  .site-title-link{gap:10px}
+  .site-title-link h3{font-size:16px}
+  .site-logo{width:34px;height:34px}
+  .site-logo img{max-width:25px;max-height:25px}
+  .site-desc,.site-list .site-desc{font-size:13px;margin-bottom:15px}
+  .site-category,.site-region{font-size:10px}
+  .site-card-head{margin-bottom:10px}
+  .view-options{display:none}
+  .region-tabs{width:100%;gap:30px}
+  .random-button{padding:0 12px;gap:6px}
+  .random-button>span{display:inline;font-size:11px;white-space:nowrap}
+  .random-button>svg{width:16px;height:16px}
+  .search-box{padding-left:10px;gap:7px}
+  .search-box>svg{width:18px}
+  .search-box input::placeholder{font-size:12px}
+  .site-list .site-card-bottom{margin-top:auto}
+}

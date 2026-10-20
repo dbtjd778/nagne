@@ -1,0 +1,50 @@
+{
+  "date": "2026-10-20",
+  "scope": "First-visit usability audit of vsites.co.kr: discovery, search, filters, bookmarks, navigation, mobile, keyboard, guides and contact.",
+  "findingsFixed": [
+    "Korean names such as 챗지피티 and 테트리스 returned no matching official service; added reviewed Korean aliases for existing entries.",
+    "Opening saved sites retained unrelated search and category filters and misleadingly claimed there were no bookmarks; saved view now starts with the full saved list and distinguishes filtered-empty results.",
+    "Category pages had no save controls; shared bookmark state now works across home, all category pages and random recommendations, including cross-tab storage events.",
+    "Save feedback was below the catalogue; a short, visible live-status toast now confirms the action.",
+    "Back navigation lost search, category, sort, view and expanded result count; validated URL state now preserves them and synchronizes with Next.js navigation.",
+    "Active filters could be hard to identify or clear, especially on mobile; removable filter chips, clear-search and a reset control now provide recovery.",
+    "Card descriptions were truncated and narrow mobile cards had small save targets; complete descriptions, single-column phone layouts and 44px save targets improve reading and touch interaction.",
+    "Only card titles opened sites; the card body now opens the same destination while the save button remains separate.",
+    "Random discovery was an unexplained icon on phones, could repeat its sole candidate, and could not save; it now has a visible label, save control and conditional reroll.",
+    "Keyboard users stayed after newly appended results; load-more now moves keyboard focus to the first added site.",
+    "320px search controls overflowed during testing; corrected flex sizing and shortened the search placeholder.",
+    "Site reporting emphasized a GitHub account requirement; a prefilled email link is now the first reporting option, with GitHub as an alternative. No message was sent."
+  ],
+  "validation": {
+    "automatedTests": {"passed": 12, "failed": 0},
+    "productionBuild": "passed; first 24 cards remain in exported HTML; every category includes save controls",
+    "breakpoints": [
+      {"width":320,"documentWidth":320,"clippedDescriptions":0,"saveTarget":[44,44]},
+      {"width":390,"documentWidth":390,"clippedDescriptions":0,"saveTarget":[44,44]},
+      {"width":768,"documentWidth":768,"clippedDescriptions":0,"saveTarget":[44,44]},
+      {"width":1280,"documentWidth":1280,"clippedDescriptions":0,"saveTarget":[44,44]}
+    ],
+    "browserFlows": [
+      "Korean search for ChatGPT and Tetris; combined category and name sort",
+      "Save ChatGPT, search an unrelated term, then open saved sites: saved item remains discoverable",
+      "Filter saved sites to zero matches and recover using saved-sites reset",
+      "Save Slow Roads on the games page and open the shared saved list",
+      "Back navigation and reload restore search, category and sort",
+      "Top navigation clears obsolete search state and keeps URL and controls synchronized",
+      "Keyboard Enter on load-more appends 24 cards and focuses the first new site",
+      "Back navigation restores 48 loaded cards and the previous scroll position",
+      "Random reroll chooses a different site; saving works; single-candidate dialog omits reroll; Escape returns focus",
+      "A second local tab reads the saved item and removal synchronizes to the original tab",
+      "Clicking the first card description opens Neal.fun in a new tab",
+      "Desktop list view has no horizontal overflow",
+      "Contact email destination and prefilled subject/body inspected without sending",
+      "Guide index, article body and four related destinations inspected",
+      "No browser error or warning logs observed on the local tested page"
+    ],
+    "catalogue": {"sites":523,"categories":25,"games":31},
+    "testBookmarksRemoved": true,
+    "adsEnabled": false,
+    "adsenseReviewSubmitted": false,
+    "deployment": "pending"
+  }
+}

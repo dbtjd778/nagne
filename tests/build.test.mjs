@@ -11,6 +11,8 @@ test('static export provides every category and guide as meaningful HTML',()=>{
   const html=read(`c/${c.id}/index.html`)
   for(const s of c.sites)assert.ok(html.includes(s.name.replaceAll('&','&amp;')),`${c.id}: ${s.name}`)
   assert.ok(html.includes('application/ld+json'))
+   assert.ok(html.includes('저장한 사이트 보기'))
+   assert.equal((html.match(/class="save-button /g)||[]).length,c.sites.length,`Every category card can be saved: ${c.id}`)
   for(const s of c.sites) {
    const href = /^https?:\/\//.test(s.url) ? s.url : `https://${s.url}`
    assert.ok(html.includes(`href="${href.replaceAll('&','&amp;')}"`),`Missing HTTPS link: ${s.url}`)
@@ -27,6 +29,7 @@ test('metadata uses the current brand, canonical domain and context-specific ind
  assert.ok(!html.includes('나그네'))
  assert.ok(!html.includes('pagead2.googlesyndication.com'))
  assert.ok(html.includes('data-ad-placement="directory-middle"'))
+ assert.equal((html.match(/class="site-card /g)||[]).length,24,'The first catalogue page must remain in server-rendered HTML')
 })
 test('sitemap includes all detail pages and old SPA catch-all is gone',()=>{
  const sitemap=read('sitemap.xml')
