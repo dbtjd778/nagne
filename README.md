@@ -24,7 +24,7 @@ npm run preview
 
 ## 운영 및 배포
 
-운영 도메인: **https://vsites.co.kr**. 2026-10-20 사용자가 사이트 맛집이라는 이름과 배포를 승인했다. AdSense 심사 신청과 실제 광고 활성화는 요청하지 않아 진행하지 않는다.
+운영 도메인: **https://vsites.co.kr**. 2026-10-20 GitHub main 푸시와 Netlify 운영 배포를 완료했다. AdSense는 사이트 추가 및 ads.txt 소유 확인까지 준비했으며 심사 신청과 실제 광고 활성화는 진행하지 않았다. 실제 배포 검증은 `reports/deployment-validation.json`에 기록했다.
 
 기본 빌드는 `noindex, nofollow` 메타와 HTTP 헤더를 포함한다. canonical은 `https://vsites.co.kr`을 사용한다. Netlify production 빌드(`CONTEXT=production`)만 검색 허용 설정을 생성한다. 별도 호스트의 production 빌드에는 `SITE_ENV=production npm run build`를 사용한다. 빌드 명령 자체로 배포되지는 않는다.
 

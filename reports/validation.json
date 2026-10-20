@@ -4,13 +4,15 @@
   "previewUrl": "http://127.0.0.1:5173/",
   "delivery": {
     "localOnly": false,
-    "githubPushed": false,
-    "netlifyDeployed": false,
+    "githubPushed": true,
+    "netlifyDeployed": true,
     "adsenseReviewSubmitted": false,
     "adsRequestsEnabled": false,
     "productionDeploymentAuthorized": true,
     "productionUrl": "https://vsites.co.kr",
-    "verificationReport": "reports/deployment-validation.json"
+    "verificationReport": "reports/deployment-validation.json",
+    "deployedCommit": "a02b97c822ab53232c0bf28d2ea3283b346f9ef3",
+    "netlifyDeployId": "6ad76e86192c11be664fe317"
   },
   "build": {
     "framework": "Next.js 16.4.2",
@@ -24,7 +26,8 @@
     "productionSitemapVerified": true,
     "finalBuildIsNoindexPreview": false,
     "gitDiffCheckPassed": true,
-    "npmAuditKnownVulnerabilities": 0
+    "npmAuditKnownVulnerabilities": 0,
+    "productionContentRoutesHTTP200": 37
   },
   "catalogue": {
     "sites": 523,
@@ -70,8 +73,7 @@
     "research": "Qualitative search intent; no measured monthly keyword volume or ranking guarantee."
   },
   "beforeAdvertising": [
-    "Confirm that the existing publisher ID belongs to the operator.",
-    "Configure and verify applicable consent and advertising settings before activation."
+    "User authorization for review; site approval; production consent/withdrawal and ad request integration checks before advertising activation."
   ],
   "screenshots": [
     "reports/screenshots/desktop.jpg",
