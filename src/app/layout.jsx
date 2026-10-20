@@ -10,6 +10,7 @@ export const metadata = {
   ...pageMetadata(homeTitle,site.description),
   metadataBase: new URL(site.url),
   applicationName: site.name,
+  verification: { other: { 'naver-site-verification': '0f0bebae78c1b2563ddfc0368798cdba86d27bee' } },
   icons: { icon: '/favicon.svg', apple: '/apple-icon.png' },
 }
 export const viewport = { width:'device-width',initialScale:1,themeColor:'#173f35' }
