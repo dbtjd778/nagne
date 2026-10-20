@@ -16,13 +16,48 @@
     "Site reporting emphasized a GitHub account requirement; a prefilled email link is now the first reporting option, with GitHub as an alternative. No message was sent."
   ],
   "validation": {
-    "automatedTests": {"passed": 12, "failed": 0},
+    "automatedTests": {
+      "passed": 12,
+      "failed": 0
+    },
     "productionBuild": "passed; first 24 cards remain in exported HTML; every category includes save controls",
     "breakpoints": [
-      {"width":320,"documentWidth":320,"clippedDescriptions":0,"saveTarget":[44,44]},
-      {"width":390,"documentWidth":390,"clippedDescriptions":0,"saveTarget":[44,44]},
-      {"width":768,"documentWidth":768,"clippedDescriptions":0,"saveTarget":[44,44]},
-      {"width":1280,"documentWidth":1280,"clippedDescriptions":0,"saveTarget":[44,44]}
+      {
+        "width": 320,
+        "documentWidth": 320,
+        "clippedDescriptions": 0,
+        "saveTarget": [
+          44,
+          44
+        ]
+      },
+      {
+        "width": 390,
+        "documentWidth": 390,
+        "clippedDescriptions": 0,
+        "saveTarget": [
+          44,
+          44
+        ]
+      },
+      {
+        "width": 768,
+        "documentWidth": 768,
+        "clippedDescriptions": 0,
+        "saveTarget": [
+          44,
+          44
+        ]
+      },
+      {
+        "width": 1280,
+        "documentWidth": 1280,
+        "clippedDescriptions": 0,
+        "saveTarget": [
+          44,
+          44
+        ]
+      }
     ],
     "browserFlows": [
       "Korean search for ChatGPT and Tetris; combined category and name sort",
@@ -41,10 +76,328 @@
       "Guide index, article body and four related destinations inspected",
       "No browser error or warning logs observed on the local tested page"
     ],
-    "catalogue": {"sites":523,"categories":25,"games":31},
+    "catalogue": {
+      "sites": 523,
+      "categories": 25,
+      "games": 31
+    },
     "testBookmarksRemoved": true,
     "adsEnabled": false,
     "adsenseReviewSubmitted": false,
-    "deployment": "pending"
+    "deployment": {
+      "state": "ready",
+      "url": "https://vsites.co.kr/",
+      "commit": "ce0ee6c6cd6c7cdb56470e4c6b64b96f127dc42e",
+      "deployId": "6ad775741a26b92be102a39c",
+      "checkedAt": "2026-10-20T14:08:16.223Z",
+      "pages": [
+        {
+          "path": "/",
+          "status": 200,
+          "hasMain": true,
+          "adsEnabled": false,
+          "noindex": false,
+          "saveButtons": 24
+        },
+        {
+          "path": "/about/",
+          "status": 200,
+          "hasMain": true,
+          "adsEnabled": false,
+          "noindex": false,
+          "saveButtons": 0
+        },
+        {
+          "path": "/contact/",
+          "status": 200,
+          "hasMain": true,
+          "adsEnabled": false,
+          "noindex": false,
+          "saveButtons": 0
+        },
+        {
+          "path": "/privacy/",
+          "status": 200,
+          "hasMain": true,
+          "adsEnabled": false,
+          "noindex": false,
+          "saveButtons": 0
+        },
+        {
+          "path": "/terms/",
+          "status": 200,
+          "hasMain": true,
+          "adsEnabled": false,
+          "noindex": false,
+          "saveButtons": 0
+        },
+        {
+          "path": "/guides/",
+          "status": 200,
+          "hasMain": true,
+          "adsEnabled": false,
+          "noindex": false,
+          "saveButtons": 0
+        },
+        {
+          "path": "/c/kr-test/",
+          "status": 200,
+          "hasMain": true,
+          "adsEnabled": false,
+          "noindex": false,
+          "saveButtons": 6
+        },
+        {
+          "path": "/c/kr-text/",
+          "status": 200,
+          "hasMain": true,
+          "adsEnabled": false,
+          "noindex": false,
+          "saveButtons": 4
+        },
+        {
+          "path": "/c/kr-utility/",
+          "status": 200,
+          "hasMain": true,
+          "adsEnabled": false,
+          "noindex": false,
+          "saveButtons": 9
+        },
+        {
+          "path": "/c/kr-builder/",
+          "status": 200,
+          "hasMain": true,
+          "adsEnabled": false,
+          "noindex": false,
+          "saveButtons": 25
+        },
+        {
+          "path": "/c/kr-data/",
+          "status": 200,
+          "hasMain": true,
+          "adsEnabled": false,
+          "noindex": false,
+          "saveButtons": 17
+        },
+        {
+          "path": "/c/kr-learn/",
+          "status": 200,
+          "hasMain": true,
+          "adsEnabled": false,
+          "noindex": false,
+          "saveButtons": 24
+        },
+        {
+          "path": "/c/kr-culture/",
+          "status": 200,
+          "hasMain": true,
+          "adsEnabled": false,
+          "noindex": false,
+          "saveButtons": 23
+        },
+        {
+          "path": "/c/kr-travel/",
+          "status": 200,
+          "hasMain": true,
+          "adsEnabled": false,
+          "noindex": false,
+          "saveButtons": 24
+        },
+        {
+          "path": "/c/kr-life/",
+          "status": 200,
+          "hasMain": true,
+          "adsEnabled": false,
+          "noindex": false,
+          "saveButtons": 25
+        },
+        {
+          "path": "/c/kr-work/",
+          "status": 200,
+          "hasMain": true,
+          "adsEnabled": false,
+          "noindex": false,
+          "saveButtons": 25
+        },
+        {
+          "path": "/c/gl-games/",
+          "status": 200,
+          "hasMain": true,
+          "adsEnabled": false,
+          "noindex": false,
+          "saveButtons": 31
+        },
+        {
+          "path": "/c/gl-detox/",
+          "status": 200,
+          "hasMain": true,
+          "adsEnabled": false,
+          "noindex": false,
+          "saveButtons": 17
+        },
+        {
+          "path": "/c/gl-quiz/",
+          "status": 200,
+          "hasMain": true,
+          "adsEnabled": false,
+          "noindex": false,
+          "saveButtons": 9
+        },
+        {
+          "path": "/c/gl-design/",
+          "status": 200,
+          "hasMain": true,
+          "adsEnabled": false,
+          "noindex": false,
+          "saveButtons": 28
+        },
+        {
+          "path": "/c/gl-utility/",
+          "status": 200,
+          "hasMain": true,
+          "adsEnabled": false,
+          "noindex": false,
+          "saveButtons": 37
+        },
+        {
+          "path": "/c/gl-ai/",
+          "status": 200,
+          "hasMain": true,
+          "adsEnabled": false,
+          "noindex": false,
+          "saveButtons": 19
+        },
+        {
+          "path": "/c/gl-builder/",
+          "status": 200,
+          "hasMain": true,
+          "adsEnabled": false,
+          "noindex": false,
+          "saveButtons": 34
+        },
+        {
+          "path": "/c/gl-data/",
+          "status": 200,
+          "hasMain": true,
+          "adsEnabled": false,
+          "noindex": false,
+          "saveButtons": 24
+        },
+        {
+          "path": "/c/gl-science/",
+          "status": 200,
+          "hasMain": true,
+          "adsEnabled": false,
+          "noindex": false,
+          "saveButtons": 24
+        },
+        {
+          "path": "/c/gl-art/",
+          "status": 200,
+          "hasMain": true,
+          "adsEnabled": false,
+          "noindex": false,
+          "saveButtons": 15
+        },
+        {
+          "path": "/c/gl-learn/",
+          "status": 200,
+          "hasMain": true,
+          "adsEnabled": false,
+          "noindex": false,
+          "saveButtons": 24
+        },
+        {
+          "path": "/c/gl-books/",
+          "status": 200,
+          "hasMain": true,
+          "adsEnabled": false,
+          "noindex": false,
+          "saveButtons": 20
+        },
+        {
+          "path": "/c/gl-music/",
+          "status": 200,
+          "hasMain": true,
+          "adsEnabled": false,
+          "noindex": false,
+          "saveButtons": 23
+        },
+        {
+          "path": "/c/gl-nature/",
+          "status": 200,
+          "hasMain": true,
+          "adsEnabled": false,
+          "noindex": false,
+          "saveButtons": 18
+        },
+        {
+          "path": "/c/gl-food/",
+          "status": 200,
+          "hasMain": true,
+          "adsEnabled": false,
+          "noindex": false,
+          "saveButtons": 18
+        },
+        {
+          "path": "/guide/boredom-websites/",
+          "status": 200,
+          "hasMain": true,
+          "adsEnabled": false,
+          "noindex": false,
+          "saveButtons": 0
+        },
+        {
+          "path": "/guide/virtual-travel/",
+          "status": 200,
+          "hasMain": true,
+          "adsEnabled": false,
+          "noindex": false,
+          "saveButtons": 0
+        },
+        {
+          "path": "/guide/design-toolkit/",
+          "status": 200,
+          "hasMain": true,
+          "adsEnabled": false,
+          "noindex": false,
+          "saveButtons": 0
+        },
+        {
+          "path": "/guide/learning-online/",
+          "status": 200,
+          "hasMain": true,
+          "adsEnabled": false,
+          "noindex": false,
+          "saveButtons": 0
+        },
+        {
+          "path": "/guide/korean-useful-websites/",
+          "status": 200,
+          "hasMain": true,
+          "adsEnabled": false,
+          "noindex": false,
+          "saveButtons": 0
+        },
+        {
+          "path": "/guide/productive-browser/",
+          "status": 200,
+          "hasMain": true,
+          "adsEnabled": false,
+          "noindex": false,
+          "saveButtons": 0
+        }
+      ],
+      "missingPageStatus": 404,
+      "browserChecks": [
+        "Korean ChatGPT search and query URL verified on production",
+        "Save, open saved list and remove test bookmark verified on production",
+        "Mobile production screenshot captured; no browser warning/error logs observed"
+      ],
+      "screenshots": [
+        "reports/screenshots/ux-mobile.jpg"
+      ]
+    },
+    "internalDestinationsChecked": 37
   }
 }
