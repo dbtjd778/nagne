@@ -1,0 +1,85 @@
+{
+  "date": "2026-10-20",
+  "branch": "codex/nagne-next-redesign",
+  "previewUrl": "http://127.0.0.1:5173/",
+  "delivery": {
+    "localOnly": false,
+    "githubPushed": false,
+    "netlifyDeployed": false,
+    "adsenseReviewSubmitted": false,
+    "adsRequestsEnabled": false,
+    "productionDeploymentAuthorized": true,
+    "productionUrl": "https://vsites.co.kr",
+    "verificationReport": "reports/deployment-validation.json"
+  },
+  "build": {
+    "framework": "Next.js 16.4.2",
+    "rendering": "static export",
+    "nextGeneratedRoutes": 41,
+    "contentRoutesHTTP200": 37,
+    "unknownRouteHTTP404": true,
+    "testsPassed": 9,
+    "testsFailed": 0,
+    "productionIndexFollowVerified": true,
+    "productionSitemapVerified": true,
+    "finalBuildIsNoindexPreview": false,
+    "gitDiffCheckPassed": true,
+    "npmAuditKnownVulnerabilities": 0
+  },
+  "catalogue": {
+    "sites": 523,
+    "korea": 182,
+    "global": 341,
+    "categories": 25,
+    "httpReachable": 512,
+    "automatedRequestRestrictedButBrowserVerified": 11,
+    "officialLocalLogos": 493,
+    "initialFallbacks": 30,
+    "scope": "Homepage and starting page connectivity; not every authenticated or paid function."
+  },
+  "browserChecks": {
+    "desktop": "1280 × 860",
+    "mobile": "390 × 844",
+    "horizontalOverflow": false,
+    "firstCardsVisibleWithoutScrolling": true,
+    "visibleBrokenIcons": 0,
+    "consoleWarningsOrErrorsObserved": 0,
+    "searchAndEmptyState": "passed",
+    "regionAndCategoryFilter": "passed",
+    "sortingAndViewSwitch": "passed",
+    "bookmarkPersistenceAndRemoval": "passed",
+    "randomDialog": "passed",
+    "loadMore24To48": "passed",
+    "httpCatHTTPSRegression": "passed",
+    "guideNavigationAndContent": "passed",
+    "scrollReveal": "passed",
+    "mobileMainAdReservedHeightPx": 280,
+    "viewportOverrideReset": true,
+    "rebrandMobile320pxOverflow": false
+  },
+  "seo": {
+    "homeTitle": "사이트 맛집 - 유용하고 재미있는 웹사이트 모음집",
+    "originalGuides": 6,
+    "canonicalAndSocialMetadata": true,
+    "structuredData": [
+      "WebSite",
+      "CollectionPage",
+      "ItemList",
+      "Article"
+    ],
+    "research": "Qualitative search intent; no measured monthly keyword volume or ranking guarantee."
+  },
+  "beforeAdvertising": [
+    "Confirm that the existing publisher ID belongs to the operator.",
+    "Configure and verify applicable consent and advertising settings before activation."
+  ],
+  "screenshots": [
+    "reports/screenshots/desktop.jpg",
+    "reports/screenshots/mobile.jpg"
+  ],
+  "gameExpansion": "reports/games-browser-validation.json",
+  "contact": {
+    "email": "dbtjd779@gmail.com",
+    "source": "User specified on 2026-10-20; no email sent."
+  }
+}

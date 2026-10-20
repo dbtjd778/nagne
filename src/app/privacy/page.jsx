@@ -1,0 +1,12 @@
+import PageHeading from '../../components/PageHeading'
+import { site } from '../../site.config'
+import { pageMetadata } from '../../lib/metadata'
+export const metadata=pageMetadata('개인정보처리방침 - 사이트 맛집','브라우저 저장, 접속 기록, 외부 링크, 광고 서비스와 개인정보 문의에 관한 사이트 맛집의 안내입니다.','/privacy')
+export default function Privacy(){return <article className="wrap content-page"><PageHeading title="개인정보처리방침" eyebrow="PRIVACY" updated="2026.10.20"/><div className="article-body">
+  <h2>1. 현재 제공하는 기능과 저장 정보</h2><p>사이트 맛집은 회원가입, 계정 동기화, 자체 방문 통계 수집 기능을 제공하지 않습니다. 사이트 저장 기능은 브라우저의 localStorage에 선택한 웹사이트 주소를 저장합니다. 이 값은 사이트 맛집 서버로 전송되지 않으며, 브라우저의 사이트 데이터 삭제 기능으로 지울 수 있습니다.</p>
+  <h2>2. 접속 기록과 외부 요청</h2><p>이 사이트는 Netlify의 호스팅을 사용합니다. Netlify는 서비스 제공과 보안을 위해 IP 주소, 요청 시각, 브라우저 정보 등 접속 기록을 처리할 수 있습니다. 보관과 처리는 <a href="https://www.netlify.com/privacy/" target="_blank" rel="noopener noreferrer">Netlify 개인정보처리방침</a>에 따릅니다. 사이트 아이콘과 글꼴은 사이트 맛집에서 함께 제공하며, 검색어는 브라우저 안에서 목록을 필터링하는 데 사용합니다. 주소에 직접 검색어를 포함한 링크로 접속하면 해당 주소가 호스팅 접속 기록에 포함될 수 있습니다.</p>
+  <h2>3. 문의</h2><p>이메일 문의 시 이메일 주소와 문의 내용을 답변 및 오류 처리에 필요한 기간 동안 처리하며, 목적이 끝나면 삭제합니다. 보관 의무가 있는 경우 해당 기간 동안 보관합니다. 문의 처리는 Gmail을 이용하며 <a href="https://policies.google.com/privacy?hl=ko" target="_blank" rel="noopener noreferrer">Google 개인정보처리방침</a>이 적용됩니다. GitHub 이슈는 공개 공간이며 <a href="https://docs.github.com/ko/site-policy/privacy-policies/github-general-privacy-statement" target="_blank" rel="noopener noreferrer">GitHub 개인정보처리방침</a>이 적용됩니다. 공개 문의에 민감한 개인정보를 적지 않도록 주의해 주세요.</p>
+  <h2>4. 광고와 쿠키</h2><p>현재는 광고 공간만 마련되어 있으며 Google AdSense 스크립트와 광고·분석 쿠키를 활성화하지 않습니다. 실제 광고를 활성화하기 전에 적용되는 데이터 처리 내용과 필요한 동의 절차를 이 페이지에 반영합니다.</p><p>Google 광고를 사용하게 되면 Google 및 광고 사업자가 쿠키 또는 유사 식별자를 이용할 수 있습니다. 자세한 내용은 <a href="https://policies.google.com/technologies/partner-sites" target="_blank" rel="noopener noreferrer">Google의 파트너 사이트 데이터 이용 안내</a>와 <a href="https://myadcenter.google.com/" target="_blank" rel="noopener noreferrer">Google 광고 설정</a>에서 확인할 수 있습니다. EEA·영국·스위스 등에 적용되는 동의 요건과 인증 CMP 준비를 마친 뒤 광고 활성화 여부를 결정합니다.</p>
+  <h2>5. 외부 사이트</h2><p>외부 링크를 열면 해당 서비스의 개인정보처리방침이 적용됩니다. 사이트 맛집에서의 저장이나 검색 동작은 외부 사이트에 전송되지 않습니다. 외부 사이트에서 로그인하거나 파일을 올리기 전에 해당 운영 주체와 정책을 확인해 주세요.</p>
+  <h2>6. 문의와 변경</h2><p>운영 및 개인정보 문의 담당은 사이트 맛집 운영자입니다. 문의 내용의 열람·정정·삭제 또는 처리에 관한 요청은 <a href={`mailto:${site.email}`}>{site.email}</a>로 보내주세요. 현재 기기에 저장한 책갈피는 사이트의 저장 해제 기능이나 브라우저의 사이트 데이터 삭제 기능으로 직접 지울 수 있습니다. 제공 기능이나 처리 방식이 달라지면 이 페이지의 내용과 수정일을 갱신합니다. 시행일은 {site.policyUpdatedAt}입니다.</p>
+</div></article>}

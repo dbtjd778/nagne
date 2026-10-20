@@ -10,3 +10,7 @@ dist-ssr-dev
 !.env.example
 .vite
 .netlify
+.next
+out
+*.tsbuildinfo
+reports/screenshots/

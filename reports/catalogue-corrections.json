@@ -1,0 +1,89 @@
+{
+  "bigkinds.or.kr": {
+    "url": "www.bigkinds.or.kr"
+  },
+  "riss.kr": {
+    "url": "www.riss.kr"
+  },
+  "iksi.or.kr": {
+    "name": "온라인 세종학당",
+    "url": "www.iksi.or.kr",
+    "desc": "한국어를 배우는 온라인 강좌와 학습 자료를 제공합니다. 수준과 수강 방식에 맞는 과정을 찾아볼 수 있습니다."
+  },
+  "changbi.com": {
+    "url": "www.changbi.com"
+  },
+  "weather.go.kr": {
+    "url": "www.weather.go.kr"
+  },
+  "nhis.or.kr": {
+    "url": "www.nhis.or.kr"
+  },
+  "busan.go.kr": {
+    "url": "www.busan.go.kr"
+  },
+  "hira.or.kr": {
+    "url": "www.hira.or.kr"
+  },
+  "nmc.or.kr": {
+    "url": "www.nmc.or.kr"
+  },
+  "kepco.co.kr": {
+    "url": "www.kepco.co.kr"
+  },
+  "catch.co.kr": {
+    "url": "www.catch.co.kr"
+  },
+  "semas.or.kr": {
+    "url": "www.semas.or.kr"
+  },
+  "usgs.gov": {
+    "url": "www.usgs.gov"
+  },
+  "kostat.go.kr": {
+    "name": "국가데이터처",
+    "desc": "국가 통계와 데이터 정책, 조사 정보를 제공합니다. 공식 통계의 발표와 연구 자료를 살펴볼 수 있습니다."
+  },
+  "me.go.kr": {
+    "name": "기후에너지환경부",
+    "desc": "기후와 에너지, 환경 분야의 정책과 공공 자료를 제공합니다. 제도 안내와 공식 발표를 찾아볼 수 있습니다."
+  },
+  "globalforestwatch.org": {
+    "name": "Global Nature Watch",
+    "desc": "산림과 토지 이용, 자연의 변화를 지도에서 살펴봅니다. 지역과 기간별 관측 정보를 비교할 수 있습니다."
+  },
+  "saylor.org": {
+    "name": "Saylor University",
+    "desc": "대학 수준의 온라인 학습 과정과 교육 안내를 제공합니다. 과정별 학습 내용과 이수 조건을 살펴보세요."
+  },
+  "colormytree.me": {
+    "name": "내 트리를 꾸며줘!"
+  },
+  "durunubi.kr": {
+    "name": "두루누비"
+  },
+  "inaturalist.org": {
+    "name": "iNaturalist"
+  },
+  "pomofocus.io": {
+    "name": "Pomofocus"
+  },
+  "wheelofnames.com": {
+    "name": "Wheel of Names"
+  },
+  "routinery.app": {
+    "name": "루티너리"
+  },
+  "cursor.com": {
+    "name": "Cursor"
+  },
+  "bolt.new": {
+    "name": "Bolt"
+  },
+  "you.com": {
+    "desc": "AI 검색과 개발용 검색 API를 제공하는 플랫폼입니다. 기능별 문서와 제공 범위를 확인할 수 있습니다."
+  },
+  "rememberapp.co.kr": {
+    "desc": "경력직 채용 공고와 커리어 서비스를 제공합니다. 직무와 기업별 기회를 찾아보고 채용 조건을 확인할 수 있습니다."
+  }
+}

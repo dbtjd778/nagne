@@ -1,154 +1,56 @@
-# 나그네 (nagne)
+# 사이트 맛집
 
-심심할 때 열어보는 웹사이트 큐레이션 디렉토리.
-한국 사이트 41개, 외국 사이트 165개 — 총 **206개**를 12개 카테고리로 정리했습니다.
+한국과 전세계의 웹사이트를 찾는 디렉터리. Next.js App Router + React, 정적 HTML 출력, 브라우저 안에서 동작하는 검색·필터·책갈피.
 
-## 기술 스택
+## 로컬 확인
 
-| 항목 | 사용 기술 |
-| --- | --- |
-| 프레임워크 | React 18 + Vite 5 |
-| 스타일 | Tailwind CSS 3 |
-| 애니메이션 | Framer Motion 11 |
-| 라우팅 | React Router 6 |
-| 배포 | Netlify |
-
-## 실행
+Node.js 24 권장.
 
 ```bash
-npm install
-npm run dev
+npm ci
+npm run build
+npm run preview
 ```
 
-`http://localhost:5173` 에서 열립니다.
+테스트 주소: http://127.0.0.1:5173
 
-```bash
-npm run build        # sitemap 생성 → 클라이언트 빌드 → SSR 빌드 → 17개 페이지 프리렌더
-npm run preview      # 빌드 결과 미리보기 (아래 주의 참고)
-npm run check-links  # 등록된 외부 링크 206개의 응답 확인
-```
+- `npm run dev`: Next 개발 서버, 같은 포트 사용
+- `npm run build`: 홈·모든 카테고리·가이드·안내 페이지를 `out/`에 생성
+- `npm test`: 검색 조합, 저장 데이터 복구, 데이터 무결성, 정적 HTML·메타데이터·아이콘 검증. 빌드와 테스트에 같은 SITE_ENV/CONTEXT 사용
+- `npm run check-links`: 전체 외부 링크 검사, `reports/catalogue-audit.json` 출력
+- `npm run check-links -- --icons`: 공식 페이지의 아이콘 후보도 수집. 새 SVG는 배포 전에 반드시 안전한 래스터 이미지로 변환
 
-> `npm run preview` 로 확인할 때는 `/c/gl-quiz/` 처럼 **끝에 슬래시를 붙여야** 합니다.
-> `vite preview` 는 확장자 없는 경로에 SPA 폴백(홈 HTML)을 내려주기 때문에 슬래시가
-> 없으면 엉뚱한 페이지가 뜹니다. Netlify 는 `/c/gl-quiz` 를 `c/gl-quiz/index.html` 로
-> 정상 처리하므로 실제 배포에서는 문제가 없습니다.
+검사 결과는 자동 접속 당시의 응답이다. 403·429·인증/봇 제한은 폐쇄와 구분하며, 결제·로그인·업로드 등 전체 기능을 보증하지 않는다. 검사는 데이터에서 사이트를 자동 삭제하지 않는다.
 
-## 프리렌더링
+## 운영 및 배포
 
-`npm run build` 는 세 단계로 동작합니다.
+운영 도메인: **https://vsites.co.kr**. 2026-10-20 사용자가 사이트 맛집이라는 이름과 배포를 승인했다. AdSense 심사 신청과 실제 광고 활성화는 요청하지 않아 진행하지 않는다.
 
-1. `vite build` — 브라우저용 번들
-2. `vite build --ssr src/entry-server.jsx` — Node 에서 실행할 렌더 함수
-3. `scripts/prerender.mjs` — 17개 라우트를 `renderToString` 으로 렌더해
-   `dist/<경로>/index.html` 로 저장하고, 페이지별 `title` / `description` /
-   `canonical` / `og:` 태그를 주입
+기본 빌드는 `noindex, nofollow` 메타와 HTTP 헤더를 포함한다. canonical은 `https://vsites.co.kr`을 사용한다. Netlify production 빌드(`CONTEXT=production`)만 검색 허용 설정을 생성한다. 별도 호스트의 production 빌드에는 `SITE_ENV=production npm run build`를 사용한다. 빌드 명령 자체로 배포되지는 않는다.
 
-덕분에 JavaScript 를 실행하지 않는 크롤러도 본문 전체를 읽을 수 있습니다.
-브라우저에서는 `main.jsx` 가 `#root` 에 내용이 있으면 `hydrateRoot` 로 이어받습니다.
-(서버 출력과 클라이언트 렌더 결과가 정확히 일치하는지 확인 완료 — 하이드레이션 경고 없음)
+Netlify 설정은 `out/` 정적 출력 기준이다. 기존 SPA catch-all은 제거했다. GitHub main 변경 후 Netlify 빌드 결과를 확인한다. apex 도메인을 기본 주소로 사용하며 기존 netlify.app 주소와 www 주소를 301 리디렉션한다. HTTPS, robots, sitemap, ads.txt와 실제 HTML을 배포 후 확인한다. `.netlify/`와 환경 파일은 커밋하지 않는다.
 
-라우트를 추가할 때는 `src/routes.meta.js` 에 항목을 넣으면 sitemap 과 프리렌더가
-함께 따라갑니다.
+## 구현
 
-## 폴더 구조
+- `src/app/`: 페이지와 경로별 metadata, sitemap, robots, 404
+- `src/components/Directory.jsx`: 지역·분류·검색·정렬·저장·랜덤 탐방, 24개씩 추가 표시
+- `src/data/sites.js`: 큐레이션 목록·로컬 아이콘 경로
+- `/c/gl-games/`: 웹게임 31개. 상단 메뉴와 홈 필터에서 접근하며 카드에 장르 표시. 신규 23개 접속 기록은 `reports/games-audit.json`, 브라우저 확인은 `reports/games-browser-validation.json`
+- `src/data/guides.js`: 활용 기준과 사용 맥락을 설명하는 편집 글
+- `src/lib/directory.js`: 검색 및 저장 데이터 검증
+- `src/components/ScrollEffects.jsx`: 단일 passive 스크롤 이벤트, rAF, 화면 진입 효과, 모션 감소 설정
+- `src/components/AdSlot.jsx`: 크기를 확보한 광고 영역. 광고 네트워크 요청 없음
+- `src/site.config.js`: production 주소·운영자 지정 문의 주소·보존된 게시자 ID
+- `scripts/postbuild.mjs`: 환경별 검색·보안·캐시 헤더 생성
 
-```
-nagne/
-├─ index.html                  메타 태그, 폰트, 애드센스 스크립트 자리
-├─ netlify.toml                빌드 설정 + SPA 리다이렉트 + 캐시 헤더
-├─ scripts/
-│  ├─ generate-sitemap.mjs     routes.meta 기준 sitemap/robots 생성
-│  ├─ prerender.mjs            17개 라우트를 정적 HTML 로 렌더링
-│  └─ check-links.mjs          외부 링크 응답 점검
-├─ public/
-│  ├─ _redirects               SPA 라우팅 (Netlify)
-│  ├─ ads.txt                  애드센스 승인 후 게시자 ID 기입
-│  ├─ robots.txt               빌드 시 자동 생성
-│  ├─ sitemap.xml              빌드 시 자동 생성 (17개 URL)
-│  └─ favicon.svg
-└─ src/
-   ├─ site.config.js           도메인·이메일·애드센스 ID (배포 전 필수 수정)
-   ├─ routes.meta.js           라우트 목록 + 페이지별 title/description
-   ├─ data/sites.js            큐레이션 데이터베이스
-   ├─ entry-server.jsx         프리렌더용 SSR 엔트리
-   ├─ App.jsx                  라우팅 + 페이지 전환
-   ├─ components/
-   │  ├─ ScrollTheme.jsx       스크롤에 따른 다크 → 라이트 색 보간
-   │  ├─ Hero.jsx              메인 타이포그래피 + 패럴랙스
-   │  ├─ RegionTabs.jsx        한국/외국 탭 (layoutId 슬라이딩)
-   │  ├─ Directory.jsx         지역 전환 + 검색 + 카테고리 그리드
-   │  ├─ CategoryCard.jsx      클릭 시 확장되는 모핑 박스
-   │  ├─ SiteCard.jsx          사이트 카드 (새 창 열기)
-   │  ├─ Header.jsx / Footer.jsx
-   │  └─ PageShell.jsx         정적 페이지 레이아웃 + 메타 훅
-   └─ pages/
-      ├─ Home.jsx              Hero + 선정 기준 + Directory
-      ├─ Category.jsx          /c/:categoryId 단독 페이지
-      ├─ About / Contact / Privacy / Terms / NotFound
-```
+서버가 필요한 기능을 사용하지 않아 각 페이지를 CDN에서 정적 파일로 제공할 수 있다. 폰트와 사이트 아이콘을 로컬에서 제공하고, 아이콘은 크기를 고정해 레이아웃 이동을 줄인다. 사이트 카드의 외부 링크는 새 탭으로 열리고 `noopener noreferrer`가 적용된다.
 
-## 구현된 인터랙션
+## 콘텐츠 및 광고
 
-**스크롤 색 보간** — `ScrollTheme.jsx` 가 `useScroll` 진행도 0 → 0.42 구간에서
-배경 `#111111 → #FAFAFA`, 전경 `#F2F2F2 → #111111` 을 보간합니다. 색은 CSS 변수
-(`--bg`, `--fg`, `--muted`, `--line`, `--surface`)로 하위 트리에 전달되므로 테두리와
-보조 텍스트까지 한꺼번에 따라 변합니다. `<body>` 배경도 함께 갱신해 오버스크롤
-영역에서 색이 끊기지 않습니다.
+검색 키워드는 `reports/seo-research.md`에 정성적인 검색 의도별로 정리했다. 월간 검색량·순위·AdSense 승인을 보장하지 않는다. 요청한 홈 제목은 **사이트 맛집 - 유용하고 재미있는 웹사이트 모음집**이며 검색엔진이 최종 표시를 결정한다.
 
-**지역 탭 슬라이딩** — `RegionTabs.jsx` 에서 선택된 탭에만 `layoutId="region-pill"`
-배경을 렌더링합니다. 선택이 바뀌면 Framer Motion 이 두 위치를 같은 요소로 인식해
-스프링으로 이동시킵니다.
+광고 영역은 홈 목록 12개 뒤, 홈 하단, 카테고리 목록 중간, 가이드 본문 중간에 있다. 게시자 ID 및 ads.txt는 원본 것을 보존했지만 광고 스크립트를 불러오지 않는다. 광고 활성화와 동의 절차는 `ADSENSE.md` 참고. 문의 이메일은 운영자가 지정한 `dbtjd779@gmail.com`이다. 테스트 이메일을 대신 발송하지 않았다.
 
-**카테고리 모핑** — `CategoryCard.jsx` 의 `<motion.article layout>` 이 열릴 때
-`sm:col-span-2 lg:col-span-3` 으로 그리드 폭을 넓히고, 나머지 카드들도 `layout` 으로
-새 위치로 흘러갑니다. 내부 목록은 `AnimatePresence` 로 살짝 늦게 페이드인되며
-카드들은 `staggerChildren` 으로 순차 등장합니다.
+## 폰트
 
-**전환 커브** — 모든 크기·위치 변화는 스프링
-(`stiffness: 210, damping: 30`), 페이드는 `cubic-bezier(0.16, 1, 0.3, 1)` 을 씁니다.
-`MotionConfig reducedMotion="user"` 로 OS 의 «동작 줄이기» 설정을 존중합니다.
-
-## 배포
-
-Netlify: https://allsites-mine.netlify.app
-
-`netlify.toml` 에 빌드 명령(`npm run build`)과 배포 폴더(`dist`)가 들어 있어 저장소를
-연결하면 그대로 동작합니다.
-
-### 도메인을 새로 연결할 때
-
-1. **`src/site.config.js`** — `url` 을 새 도메인으로
-2. **`index.html`** — `<link rel="canonical">`, `og:url` 의 도메인
-3. `npm run build` → sitemap, robots, 17개 페이지의 메타 태그가 함께 갱신됩니다
-
-### 사이트 전역 설정
-
-`src/site.config.js` 한 파일에 모여 있습니다.
-
-| 키 | 쓰이는 곳 |
-| --- | --- |
-| `url` | canonical, og:url, sitemap, robots |
-| `email` | 문의 페이지, 개인정보처리방침, 이용약관 |
-| `repo` | 문의 페이지의 GitHub 이슈 링크, 소개 페이지 |
-| `adsensePublisherId` | `index.html` 광고 스크립트 및 `public/ads.txt` 와 일치해야 함 |
-| `policyUpdatedAt` | 정책 문서 최종 수정일 |
-| `otherSites` | 소개 페이지의 «만든 사람» 항목 |
-
-애드센스 준비 사항은 [ADSENSE.md](ADSENSE.md) 를 참고하세요.
-
-## 데이터 수정
-
-`src/data/sites.js` 하나만 고치면 홈, 카테고리 페이지, 검색, 푸터, 사이트맵이 모두
-따라갑니다. 개수(`totalSiteCount` 등)는 배열에서 자동 계산되므로 손댈 필요가 없습니다.
-
-```js
-{
-  id: 'kr-test',              // URL 이 됩니다 (/c/kr-test) — 바꾸면 링크가 깨집니다
-  category: '카테고리 이름',
-  tagline: '한 줄 부제',
-  blurb: '펼쳤을 때 목록 위에 나오는 소개문',
-  sites: [
-    { name: '이름', url: 'example.com', desc: '한 줄 설명' },
-  ],
-}
-```
+Pretendard에서 사용 글자만 추출한 NagneWeb을 로컬 제공한다. OFL 라이선스는 `public/fonts/OFL.txt`. 글자가 추가될 때 선택적으로 `scripts/subset-font.py`를 실행하며, 포함되지 않은 문자는 시스템 글꼴로 대체된다. 이 작업은 fonttools와 brotli가 설치된 별도 Python 환경에서 수행한다. 일반 빌드에는 Python 폰트 도구가 필요하지 않다.

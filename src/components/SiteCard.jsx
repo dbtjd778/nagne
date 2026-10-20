@@ -1,67 +1,26 @@
-import { motion } from 'framer-motion'
+'use client'
+import { useState } from 'react'
+import { Icon } from './Icons'
 
-const EASE = [0.16, 1, 0.3, 1]
+export const siteHref = (site) => /^https?:\/\//.test(site.url) ? site.url : `https://${site.url}`
 
-export default function SiteCard({ site, index, showCategory = false }) {
-  const href = site.url.startsWith('http') ? site.url : `https://${site.url}`
+export function SiteLogo({ site }) {
+  const [failed, setFailed] = useState(false)
+  return <span className="site-logo" aria-hidden="true">
+    {site.icon && !failed ? <img src={site.icon} alt="" width="28" height="28" loading="lazy" decoding="async" onError={() => setFailed(true)} /> : <span className="logo-initial">{site.name.slice(0, 1)}</span>}
+  </span>
+}
 
-  return (
-    <motion.a
-      href={href}
-      target="_blank"
-      rel="noopener noreferrer"
-      variants={{
-        hidden: { opacity: 0, y: 18 },
-        show: {
-          opacity: 1,
-          y: 0,
-          transition: { duration: 0.55, ease: EASE, delay: Math.min(index, 14) * 0.028 },
-        },
-      }}
-      whileHover={{ y: -3 }}
-      whileTap={{ scale: 0.985 }}
-      transition={{ type: 'spring', stiffness: 420, damping: 32 }}
-      className="group relative flex flex-col justify-between rounded-xl border p-5 transition-colors duration-300 ease-out-expo min-h-[152px]"
-      style={{ borderColor: 'var(--line)' }}
-      onMouseEnter={(e) => (e.currentTarget.style.backgroundColor = 'var(--surface-hover)')}
-      onMouseLeave={(e) => (e.currentTarget.style.backgroundColor = 'transparent')}
-    >
-      <div>
-        <div className="mb-2 flex items-start justify-between gap-3">
-          <h3 className="text-[15px] font-semibold leading-snug tracking-tight">{site.name}</h3>
-          <span
-            aria-hidden
-            className="mt-[3px] shrink-0 font-mono text-[11px] transition-transform duration-500 ease-out-expo group-hover:translate-x-[3px] group-hover:-translate-y-[3px]"
-            style={{ color: 'var(--muted)' }}
-          >
-            ↗
-          </span>
-        </div>
-        <p className="text-[13.5px] leading-[1.65]" style={{ color: 'var(--muted)' }}>
-          {site.desc}
-        </p>
-      </div>
-
-      <div className="mt-4 flex items-center gap-2">
-        <span className="truncate font-mono text-[11px] tracking-tight" style={{ color: 'var(--muted)' }}>
-          {site.url}
-        </span>
-        {showCategory && (
-          <span
-            className="ml-auto shrink-0 rounded-full border px-2 py-[2px] font-mono text-[10px]"
-            style={{ borderColor: 'var(--line)', color: 'var(--muted)' }}
-          >
-            {/*
-              한국·외국 양쪽에 같은 이름의 카테고리가 있어 지역을 함께 표시합니다.
-              카테고리 이름 자체가 가운뎃점을 쓰므로, 구분자는 이동 경로와 같은 / 를 씁니다.
-            */}
-            {site.regionLabel && (
-              <span style={{ opacity: 0.55 }}>{site.regionLabel.replace(' 사이트', '')} / </span>
-            )}
-            {site.categoryName}
-          </span>
-        )}
-      </div>
-    </motion.a>
-  )
+export default function SiteCard({ site, saved = false, onSave, featured = false }) {
+  return <article className={`site-card ${featured ? 'site-card-featured' : ''}`}>
+    <div className="site-card-head">
+      <a href={siteHref(site)} target="_blank" rel="noopener noreferrer" className="site-title-link" aria-label={`${site.name} — 새 탭에서 열기`}><SiteLogo site={site} /><h3>{site.name}</h3><Icon name="arrow" size={16} /></a>
+      {onSave && <button className={`save-button ${saved ? 'is-saved' : ''}`} onClick={() => onSave(site.url)} aria-label={`${site.name} ${saved ? '저장 취소' : '저장'}`} aria-pressed={saved}><Icon name="bookmark" size={17} /></button>}
+    </div>
+    <p className="site-desc" title={site.desc}>{site.desc}</p>
+    <div className="site-card-bottom">
+      <span className="site-category">{site.gameGenre || site.categoryName || '웹사이트'}</span>
+      <span className="site-region">{site.regionId === 'kr' ? '한국' : 'Global'}</span>
+    </div>
+  </article>
 }

@@ -1,0 +1,12 @@
+{
+  "neal.fun": {
+    "source": "https://neal.fun/favicons/home.png",
+    "status": 200,
+    "icon": "/icons/789fa9e32be17b.png",
+    "iconSource": "https://neal.fun/favicons/home.png"
+  },
+  "chatgpt.com": {
+    "source": "https://chatgpt.com/unauth-mweb/images/favicon-48x48.png",
+    "status": 403
+  }
+}

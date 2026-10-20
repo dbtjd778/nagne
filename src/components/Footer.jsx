@@ -1,76 +1,16 @@
-import { Link } from 'react-router-dom'
-import { regions, totalSiteCount, totalCategoryCount } from '../data/sites'
-
-const POLICY = [
-  { to: '/about', label: '사이트 소개' },
-  { to: '/contact', label: '문의하기' },
-  { to: '/privacy', label: '개인정보처리방침' },
-  { to: '/terms', label: '이용약관' },
-]
+import Link from 'next/link'
+import { allCategories, totalSiteCount } from '../data/sites'
+import { Icon } from './Icons'
 
 export default function Footer() {
-  return (
-    <footer className="border-t rule">
-      <div className="wrap py-14 md:py-20">
-        <div className="grid grid-cols-1 gap-12 md:grid-cols-12">
-          <div className="md:col-span-4">
-            <p className="font-display text-2xl tracking-tight">나그네</p>
-            <p
-              className="mt-4 max-w-[34ch] text-[13.5px] leading-[1.8]"
-              style={{ color: 'var(--muted)' }}
-            >
-              심심할 때 열어보라고 만든 웹사이트 큐레이션입니다. {totalCategoryCount}개 카테고리,{' '}
-              {totalSiteCount}개의 링크를 직접 확인해 정리했습니다.
-            </p>
-          </div>
-
-          {regions.map((region) => (
-            <nav key={region.id} className="md:col-span-3">
-              <p className="eyebrow mb-5">{region.label}</p>
-              <ul className="space-y-2.5">
-                {region.categories.map((c) => (
-                  <li key={c.id}>
-                    <Link
-                      to={`/c/${c.id}`}
-                      className="text-[13.5px] leading-snug transition-opacity hover:opacity-60"
-                      style={{ color: 'var(--muted)' }}
-                    >
-                      {c.category}
-                    </Link>
-                  </li>
-                ))}
-              </ul>
-            </nav>
-          ))}
-
-          <nav className="md:col-span-2">
-            <p className="eyebrow mb-5">Information</p>
-            <ul className="space-y-2.5">
-              {POLICY.map((p) => (
-                <li key={p.to}>
-                  <Link
-                    to={p.to}
-                    className="text-[13.5px] transition-opacity hover:opacity-60"
-                    style={{ color: 'var(--muted)' }}
-                  >
-                    {p.label}
-                  </Link>
-                </li>
-              ))}
-            </ul>
-          </nav>
-        </div>
-
-        <div
-          className="mt-14 flex flex-col gap-3 border-t pt-6 font-mono text-[11px] rule md:flex-row md:items-center md:justify-between"
-          style={{ color: 'var(--muted)' }}
-        >
-          <span>© {new Date().getFullYear()} 나그네. All rights reserved.</span>
-          <span>
-            외부 링크의 내용과 서비스에 대한 권리는 각 사이트 운영자에게 있습니다.
-          </span>
-        </div>
+  return <footer className="footer">
+    <div className="wrap">
+      <div className="footer-top">
+        <div><Link href="/" className="wordmark"><Icon name="compass" size={28} />사이트 맛집.</Link><span className="foot-count">{totalSiteCount}개의 웹사이트를 탐방하세요</span></div>
+        <div className="footer-links"><Link href="/about/">사이트 맛집 소개</Link><Link href="/guides/">탐방 가이드</Link><Link href="/contact/">문의 · 사이트 제보</Link><Link href="/privacy/">개인정보처리방침</Link><Link href="/terms/">이용약관</Link></div>
       </div>
-    </footer>
-  )
+      <details className="footer-categories"><summary>카테고리 전체 보기</summary><nav aria-label="전체 카테고리">{allCategories.map(c => <Link key={c.id} href={`/c/${c.id}/`}>{c.regionId === 'kr' ? '한국' : '세계'} · {c.category}</Link>)}</nav></details>
+      <div className="footer-bottom"><span>© 2026 사이트 맛집</span><span>각 사이트의 이름과 로고는 해당 권리자에게 귀속됩니다.</span><a href="#top">맨 위로 ↑</a></div>
+    </div>
+  </footer>
 }

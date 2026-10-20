@@ -1,0 +1,62 @@
+{
+  "checkedAt": "2026-10-20",
+  "scope": "Official game start screen or lobby loaded in browser. No accounts, payments or public chat messages submitted; not a full playthrough or every-device compatibility test.",
+  "newGameURLsVisited": [
+    "hexgl.bkcore.com/play/",
+    "adarkroom.doublespeakgames.com",
+    "gridland.doublespeakgames.com",
+    "orteil.dashnet.org/cookieclicker/",
+    "www.decisionproblem.com/paperclips/index2.html",
+    "lichess.org",
+    "jstris.jezevec10.com",
+    "openguessr.com",
+    "garticphone.com",
+    "play.tetris.com",
+    "littlewargame.com",
+    "www.kodub.com/apps/polytrack",
+    "slowroads.io",
+    "oskarstalberg.com/Townscaper/",
+    "www.linerider.com",
+    "www.haxball.com/play",
+    "bonk.io",
+    "quento.com/game/",
+    "www.foddy.net/legacy/Athletics.html",
+    "entanglement.gopherwoodstudios.com",
+    "0hh1.com",
+    "0hn0.com",
+    "zty.pe"
+  ],
+  "newGameCount": 23,
+  "categoryGameCount": 31,
+  "totalCatalogue": 523,
+  "categories": 25,
+  "byRegion": {
+    "kr": 182,
+    "global": 341
+  },
+  "checks": {
+    "gameCategoryStaticHTML": true,
+    "homepageGameFilter31": true,
+    "racingSearchMatches": [
+      "PolyTrack",
+      "HexGL"
+    ],
+    "mobileWidthsWithoutOverflow": [
+      320,
+      390
+    ],
+    "desktopWidth": 1280,
+    "headerShortcut": true,
+    "consoleWarnings": 0,
+    "consoleErrors": 0,
+    "build": "passed",
+    "automatedTests": 8,
+    "previewNoindex": true,
+    "adsDisabled": true,
+    "deployed": false
+  },
+  "screenshots": [
+    "reports/screenshots/games-desktop.jpg",
+    "reports/screenshots/games-mobile.jpg"
+  ]
+}

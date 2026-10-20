@@ -1,0 +1,122 @@
+[
+  {
+    "name": "Quick, Draw!",
+    "url": "https://quickdraw.withgoogle.com/",
+    "note": "짧은 그림 한 장으로 시작하기. 내 그림을 기계가 어떤 대상으로 해석하는지 살펴보세요."
+  },
+  {
+    "name": "Little Alchemy 2",
+    "url": "https://littlealchemy2.com/",
+    "note": "재료를 조합하는 발견형 퍼즐. 한 가지 결과를 목표로 정하면 부담 없이 이어갈 수 있습니다."
+  },
+  {
+    "name": "Neal.fun",
+    "url": "https://neal.fun/",
+    "note": "아이디어 하나를 인터랙션으로 풀어낸 웹 작업 모음. 작품마다 조작 방식과 분위기가 다릅니다."
+  },
+  {
+    "name": "Google Arts & Culture",
+    "url": "https://artsandculture.google.com/",
+    "note": "미술 작품과 문화유산, 온라인 전시를 연결해서 보기. 작품 설명과 소장 기관 정보도 함께 읽어보세요."
+  },
+  {
+    "name": "Google Earth",
+    "url": "https://earth.google.com/",
+    "note": "지형과 도시의 관계를 큰 지도에서 살펴보기. 이미지 촬영 시점과 기기 지원 여부를 함께 확인하세요."
+  },
+  {
+    "name": "Radio Garden",
+    "url": "https://radio.garden/",
+    "note": "지도에서 세계의 라디오를 찾아 듣기. 재생 전 음량을 낮추고 방송별 연결 상태를 확인하세요."
+  },
+  {
+    "name": "Explore.org",
+    "url": "https://explore.org/",
+    "note": "자연과 동물을 관찰하는 카메라와 영상. 장면의 위치, 현지 시간, 방송 표시를 함께 살펴보세요."
+  },
+  {
+    "name": "Earth Nullschool",
+    "url": "https://earth.nullschool.net/",
+    "note": "바람과 환경 데이터를 움직이는 지도로 보기. 범례·단위·자료 시점을 함께 읽는 연습에 좋습니다."
+  },
+  {
+    "name": "Adobe Color",
+    "url": "https://color.adobe.com/",
+    "note": "색상 팔레트와 조합을 탐색하고 대비를 확인하기. 최종 결과물의 배경과 글자 크기로 다시 점검하세요."
+  },
+  {
+    "name": "Google Fonts",
+    "url": "https://fonts.google.com/",
+    "note": "글꼴을 비교하고 언어 지원 범위를 확인하기. 배포할 때는 해당 글꼴의 라이선스도 살펴보세요."
+  },
+  {
+    "name": "Canva",
+    "url": "https://www.canva.com/",
+    "note": "포스터와 발표 자료처럼 형식이 정해진 작업의 출발점. 템플릿보다 필요한 문구의 양을 먼저 정해보세요."
+  },
+  {
+    "name": "Figma",
+    "url": "https://www.figma.com/",
+    "note": "화면 구성과 프로토타입을 함께 살펴보기. 실제 문구와 긴 콘텐츠를 넣어 사용 흐름을 점검하세요."
+  },
+  {
+    "name": "K-MOOC",
+    "url": "https://www.kmooc.kr/",
+    "note": "한국어 공개 강좌를 분야별로 살펴보기. 강좌별 일정과 수강·이수 조건을 확인하세요."
+  },
+  {
+    "name": "Khan Academy",
+    "url": "https://www.khanacademy.org/",
+    "note": "개념 설명 뒤에 연습 문제를 이어가기. 지원 언어와 학습 범위는 원하는 과정에서 확인하세요."
+  },
+  {
+    "name": "TED",
+    "url": "https://www.ted.com/",
+    "note": "아이디어와 설명 방식을 관찰하는 강연 모음. 한 편을 본 뒤 핵심 주장과 남은 질문을 적어보세요."
+  },
+  {
+    "name": "MDN Web Docs",
+    "url": "https://developer.mozilla.org/ko/",
+    "note": "웹 기술의 개념과 사용법을 찾아보기. 한국어 문서와 원문, 브라우저 호환성 정보를 함께 참고하세요."
+  },
+  {
+    "name": "정부24",
+    "url": "https://www.gov.kr/",
+    "note": "민원과 행정 서비스의 공식 안내를 찾기. 신청 전 제출처가 요구한 서류와 상세 조건을 확인하세요."
+  },
+  {
+    "name": "KOSIS 국가통계포털",
+    "url": "https://kosis.kr/",
+    "note": "공식 통계표에서 숫자의 근거를 확인하기. 시점·단위·지역 범위를 함께 기록하세요."
+  },
+  {
+    "name": "공공데이터포털",
+    "url": "https://www.data.go.kr/",
+    "note": "분석이나 프로젝트에 쓸 파일과 API 찾기. 제공 방식과 갱신 주기, 이용 조건을 먼저 살펴보세요."
+  },
+  {
+    "name": "국립중앙도서관",
+    "url": "https://www.nl.go.kr/",
+    "note": "책과 자료의 서지정보를 찾는 출발점. 원문 열람 범위와 이용 장소는 자료별 안내를 확인하세요."
+  },
+  {
+    "name": "Notion",
+    "url": "https://www.notion.com/",
+    "note": "프로젝트의 자료와 결정 사항을 한곳에 정리하기. 공유 전에 페이지와 하위 자료의 접근 권한을 확인하세요."
+  },
+  {
+    "name": "Todoist",
+    "url": "https://www.todoist.com/",
+    "note": "다음에 실행할 일을 목록으로 관리하기. 큰 목표를 완료 여부가 분명한 행동으로 나누어보세요."
+  },
+  {
+    "name": "Photopea",
+    "url": "https://www.photopea.com/",
+    "note": "이미지와 레이어를 편집하고 결과물을 내보내기. 원본과 공유용 파일을 따로 보관하세요."
+  },
+  {
+    "name": "Squoosh",
+    "url": "https://squoosh.app/",
+    "note": "압축 전후의 화질과 파일 크기를 비교하기. 결과 이미지의 작은 글자와 경계를 확대해서 확인하세요."
+  }
+]

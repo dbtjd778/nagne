@@ -1,0 +1,3434 @@
+{
+  "sites": 500,
+  "categories": 24,
+  "byRegion": {
+    "kr": 181,
+    "global": 319
+  },
+  "localIcons": 473,
+  "iconBytes": 485684,
+  "maxIconBytes": 3674,
+  "missingIcons": [
+    {
+      "name": "생활코딩",
+      "url": "opentutorials.org"
+    },
+    {
+      "name": "문화 빅데이터 플랫폼",
+      "url": "bigdata-culture.kr"
+    },
+    {
+      "name": "한국거래소 정보데이터시스템",
+      "url": "data.krx.co.kr"
+    },
+    {
+      "name": "EBS",
+      "url": "ebs.co.kr"
+    },
+    {
+      "name": "EBSi",
+      "url": "ebsi.co.kr"
+    },
+    {
+      "name": "K-MOOC",
+      "url": "kmooc.kr"
+    },
+    {
+      "name": "KOCW",
+      "url": "kocw.net"
+    },
+    {
+      "name": "표준국어대사전",
+      "url": "stdict.korean.go.kr"
+    },
+    {
+      "name": "우리말샘",
+      "url": "opendict.korean.go.kr"
+    },
+    {
+      "name": "GSEEK",
+      "url": "gseek.kr"
+    },
+    {
+      "name": "문화포털",
+      "url": "culture.go.kr"
+    },
+    {
+      "name": "국립극장",
+      "url": "ntok.go.kr"
+    },
+    {
+      "name": "한국영상자료원",
+      "url": "koreafilm.or.kr"
+    },
+    {
+      "name": "버스타고",
+      "url": "bustago.or.kr"
+    },
+    {
+      "name": "에어코리아",
+      "url": "airkorea.or.kr"
+    },
+    {
+      "name": "정부24",
+      "url": "gov.kr"
+    },
+    {
+      "name": "국가법령정보센터",
+      "url": "law.go.kr"
+    },
+    {
+      "name": "국민재난안전포털",
+      "url": "safekorea.go.kr"
+    },
+    {
+      "name": "기후에너지환경부",
+      "url": "me.go.kr"
+    },
+    {
+      "name": "소상공인시장진흥공단",
+      "url": "www.semas.or.kr"
+    },
+    {
+      "name": "Drive & Listen",
+      "url": "driveandlisten.com"
+    },
+    {
+      "name": "Zoom Quilt",
+      "url": "zoomquilt.org"
+    },
+    {
+      "name": "Adobe Color",
+      "url": "color.adobe.com"
+    },
+    {
+      "name": "ChatGPT",
+      "url": "chatgpt.com"
+    },
+    {
+      "name": "USGS",
+      "url": "www.usgs.gov"
+    },
+    {
+      "name": "ReadWriteThink",
+      "url": "readwritethink.org"
+    },
+    {
+      "name": "Lapham's Quarterly",
+      "url": "laphamsquarterly.org"
+    }
+  ],
+  "checks": [
+    {
+      "url": "banggooso.com",
+      "path": "/icons/77fafd92d48108.webp",
+      "width": 16,
+      "height": 16,
+      "bytes": 418
+    },
+    {
+      "url": "poomang.com",
+      "path": "/icons/396814c7c1edd2.webp",
+      "width": 32,
+      "height": 32,
+      "bytes": 486
+    },
+    {
+      "url": "smore.im",
+      "path": "/icons/4f0f5170ec1749.webp",
+      "width": 64,
+      "height": 64,
+      "bytes": 2518
+    },
+    {
+      "url": "kkutu.co.kr",
+      "path": "/icons/6665b3df539cfd.webp",
+      "width": 48,
+      "height": 48,
+      "bytes": 542
+    },
+    {
+      "url": "ktestone.com",
+      "path": "/icons/098fd69bc7ed03.webp",
+      "width": 64,
+      "height": 60,
+      "bytes": 2860
+    },
+    {
+      "url": "colormytree.me",
+      "path": "/icons/73bf896e304a2e.webp",
+      "width": 48,
+      "height": 48,
+      "bytes": 1372
+    },
+    {
+      "url": "maptyping.com",
+      "path": "/icons/d1f1c8c207c731.webp",
+      "width": 64,
+      "height": 64,
+      "bytes": 2636
+    },
+    {
+      "url": "typing.works",
+      "path": "/icons/8610c8bf7c7536.webp",
+      "width": 16,
+      "height": 16,
+      "bytes": 200
+    },
+    {
+      "url": "myroutine.today",
+      "path": "/icons/ca163f0d0386be.webp",
+      "width": 48,
+      "height": 48,
+      "bytes": 760
+    },
+    {
+      "url": "miricanvas.com",
+      "path": "/icons/36c9ab1c4cd4a6.webp",
+      "width": 57,
+      "height": 57,
+      "bytes": 1336
+    },
+    {
+      "url": "noonnu.cc",
+      "path": "/icons/432c80d6f76ce5.webp",
+      "width": 64,
+      "height": 64,
+      "bytes": 2652
+    },
+    {
+      "url": "saramin.co.kr/zf_user/tools/character-counter",
+      "path": "/icons/ad99ede4982727.webp",
+      "width": 48,
+      "height": 48,
+      "bytes": 898
+    },
+    {
+      "url": "papago.naver.com",
+      "path": "/icons/1f580b03b7fa3b.webp",
+      "width": 64,
+      "height": 64,
+      "bytes": 2058
+    },
+    {
+      "url": "clovanote.naver.com",
+      "path": "/icons/62afc238a3d520.webp",
+      "width": 64,
+      "height": 64,
+      "bytes": 1176
+    },
+    {
+      "url": "form.naver.com",
+      "path": "/icons/74d3273f22d5bd.webp",
+      "width": 32,
+      "height": 32,
+      "bytes": 570
+    },
+    {
+      "url": "stibee.com",
+      "path": "/icons/db7f01170302fb.webp",
+      "width": 57,
+      "height": 57,
+      "bytes": 1162
+    },
+    {
+      "url": "mangoboard.net",
+      "path": "/icons/478c39777a77f0.webp",
+      "width": 32,
+      "height": 33,
+      "bytes": 552
+    },
+    {
+      "url": "bizhows.com",
+      "path": "/icons/7c77d082ed709a.webp",
+      "width": 48,
+      "height": 48,
+      "bytes": 528
+    },
+    {
+      "url": "wrtn.ai",
+      "path": "/icons/26888ec418dda0.webp",
+      "width": 48,
+      "height": 48,
+      "bytes": 1246
+    },
+    {
+      "url": "typecast.ai",
+      "path": "/icons/024665194369f5.webp",
+      "width": 20,
+      "height": 20,
+      "bytes": 714
+    },
+    {
+      "url": "aistudios.com",
+      "path": "/icons/dba5c9381772a4.webp",
+      "width": 32,
+      "height": 32,
+      "bytes": 754
+    },
+    {
+      "url": "domain.gabia.com",
+      "path": "/icons/3e04f4dd7531d6.webp",
+      "width": 32,
+      "height": 32,
+      "bytes": 548
+    },
+    {
+      "url": "programmers.co.kr",
+      "path": "/icons/2be6e577aa0eb3.webp",
+      "width": 32,
+      "height": 32,
+      "bytes": 454
+    },
+    {
+      "url": "inflearn.com",
+      "path": "/icons/5a8705568fefc1.webp",
+      "width": 64,
+      "height": 64,
+      "bytes": 1218
+    },
+    {
+      "url": "oopy.io",
+      "path": "/icons/47d99a383f1c79.webp",
+      "width": 64,
+      "height": 64,
+      "bytes": 2868
+    },
+    {
+      "url": "walla.my",
+      "path": "/icons/f6c5d67f8537fe.webp",
+      "width": 32,
+      "height": 32,
+      "bytes": 918
+    },
+    {
+      "url": "waveon.io",
+      "path": "/icons/b4d58628eb2375.webp",
+      "width": 48,
+      "height": 48,
+      "bytes": 1086
+    },
+    {
+      "url": "goorm.io",
+      "path": "/icons/addd5327c76bad.webp",
+      "width": 64,
+      "height": 64,
+      "bytes": 700
+    },
+    {
+      "url": "edu.goorm.io",
+      "path": "/icons/8976dd6658002c.webp",
+      "width": 48,
+      "height": 48,
+      "bytes": 1008
+    },
+    {
+      "url": "elice.io",
+      "path": "/icons/83b1d5f23cce28.webp",
+      "width": 48,
+      "height": 48,
+      "bytes": 904
+    },
+    {
+      "url": "codeit.kr",
+      "path": "/icons/6b14e830cfb056.webp",
+      "width": 36,
+      "height": 36,
+      "bytes": 792
+    },
+    {
+      "url": "fastcampus.co.kr",
+      "path": "/icons/dae0079df80bc6.webp",
+      "width": 64,
+      "height": 64,
+      "bytes": 1680
+    },
+    {
+      "url": "nomadcoders.co",
+      "path": "/icons/416f2a65253851.webp",
+      "width": 64,
+      "height": 64,
+      "bytes": 2946
+    },
+    {
+      "url": "academy.dream-coding.com",
+      "path": "/icons/7fa6e2e61f313f.webp",
+      "width": 32,
+      "height": 32,
+      "bytes": 886
+    },
+    {
+      "url": "codingapple.com",
+      "path": "/icons/0734ab0412ece2.webp",
+      "width": 16,
+      "height": 16,
+      "bytes": 348
+    },
+    {
+      "url": "weniv.co.kr",
+      "path": "/icons/5c5bba3a2d736a.webp",
+      "width": 64,
+      "height": 64,
+      "bytes": 1296
+    },
+    {
+      "url": "velog.io",
+      "path": "/icons/d839c000dc8c46.webp",
+      "width": 64,
+      "height": 64,
+      "bytes": 704
+    },
+    {
+      "url": "devocean.sk.com",
+      "path": "/icons/cd30ecfa776aa6.webp",
+      "width": 16,
+      "height": 16,
+      "bytes": 370
+    },
+    {
+      "url": "tech.kakao.com",
+      "path": "/icons/6f625a6649040e.webp",
+      "width": 64,
+      "height": 64,
+      "bytes": 602
+    },
+    {
+      "url": "d2.naver.com",
+      "path": "/icons/7f9c3cee4fed3a.webp",
+      "width": 64,
+      "height": 64,
+      "bytes": 1020
+    },
+    {
+      "url": "techblog.woowahan.com",
+      "path": "/icons/42e5df1c1060c7.webp",
+      "width": 16,
+      "height": 16,
+      "bytes": 334
+    },
+    {
+      "url": "toss.tech",
+      "path": "/icons/b724c7012a8923.webp",
+      "width": 64,
+      "height": 64,
+      "bytes": 2098
+    },
+    {
+      "url": "datalab.naver.com",
+      "path": "/icons/3fc2ce3443c26c.webp",
+      "width": 64,
+      "height": 64,
+      "bytes": 1150
+    },
+    {
+      "url": "kosis.kr",
+      "path": "/icons/0716dbca671836.webp",
+      "width": 33,
+      "height": 32,
+      "bytes": 774
+    },
+    {
+      "url": "data.go.kr",
+      "path": "/icons/024e57fcf02105.webp",
+      "width": 48,
+      "height": 48,
+      "bytes": 746
+    },
+    {
+      "url": "data.seoul.go.kr",
+      "path": "/icons/6136289cff81f2.webp",
+      "width": 32,
+      "height": 32,
+      "bytes": 1144
+    },
+    {
+      "url": "ecos.bok.or.kr",
+      "path": "/icons/961c785286f3b0.webp",
+      "width": 57,
+      "height": 57,
+      "bytes": 1390
+    },
+    {
+      "url": "kostat.go.kr",
+      "path": "/icons/5b5a4a1cd95b01.webp",
+      "width": 64,
+      "height": 64,
+      "bytes": 2036
+    },
+    {
+      "url": "index.go.kr",
+      "path": "/icons/7baf6f1b27e2fe.webp",
+      "width": 33,
+      "height": 32,
+      "bytes": 774
+    },
+    {
+      "url": "sgis.kostat.go.kr",
+      "path": "/icons/c7a585f382eaa5.webp",
+      "width": 56,
+      "height": 56,
+      "bytes": 2184
+    },
+    {
+      "url": "map.ngii.go.kr",
+      "path": "/icons/a6a8c589e348bc.webp",
+      "width": 64,
+      "height": 64,
+      "bytes": 2880
+    },
+    {
+      "url": "vworld.kr",
+      "path": "/icons/60e42cb0356b23.webp",
+      "width": 16,
+      "height": 16,
+      "bytes": 294
+    },
+    {
+      "url": "data.kma.go.kr",
+      "path": "/icons/90caadcd27fbb5.webp",
+      "width": 32,
+      "height": 32,
+      "bytes": 942
+    },
+    {
+      "url": "www.bigkinds.or.kr",
+      "path": "/icons/9326030f86fbfa.webp",
+      "width": 57,
+      "height": 57,
+      "bytes": 686
+    },
+    {
+      "url": "kipris.or.kr",
+      "path": "/icons/e8fe9736ba67cc.webp",
+      "width": 16,
+      "height": 16,
+      "bytes": 414
+    },
+    {
+      "url": "dart.fss.or.kr",
+      "path": "/icons/21bad217f01963.webp",
+      "width": 16,
+      "height": 16,
+      "bytes": 394
+    },
+    {
+      "url": "archives.go.kr",
+      "path": "/icons/baf18abfe92eb7.webp",
+      "width": 64,
+      "height": 64,
+      "bytes": 1742
+    },
+    {
+      "url": "www.riss.kr",
+      "path": "/icons/fdfb9a7ba34c72.webp",
+      "width": 16,
+      "height": 16,
+      "bytes": 360
+    },
+    {
+      "url": "dbpia.co.kr",
+      "path": "/icons/1f069176cb77da.webp",
+      "width": 32,
+      "height": 32,
+      "bytes": 686
+    },
+    {
+      "url": "kiss.kstudy.com",
+      "path": "/icons/f4c433037216ad.webp",
+      "width": 64,
+      "height": 64,
+      "bytes": 2348
+    },
+    {
+      "url": "nl.go.kr",
+      "path": "/icons/a82ba906e08f44.webp",
+      "width": 64,
+      "height": 62,
+      "bytes": 2776
+    },
+    {
+      "url": "nanet.go.kr",
+      "path": "/icons/e3d561932e6e97.webp",
+      "width": 16,
+      "height": 16,
+      "bytes": 542
+    },
+    {
+      "url": "korean.go.kr",
+      "path": "/icons/1bbf7484dd3239.webp",
+      "width": 16,
+      "height": 16,
+      "bytes": 374
+    },
+    {
+      "url": "krdict.korean.go.kr",
+      "path": "/icons/e1cf2478c8bcdd.webp",
+      "width": 16,
+      "height": 16,
+      "bytes": 460
+    },
+    {
+      "url": "www.iksi.or.kr",
+      "path": "/icons/34ec2f5670bc13.webp",
+      "width": 64,
+      "height": 64,
+      "bytes": 2370
+    },
+    {
+      "url": "dict.naver.com",
+      "path": "/icons/216a88b987ced1.webp",
+      "width": 32,
+      "height": 32,
+      "bytes": 1330
+    },
+    {
+      "url": "terms.naver.com",
+      "path": "/icons/42d727b9e6b871.webp",
+      "width": 32,
+      "height": 32,
+      "bytes": 514
+    },
+    {
+      "url": "edunet.net",
+      "path": "/icons/879e233e50586e.webp",
+      "width": 57,
+      "height": 57,
+      "bytes": 1246
+    },
+    {
+      "url": "sll.seoul.go.kr",
+      "path": "/icons/4688a6d87a57c2.webp",
+      "width": 48,
+      "height": 48,
+      "bytes": 632
+    },
+    {
+      "url": "db.history.go.kr",
+      "path": "/icons/34fe18098d0dee.webp",
+      "width": 48,
+      "height": 48,
+      "bytes": 1800
+    },
+    {
+      "url": "encykorea.aks.ac.kr",
+      "path": "/icons/b31d2dd93a8d87.webp",
+      "width": 48,
+      "height": 48,
+      "bytes": 1114
+    },
+    {
+      "url": "db.itkc.or.kr",
+      "path": "/icons/a1603606167d9f.webp",
+      "width": 25,
+      "height": 22,
+      "bytes": 424
+    },
+    {
+      "url": "scienceall.com",
+      "path": "/icons/0a6fa58653f416.webp",
+      "width": 16,
+      "height": 16,
+      "bytes": 352
+    },
+    {
+      "url": "sciencetimes.co.kr",
+      "path": "/icons/805bc8311775a5.webp",
+      "width": 60,
+      "height": 60,
+      "bytes": 746
+    },
+    {
+      "url": "museum.go.kr",
+      "path": "/icons/9c88e091750383.webp",
+      "width": 64,
+      "height": 62,
+      "bytes": 2776
+    },
+    {
+      "url": "mmca.go.kr",
+      "path": "/icons/2c17ed8a5a46f9.webp",
+      "width": 16,
+      "height": 16,
+      "bytes": 312
+    },
+    {
+      "url": "sema.seoul.go.kr",
+      "path": "/icons/374797a90613b4.webp",
+      "width": 16,
+      "height": 16,
+      "bytes": 270
+    },
+    {
+      "url": "hangeul.go.kr",
+      "path": "/icons/457397fa70bfd4.webp",
+      "width": 16,
+      "height": 16,
+      "bytes": 374
+    },
+    {
+      "url": "khs.go.kr",
+      "path": "/icons/a83f39f9153e1f.webp",
+      "width": 57,
+      "height": 57,
+      "bytes": 1872
+    },
+    {
+      "url": "heritage.go.kr",
+      "path": "/icons/06c18d351a90ec.webp",
+      "width": 57,
+      "height": 57,
+      "bytes": 1872
+    },
+    {
+      "url": "sac.or.kr",
+      "path": "/icons/f7b46b1e9525d9.webp",
+      "width": 32,
+      "height": 32,
+      "bytes": 896
+    },
+    {
+      "url": "sejongpac.or.kr",
+      "path": "/icons/026a396eed24a7.webp",
+      "width": 64,
+      "height": 64,
+      "bytes": 678
+    },
+    {
+      "url": "gugak.go.kr",
+      "path": "/icons/520e7c699d7a53.webp",
+      "width": 16,
+      "height": 16,
+      "bytes": 374
+    },
+    {
+      "url": "kmdb.or.kr",
+      "path": "/icons/3c42da857bde6f.webp",
+      "width": 16,
+      "height": 16,
+      "bytes": 198
+    },
+    {
+      "url": "kofic.or.kr",
+      "path": "/icons/04f5298d2e2067.webp",
+      "width": 64,
+      "height": 64,
+      "bytes": 1910
+    },
+    {
+      "url": "kobis.or.kr",
+      "path": "/icons/4d7387de2d8774.webp",
+      "width": 64,
+      "height": 64,
+      "bytes": 1844
+    },
+    {
+      "url": "kyobobook.co.kr",
+      "path": "/icons/873b57b98533b9.webp",
+      "width": 16,
+      "height": 16,
+      "bytes": 236
+    },
+    {
+      "url": "aladin.co.kr",
+      "path": "/icons/b6f84c87616eec.webp",
+      "width": 64,
+      "height": 64,
+      "bytes": 1392
+    },
+    {
+      "url": "yes24.com",
+      "path": "/icons/f8f973f89b5eb6.webp",
+      "width": 48,
+      "height": 48,
+      "bytes": 1234
+    },
+    {
+      "url": "brunch.co.kr",
+      "path": "/icons/eb38afbe6317bf.webp",
+      "width": 64,
+      "height": 64,
+      "bytes": 960
+    },
+    {
+      "url": "munhak.com",
+      "path": "/icons/77ae42054c5111.webp",
+      "width": 50,
+      "height": 50,
+      "bytes": 220
+    },
+    {
+      "url": "www.changbi.com",
+      "path": "/icons/e76f123a93b897.webp",
+      "width": 48,
+      "height": 48,
+      "bytes": 630
+    },
+    {
+      "url": "minumsa.com",
+      "path": "/icons/3ef52e34a4a36d.webp",
+      "width": 16,
+      "height": 16,
+      "bytes": 176
+    },
+    {
+      "url": "lib.seoul.go.kr",
+      "path": "/icons/6ca6dea570c848.webp",
+      "width": 32,
+      "height": 32,
+      "bytes": 614
+    },
+    {
+      "url": "korean.visitkorea.or.kr",
+      "path": "/icons/974b6d19eb4e88.webp",
+      "width": 64,
+      "height": 64,
+      "bytes": 1500
+    },
+    {
+      "url": "korean.visitseoul.net",
+      "path": "/icons/aa83ef5ad203bf.webp",
+      "width": 16,
+      "height": 16,
+      "bytes": 436
+    },
+    {
+      "url": "visitjeju.net",
+      "path": "/icons/2c37bc2ea0bf16.webp",
+      "width": 57,
+      "height": 57,
+      "bytes": 1338
+    },
+    {
+      "url": "visitbusan.net",
+      "path": "/icons/d190498db1f10f.webp",
+      "width": 48,
+      "height": 48,
+      "bytes": 1378
+    },
+    {
+      "url": "gwto.or.kr",
+      "path": "/icons/46be780ae3b859.webp",
+      "width": 16,
+      "height": 16,
+      "bytes": 356
+    },
+    {
+      "url": "itour.incheon.go.kr",
+      "path": "/icons/7b22db1ab547f9.webp",
+      "width": 32,
+      "height": 32,
+      "bytes": 658
+    },
+    {
+      "url": "ggtour.or.kr",
+      "path": "/icons/a108c57f2d98dd.webp",
+      "width": 32,
+      "height": 32,
+      "bytes": 960
+    },
+    {
+      "url": "knps.or.kr",
+      "path": "/icons/f82219804ded8b.webp",
+      "width": 64,
+      "height": 64,
+      "bytes": 828
+    },
+    {
+      "url": "foresttrip.go.kr",
+      "path": "/icons/ea1d485e1afc90.webp",
+      "width": 16,
+      "height": 16,
+      "bytes": 506
+    },
+    {
+      "url": "forest.go.kr",
+      "path": "/icons/672cf5ca7e8d15.webp",
+      "width": 16,
+      "height": 16,
+      "bytes": 506
+    },
+    {
+      "url": "kna.forest.go.kr",
+      "path": "/icons/631541eba9d51f.webp",
+      "width": 16,
+      "height": 16,
+      "bytes": 314
+    },
+    {
+      "url": "letskorail.com",
+      "path": "/icons/d581782738a30d.webp",
+      "width": 16,
+      "height": 16,
+      "bytes": 416
+    },
+    {
+      "url": "etk.srail.kr",
+      "path": "/icons/8efa71a3e670ad.webp",
+      "width": 64,
+      "height": 64,
+      "bytes": 814
+    },
+    {
+      "url": "kobus.co.kr",
+      "path": "/icons/9bed7ebbc7a42b.webp",
+      "width": 16,
+      "height": 16,
+      "bytes": 244
+    },
+    {
+      "url": "airport.kr",
+      "path": "/icons/3e29163398d659.webp",
+      "width": 32,
+      "height": 32,
+      "bytes": 566
+    },
+    {
+      "url": "airport.co.kr",
+      "path": "/icons/7fbf1d014bda23.webp",
+      "width": 64,
+      "height": 64,
+      "bytes": 1044
+    },
+    {
+      "url": "map.naver.com",
+      "path": "/icons/ea59d92f8c03e9.webp",
+      "width": 32,
+      "height": 32,
+      "bytes": 864
+    },
+    {
+      "url": "map.kakao.com",
+      "path": "/icons/9b7a2732cd255e.webp",
+      "width": 64,
+      "height": 64,
+      "bytes": 1120
+    },
+    {
+      "url": "www.weather.go.kr",
+      "path": "/icons/dd795119e9ad59.webp",
+      "width": 58,
+      "height": 58,
+      "bytes": 2372
+    },
+    {
+      "url": "durunubi.kr",
+      "path": "/icons/f587be0c0b05c8.webp",
+      "width": 16,
+      "height": 16,
+      "bytes": 432
+    },
+    {
+      "url": "gocamping.or.kr",
+      "path": "/icons/03876265a625f9.webp",
+      "width": 16,
+      "height": 16,
+      "bytes": 310
+    },
+    {
+      "url": "parks.seoul.go.kr",
+      "path": "/icons/ccd314be82395a.webp",
+      "width": 32,
+      "height": 32,
+      "bytes": 692
+    },
+    {
+      "url": "bokjiro.go.kr",
+      "path": "/icons/7cbf14582a2935.webp",
+      "width": 48,
+      "height": 48,
+      "bytes": 938
+    },
+    {
+      "url": "www.nhis.or.kr",
+      "path": "/icons/1958083d9f6962.webp",
+      "width": 16,
+      "height": 16,
+      "bytes": 406
+    },
+    {
+      "url": "nps.or.kr",
+      "path": "/icons/1babd3dc27e390.webp",
+      "width": 48,
+      "height": 48,
+      "bytes": 900
+    },
+    {
+      "url": "nts.go.kr",
+      "path": "/icons/3c4495be5e5394.webp",
+      "width": 16,
+      "height": 16,
+      "bytes": 526
+    },
+    {
+      "url": "hometax.go.kr",
+      "path": "/icons/762679ab877f91.webp",
+      "width": 16,
+      "height": 16,
+      "bytes": 358
+    },
+    {
+      "url": "wetax.go.kr",
+      "path": "/icons/879d41239969ba.webp",
+      "width": 16,
+      "height": 16,
+      "bytes": 268
+    },
+    {
+      "url": "kca.go.kr",
+      "path": "/icons/e43de20f6e1ff8.webp",
+      "width": 32,
+      "height": 32,
+      "bytes": 736
+    },
+    {
+      "url": "consumer.go.kr",
+      "path": "/icons/a847f40e409b04.webp",
+      "width": 48,
+      "height": 48,
+      "bytes": 990
+    },
+    {
+      "url": "safetyreport.go.kr",
+      "path": "/icons/fecb0b87a27a2d.webp",
+      "width": 64,
+      "height": 64,
+      "bytes": 2682
+    },
+    {
+      "url": "koroad.or.kr",
+      "path": "/icons/bd2b8d32c4081e.webp",
+      "width": 16,
+      "height": 16,
+      "bytes": 376
+    },
+    {
+      "url": "juso.go.kr",
+      "path": "/icons/0c80abb142b69f.webp",
+      "width": 31,
+      "height": 26,
+      "bytes": 408
+    },
+    {
+      "url": "epost.go.kr",
+      "path": "/icons/ad8a2d9d72f92d.webp",
+      "width": 16,
+      "height": 16,
+      "bytes": 240
+    },
+    {
+      "url": "parcel.epost.go.kr",
+      "path": "/icons/89ea4cf7e582a0.webp",
+      "width": 16,
+      "height": 16,
+      "bytes": 240
+    },
+    {
+      "url": "seoul.go.kr",
+      "path": "/icons/14514d37b6147e.webp",
+      "width": 32,
+      "height": 32,
+      "bytes": 692
+    },
+    {
+      "url": "www.busan.go.kr",
+      "path": "/icons/597c4219a90e5f.webp",
+      "width": 64,
+      "height": 64,
+      "bytes": 1854
+    },
+    {
+      "url": "gg.go.kr",
+      "path": "/icons/d8143c16481207.webp",
+      "width": 64,
+      "height": 64,
+      "bytes": 1024
+    },
+    {
+      "url": "foodsafetykorea.go.kr",
+      "path": "/icons/649c8f44338e2c.webp",
+      "width": 48,
+      "height": 48,
+      "bytes": 1150
+    },
+    {
+      "url": "kdca.go.kr",
+      "path": "/icons/93080ae49e3b7d.webp",
+      "width": 64,
+      "height": 64,
+      "bytes": 2320
+    },
+    {
+      "url": "www.hira.or.kr",
+      "path": "/icons/bfb6433c37e30d.webp",
+      "width": 16,
+      "height": 16,
+      "bytes": 410
+    },
+    {
+      "url": "www.nmc.or.kr",
+      "path": "/icons/f2e452b3c17ce2.webp",
+      "width": 64,
+      "height": 64,
+      "bytes": 1766
+    },
+    {
+      "url": "www.kepco.co.kr",
+      "path": "/icons/bc22ddd8e3855c.webp",
+      "width": 48,
+      "height": 48,
+      "bytes": 894
+    },
+    {
+      "url": "wanted.co.kr",
+      "path": "/icons/66f8ce465d019a.webp",
+      "width": 64,
+      "height": 64,
+      "bytes": 2398
+    },
+    {
+      "url": "saramin.co.kr",
+      "path": "/icons/417d86292a0926.webp",
+      "width": 48,
+      "height": 48,
+      "bytes": 898
+    },
+    {
+      "url": "jobkorea.co.kr",
+      "path": "/icons/2e43aac01548e9.webp",
+      "width": 64,
+      "height": 64,
+      "bytes": 784
+    },
+    {
+      "url": "jumpit.saramin.co.kr",
+      "path": "/icons/11bc53934cf477.webp",
+      "width": 60,
+      "height": 60,
+      "bytes": 798
+    },
+    {
+      "url": "rememberapp.co.kr",
+      "path": "/icons/95b8cfa1b93c9d.webp",
+      "width": 48,
+      "height": 48,
+      "bytes": 548
+    },
+    {
+      "url": "work24.go.kr",
+      "path": "/icons/96186d0f6711de.webp",
+      "width": 32,
+      "height": 32,
+      "bytes": 992
+    },
+    {
+      "url": "linkareer.com",
+      "path": "/icons/225485190334f0.webp",
+      "width": 16,
+      "height": 16,
+      "bytes": 194
+    },
+    {
+      "url": "www.catch.co.kr",
+      "path": "/icons/c09aede05e2c25.webp",
+      "width": 32,
+      "height": 32,
+      "bytes": 520
+    },
+    {
+      "url": "all-con.co.kr",
+      "path": "/icons/6ee1db530a3af4.webp",
+      "width": 48,
+      "height": 48,
+      "bytes": 572
+    },
+    {
+      "url": "thinkcontest.com",
+      "path": "/icons/fd46637623940e.webp",
+      "width": 48,
+      "height": 48,
+      "bytes": 1728
+    },
+    {
+      "url": "disquiet.io",
+      "path": "/icons/f3094e3a06ffcb.webp",
+      "width": 64,
+      "height": 64,
+      "bytes": 626
+    },
+    {
+      "url": "yozm.wishket.com",
+      "path": "/icons/985439144b2c8f.webp",
+      "width": 32,
+      "height": 32,
+      "bytes": 816
+    },
+    {
+      "url": "surfit.io",
+      "path": "/icons/71f8c3cf5b5e93.webp",
+      "width": 64,
+      "height": 64,
+      "bytes": 1730
+    },
+    {
+      "url": "ditoday.com",
+      "path": "/icons/156125d87d2bb9.webp",
+      "width": 32,
+      "height": 32,
+      "bytes": 570
+    },
+    {
+      "url": "platum.kr",
+      "path": "/icons/222f3ebe640e40.webp",
+      "width": 64,
+      "height": 64,
+      "bytes": 1622
+    },
+    {
+      "url": "venturesquare.net",
+      "path": "/icons/4c04cdf49bcfe1.webp",
+      "width": 32,
+      "height": 32,
+      "bytes": 476
+    },
+    {
+      "url": "byline.network",
+      "path": "/icons/01ea9605fb02c0.webp",
+      "width": 32,
+      "height": 32,
+      "bytes": 760
+    },
+    {
+      "url": "k-startup.go.kr",
+      "path": "/icons/98012de731d154.webp",
+      "width": 16,
+      "height": 16,
+      "bytes": 402
+    },
+    {
+      "url": "mss.go.kr",
+      "path": "/icons/bd423ac6707d8a.webp",
+      "width": 64,
+      "height": 64,
+      "bytes": 2934
+    },
+    {
+      "url": "kotra.or.kr",
+      "path": "/icons/e422df8adbe947.webp",
+      "width": 64,
+      "height": 64,
+      "bytes": 1526
+    },
+    {
+      "url": "kita.net",
+      "path": "/icons/09cf1364985247.webp",
+      "width": 64,
+      "height": 64,
+      "bytes": 3486
+    },
+    {
+      "url": "designdb.com",
+      "path": "/icons/3992fe2b08324c.webp",
+      "width": 16,
+      "height": 16,
+      "bytes": 390
+    },
+    {
+      "url": "kocca.kr",
+      "path": "/icons/a1f23b011c973a.webp",
+      "width": 64,
+      "height": 64,
+      "bytes": 1538
+    },
+    {
+      "url": "hrdkorea.or.kr",
+      "path": "/icons/3440574348aa68.webp",
+      "width": 32,
+      "height": 32,
+      "bytes": 780
+    },
+    {
+      "url": "window-swap.com",
+      "path": "/icons/6e6d072272ddb3.webp",
+      "width": 16,
+      "height": 16,
+      "bytes": 286
+    },
+    {
+      "url": "radio.garden",
+      "path": "/icons/e1e6accb962f5d.webp",
+      "width": 64,
+      "height": 64,
+      "bytes": 992
+    },
+    {
+      "url": "asoftmurmur.com",
+      "path": "/icons/b829ff505aaac5.webp",
+      "width": 64,
+      "height": 64,
+      "bytes": 588
+    },
+    {
+      "url": "neal.fun",
+      "path": "/icons/789fa9e32be17b.webp",
+      "width": 64,
+      "height": 64,
+      "bytes": 2396
+    },
+    {
+      "url": "pointerpointer.com",
+      "path": "/icons/f34ff14e20119e.webp",
+      "width": 64,
+      "height": 64,
+      "bytes": 940
+    },
+    {
+      "url": "sandspiel.club",
+      "path": "/icons/3ee230a987552a.webp",
+      "width": 64,
+      "height": 64,
+      "bytes": 436
+    },
+    {
+      "url": "lofigirl.com",
+      "path": "/icons/0394ec7fe63c7b.webp",
+      "width": 64,
+      "height": 64,
+      "bytes": 2498
+    },
+    {
+      "url": "paveldogreat.github.io/WebGL-Fluid-Simulation",
+      "path": "/icons/aa0bbe8835669a.webp",
+      "width": 64,
+      "height": 64,
+      "bytes": 1202
+    },
+    {
+      "url": "virtualvacation.us/guess",
+      "path": "/icons/3e3a89fad8db16.webp",
+      "width": 64,
+      "height": 64,
+      "bytes": 3646
+    },
+    {
+      "url": "mynoise.net",
+      "path": "/icons/e9155864079c58.webp",
+      "width": 64,
+      "height": 64,
+      "bytes": 1656
+    },
+    {
+      "url": "hackertyper.com",
+      "path": "/icons/c7f35e29125dff.webp",
+      "width": 64,
+      "height": 64,
+      "bytes": 730
+    },
+    {
+      "url": "weavesilk.com",
+      "path": "/icons/bcdc68ed5b1c8e.webp",
+      "width": 32,
+      "height": 32,
+      "bytes": 848
+    },
+    {
+      "url": "koalastothemax.com",
+      "path": "/icons/db10fb13e344dd.webp",
+      "width": 64,
+      "height": 64,
+      "bytes": 1600
+    },
+    {
+      "url": "rainymood.com",
+      "path": "/icons/575d7be7a7ed50.webp",
+      "width": 64,
+      "height": 64,
+      "bytes": 1356
+    },
+    {
+      "url": "patatap.com",
+      "path": "/icons/61e59ba7266821.webp",
+      "width": 64,
+      "height": 64,
+      "bytes": 708
+    },
+    {
+      "url": "htwins.net/scale2",
+      "path": "/icons/eace8f4aca9e1a.webp",
+      "width": 16,
+      "height": 16,
+      "bytes": 370
+    },
+    {
+      "url": "geoguessr.com",
+      "path": "/icons/d7308dd5282949.webp",
+      "width": 64,
+      "height": 64,
+      "bytes": 1294
+    },
+    {
+      "url": "skribbl.io",
+      "path": "/icons/cae0678229b7ac.webp",
+      "width": 42,
+      "height": 42,
+      "bytes": 1292
+    },
+    {
+      "url": "quickdraw.withgoogle.com",
+      "path": "/icons/5024def84c49e2.webp",
+      "width": 32,
+      "height": 32,
+      "bytes": 912
+    },
+    {
+      "url": "play.typeracer.com",
+      "path": "/icons/b0bd72c098ed3a.webp",
+      "width": 16,
+      "height": 16,
+      "bytes": 376
+    },
+    {
+      "url": "nytimes.com/games/wordle",
+      "path": "/icons/f412b36be14005.webp",
+      "width": 64,
+      "height": 64,
+      "bytes": 1250
+    },
+    {
+      "url": "littlealchemy2.com",
+      "path": "/icons/b038169f1c5d25.webp",
+      "width": 16,
+      "height": 16,
+      "bytes": 434
+    },
+    {
+      "url": "musiclab.chromeexperiments.com",
+      "path": "/icons/72330b7ba4329f.webp",
+      "width": 16,
+      "height": 16,
+      "bytes": 328
+    },
+    {
+      "url": "thetruesize.com",
+      "path": "/icons/7134d33be1b339.webp",
+      "width": 63,
+      "height": 64,
+      "bytes": 1714
+    },
+    {
+      "url": "stars.chromeexperiments.com",
+      "path": "/icons/4dd4d3f7cf3174.webp",
+      "width": 32,
+      "height": 32,
+      "bytes": 292
+    },
+    {
+      "url": "sporcle.com",
+      "path": "/icons/e0b66f5f643d09.webp",
+      "width": 32,
+      "height": 32,
+      "bytes": 960
+    },
+    {
+      "url": "higherorlowergame.com",
+      "path": "/icons/3e908616ba7f95.webp",
+      "width": 48,
+      "height": 48,
+      "bytes": 976
+    },
+    {
+      "url": "play2048.co",
+      "path": "/icons/b67bc6815991cf.webp",
+      "width": 64,
+      "height": 64,
+      "bytes": 760
+    },
+    {
+      "url": "sudoku.com",
+      "path": "/icons/ea8b6e0385849a.webp",
+      "width": 57,
+      "height": 57,
+      "bytes": 1274
+    },
+    {
+      "url": "kahoot.com",
+      "path": "/icons/0be6b8580a795d.webp",
+      "width": 48,
+      "height": 48,
+      "bytes": 752
+    },
+    {
+      "url": "typing.com",
+      "path": "/icons/6c8c2fb68daa85.webp",
+      "width": 64,
+      "height": 64,
+      "bytes": 572
+    },
+    {
+      "url": "routinery.app",
+      "path": "/icons/7f1f50c51563d3.webp",
+      "width": 32,
+      "height": 32,
+      "bytes": 602
+    },
+    {
+      "url": "pomofocus.io",
+      "path": "/icons/0b0b1a4cb34365.webp",
+      "width": 16,
+      "height": 16,
+      "bytes": 398
+    },
+    {
+      "url": "wheelofnames.com",
+      "path": "/icons/f44569b6cbe179.webp",
+      "width": 64,
+      "height": 64,
+      "bytes": 1388
+    },
+    {
+      "url": "chess.com",
+      "path": "/icons/a55e98856d24d1.webp",
+      "width": 43,
+      "height": 64,
+      "bytes": 520
+    },
+    {
+      "url": "puzzmo.com",
+      "path": "/icons/9501cfe95e6dad.webp",
+      "width": 16,
+      "height": 16,
+      "bytes": 416
+    },
+    {
+      "url": "seterra.com",
+      "path": "/icons/7a3f5a28c2376b.webp",
+      "width": 57,
+      "height": 57,
+      "bytes": 1342
+    },
+    {
+      "url": "worldle.teuteuf.fr",
+      "path": "/icons/f8d05a7379cdea.webp",
+      "width": 64,
+      "height": 64,
+      "bytes": 1652
+    },
+    {
+      "url": "flagle.io",
+      "path": "/icons/2edec1700bf481.webp",
+      "width": 64,
+      "height": 64,
+      "bytes": 1560
+    },
+    {
+      "url": "monkeytype.com",
+      "path": "/icons/c1d3a99e00e5c0.webp",
+      "width": 48,
+      "height": 48,
+      "bytes": 846
+    },
+    {
+      "url": "keybr.com",
+      "path": "/icons/78a9b8917b4472.webp",
+      "width": 16,
+      "height": 16,
+      "bytes": 192
+    },
+    {
+      "url": "typingclub.com",
+      "path": "/icons/c514ed4a0eaf8b.webp",
+      "width": 48,
+      "height": 48,
+      "bytes": 1526
+    },
+    {
+      "url": "tetr.io",
+      "path": "/icons/63258c5c730f79.webp",
+      "width": 64,
+      "height": 64,
+      "bytes": 1268
+    },
+    {
+      "url": "pinterest.com",
+      "path": "/icons/e220ecbe25007b.webp",
+      "width": 64,
+      "height": 64,
+      "bytes": 2374
+    },
+    {
+      "url": "coolors.co",
+      "path": "/icons/f5793bc82d5a83.webp",
+      "width": 64,
+      "height": 64,
+      "bytes": 1656
+    },
+    {
+      "url": "mobbin.com",
+      "path": "/icons/81c1354454b8f9.webp",
+      "width": 64,
+      "height": 64,
+      "bytes": 288
+    },
+    {
+      "url": "fontsinuse.com",
+      "path": "/icons/38c3a037116013.webp",
+      "width": 64,
+      "height": 64,
+      "bytes": 1468
+    },
+    {
+      "url": "remove.bg",
+      "path": "/icons/2cf8b7596ab015.webp",
+      "width": 64,
+      "height": 64,
+      "bytes": 784
+    },
+    {
+      "url": "canva.com",
+      "path": "/icons/0f93367c8ec168.webp",
+      "width": 32,
+      "height": 32,
+      "bytes": 960
+    },
+    {
+      "url": "figma.com",
+      "path": "/icons/acb4ffda1a668b.webp",
+      "width": 64,
+      "height": 64,
+      "bytes": 732
+    },
+    {
+      "url": "colorhunt.co",
+      "path": "/icons/e908b3ff0f940c.webp",
+      "width": 32,
+      "height": 32,
+      "bytes": 686
+    },
+    {
+      "url": "dafont.com",
+      "path": "/icons/a9392b7e09ab5e.webp",
+      "width": 48,
+      "height": 48,
+      "bytes": 626
+    },
+    {
+      "url": "lottiefiles.com",
+      "path": "/icons/cc1b212fcd543b.webp",
+      "width": 64,
+      "height": 64,
+      "bytes": 614
+    },
+    {
+      "url": "awwwards.com",
+      "path": "/icons/ad345243016ea3.webp",
+      "width": 24,
+      "height": 24,
+      "bytes": 316
+    },
+    {
+      "url": "muz.li",
+      "path": "/icons/bcc154eb1c0ede.webp",
+      "width": 48,
+      "height": 48,
+      "bytes": 806
+    },
+    {
+      "url": "designspiration.com",
+      "path": "/icons/c49a91e9dc3928.webp",
+      "width": 64,
+      "height": 64,
+      "bytes": 1254
+    },
+    {
+      "url": "thenounproject.com",
+      "path": "/icons/1e2b93dd2079dd.webp",
+      "width": 64,
+      "height": 64,
+      "bytes": 434
+    },
+    {
+      "url": "fonts.google.com",
+      "path": "/icons/c8ac366a7c7f19.webp",
+      "width": 16,
+      "height": 16,
+      "bytes": 370
+    },
+    {
+      "url": "happyhues.co",
+      "path": "/icons/a37f324c5653a4.webp",
+      "width": 32,
+      "height": 32,
+      "bytes": 900
+    },
+    {
+      "url": "realtimecolors.com",
+      "path": "/icons/8ed5d98f60a3cb.webp",
+      "width": 64,
+      "height": 64,
+      "bytes": 2530
+    },
+    {
+      "url": "mycolor.space",
+      "path": "/icons/2cfcf80fa4c67f.webp",
+      "width": 32,
+      "height": 32,
+      "bytes": 544
+    },
+    {
+      "url": "fontshare.com",
+      "path": "/icons/321ca2de0272bb.webp",
+      "width": 64,
+      "height": 64,
+      "bytes": 226
+    },
+    {
+      "url": "fontsquirrel.com",
+      "path": "/icons/826df2978d0099.webp",
+      "width": 64,
+      "height": 64,
+      "bytes": 840
+    },
+    {
+      "url": "typewolf.com",
+      "path": "/icons/6bcd82786236bb.webp",
+      "width": 32,
+      "height": 32,
+      "bytes": 628
+    },
+    {
+      "url": "lucide.dev",
+      "path": "/icons/00e2a3ce1fbf3c.webp",
+      "width": 48,
+      "height": 48,
+      "bytes": 1628
+    },
+    {
+      "url": "heroicons.com",
+      "path": "/icons/e814c0d335fa46.webp",
+      "width": 64,
+      "height": 64,
+      "bytes": 2908
+    },
+    {
+      "url": "tabler.io/icons",
+      "path": "/icons/87f14b7615c269.webp",
+      "width": 64,
+      "height": 64,
+      "bytes": 1200
+    },
+    {
+      "url": "phosphoricons.com",
+      "path": "/icons/8011939be11b99.webp",
+      "width": 16,
+      "height": 16,
+      "bytes": 290
+    },
+    {
+      "url": "iconify.design",
+      "path": "/icons/b00e4b9656c462.webp",
+      "width": 48,
+      "height": 48,
+      "bytes": 816
+    },
+    {
+      "url": "undraw.co",
+      "path": "/icons/3e5b6add1075c7.webp",
+      "width": 64,
+      "height": 64,
+      "bytes": 966
+    },
+    {
+      "url": "tinypng.com",
+      "path": "/icons/b31e3af4b79633.webp",
+      "width": 16,
+      "height": 16,
+      "bytes": 434
+    },
+    {
+      "url": "ilovepdf.com",
+      "path": "/icons/2be02653095b14.webp",
+      "width": 64,
+      "height": 64,
+      "bytes": 1340
+    },
+    {
+      "url": "123apps.com",
+      "path": "/icons/6abd4d583e0409.webp",
+      "width": 16,
+      "height": 16,
+      "bytes": 266
+    },
+    {
+      "url": "namelix.com",
+      "path": "/icons/d25504ac40b91b.webp",
+      "width": 16,
+      "height": 16,
+      "bytes": 360
+    },
+    {
+      "url": "web.archive.org",
+      "path": "/icons/c76cfdb07db8ba.webp",
+      "width": 32,
+      "height": 32,
+      "bytes": 494
+    },
+    {
+      "url": "speedtest.net",
+      "path": "/icons/0ebd9864e21545.webp",
+      "width": 64,
+      "height": 64,
+      "bytes": 2032
+    },
+    {
+      "url": "photopea.com",
+      "path": "/icons/f485b12bdf463b.webp",
+      "width": 64,
+      "height": 64,
+      "bytes": 1870
+    },
+    {
+      "url": "cleanup.pictures",
+      "path": "/icons/ac9074122866c1.webp",
+      "width": 48,
+      "height": 48,
+      "bytes": 970
+    },
+    {
+      "url": "trello.com",
+      "path": "/icons/2545d6f01d83ab.webp",
+      "width": 64,
+      "height": 64,
+      "bytes": 1030
+    },
+    {
+      "url": "ezgif.com",
+      "path": "/icons/495252b939b927.webp",
+      "width": 64,
+      "height": 64,
+      "bytes": 2690
+    },
+    {
+      "url": "cloudconvert.com",
+      "path": "/icons/84f73801df8046.webp",
+      "width": 64,
+      "height": 64,
+      "bytes": 2072
+    },
+    {
+      "url": "tools.pdf24.org",
+      "path": "/icons/61bb574d6017d2.webp",
+      "width": 16,
+      "height": 16,
+      "bytes": 238
+    },
+    {
+      "url": "virustotal.com",
+      "path": "/icons/0e56e4ac8a8c97.webp",
+      "width": 12,
+      "height": 12,
+      "bytes": 242
+    },
+    {
+      "url": "notion.com",
+      "path": "/icons/880f7ff4c26138.webp",
+      "width": 64,
+      "height": 64,
+      "bytes": 1538
+    },
+    {
+      "url": "bitly.com",
+      "path": "/icons/5a3025eaf8ca27.webp",
+      "width": 32,
+      "height": 32,
+      "bytes": 968
+    },
+    {
+      "url": "wetransfer.com",
+      "path": "/icons/6076f0bc769bbe.webp",
+      "width": 64,
+      "height": 64,
+      "bytes": 582
+    },
+    {
+      "url": "app.diagrams.net",
+      "path": "/icons/c981c8dff87423.webp",
+      "width": 32,
+      "height": 32,
+      "bytes": 520
+    },
+    {
+      "url": "calculator.net",
+      "path": "/icons/55ab1f730c725a.webp",
+      "width": 64,
+      "height": 64,
+      "bytes": 656
+    },
+    {
+      "url": "omnicalculator.com",
+      "path": "/icons/59a97625ee842d.webp",
+      "width": 48,
+      "height": 48,
+      "bytes": 1922
+    },
+    {
+      "url": "tally.so",
+      "path": "/icons/fcede0d84b50d4.webp",
+      "width": 64,
+      "height": 64,
+      "bytes": 766
+    },
+    {
+      "url": "squoosh.app",
+      "path": "/icons/c5be490d0ee2f2.webp",
+      "width": 48,
+      "height": 48,
+      "bytes": 1338
+    },
+    {
+      "url": "excalidraw.com",
+      "path": "/icons/5add68a65bc0b7.webp",
+      "width": 64,
+      "height": 64,
+      "bytes": 1130
+    },
+    {
+      "url": "tldraw.com",
+      "path": "/icons/cd7a4cbaf5de2f.webp",
+      "width": 33,
+      "height": 33,
+      "bytes": 344
+    },
+    {
+      "url": "miro.com",
+      "path": "/icons/beca91bf6fb5bc.webp",
+      "width": 64,
+      "height": 64,
+      "bytes": 1904
+    },
+    {
+      "url": "figma.com/figjam",
+      "path": "/icons/1f3650f9cae47f.webp",
+      "width": 64,
+      "height": 64,
+      "bytes": 732
+    },
+    {
+      "url": "todoist.com",
+      "path": "/icons/3da74ddb9a732e.webp",
+      "width": 48,
+      "height": 48,
+      "bytes": 926
+    },
+    {
+      "url": "ticktick.com",
+      "path": "/icons/7cdd44812879b4.webp",
+      "width": 32,
+      "height": 32,
+      "bytes": 872
+    },
+    {
+      "url": "obsidian.md",
+      "path": "/icons/0154820e0d55e5.webp",
+      "width": 64,
+      "height": 64,
+      "bytes": 2516
+    },
+    {
+      "url": "joplinapp.org",
+      "path": "/icons/f144db3dea58c4.webp",
+      "width": 25,
+      "height": 25,
+      "bytes": 600
+    },
+    {
+      "url": "simplenote.com",
+      "path": "/icons/4b4e40c769868a.webp",
+      "width": 32,
+      "height": 32,
+      "bytes": 584
+    },
+    {
+      "url": "standardnotes.com",
+      "path": "/icons/f22513f7dbf3ab.webp",
+      "width": 64,
+      "height": 64,
+      "bytes": 628
+    },
+    {
+      "url": "pairdrop.net",
+      "path": "/icons/0e3f7b9577c6d1.webp",
+      "width": 64,
+      "height": 64,
+      "bytes": 2282
+    },
+    {
+      "url": "send-anywhere.com",
+      "path": "/icons/52a348d5954d27.webp",
+      "width": 64,
+      "height": 64,
+      "bytes": 728
+    },
+    {
+      "url": "swisstransfer.com",
+      "path": "/icons/b92c5bf9c524f5.webp",
+      "width": 48,
+      "height": 48,
+      "bytes": 942
+    },
+    {
+      "url": "fast.com",
+      "path": "/icons/0cc10144615bc7.webp",
+      "width": 64,
+      "height": 64,
+      "bytes": 2784
+    },
+    {
+      "url": "claude.ai",
+      "path": "/icons/743e483ae01f1f.webp",
+      "width": 48,
+      "height": 48,
+      "bytes": 1344
+    },
+    {
+      "url": "gemini.google.com",
+      "path": "/icons/f8226d80a7c25a.webp",
+      "width": 64,
+      "height": 64,
+      "bytes": 1830
+    },
+    {
+      "url": "perplexity.ai",
+      "path": "/icons/cf0f4f756728eb.webp",
+      "width": 48,
+      "height": 48,
+      "bytes": 1030
+    },
+    {
+      "url": "suno.com",
+      "path": "/icons/0e68a172fd3d0a.webp",
+      "width": 48,
+      "height": 48,
+      "bytes": 1362
+    },
+    {
+      "url": "deepl.com",
+      "path": "/icons/1be487756ae7e1.webp",
+      "width": 64,
+      "height": 64,
+      "bytes": 1848
+    },
+    {
+      "url": "lumalabs.ai/dream-machine",
+      "path": "/icons/a57ecc3a146268.webp",
+      "width": 48,
+      "height": 48,
+      "bytes": 420
+    },
+    {
+      "url": "elevenlabs.io",
+      "path": "/icons/e2d214894af79b.webp",
+      "width": 48,
+      "height": 48,
+      "bytes": 354
+    },
+    {
+      "url": "runway.com",
+      "path": "/icons/7727cf7e4b1f8d.webp",
+      "width": 64,
+      "height": 64,
+      "bytes": 860
+    },
+    {
+      "url": "krea.ai",
+      "path": "/icons/d25d265deba467.webp",
+      "width": 32,
+      "height": 32,
+      "bytes": 406
+    },
+    {
+      "url": "vrew.ai",
+      "path": "/icons/92a51e7537f3d0.webp",
+      "width": 64,
+      "height": 64,
+      "bytes": 812
+    },
+    {
+      "url": "copy.ai",
+      "path": "/icons/a88ee06198a2aa.webp",
+      "width": 32,
+      "height": 32,
+      "bytes": 470
+    },
+    {
+      "url": "you.com",
+      "path": "/icons/ac6d8223186f78.webp",
+      "width": 16,
+      "height": 16,
+      "bytes": 372
+    },
+    {
+      "url": "huggingface.co",
+      "path": "/icons/ae1f45a5b387e1.webp",
+      "width": 64,
+      "height": 64,
+      "bytes": 3376
+    },
+    {
+      "url": "descript.com",
+      "path": "/icons/4a30b668edbe9c.webp",
+      "width": 64,
+      "height": 64,
+      "bytes": 938
+    },
+    {
+      "url": "synthesia.io",
+      "path": "/icons/cb3e7999445cbf.webp",
+      "width": 32,
+      "height": 32,
+      "bytes": 530
+    },
+    {
+      "url": "d-id.com",
+      "path": "/icons/0537c821d997a7.webp",
+      "width": 64,
+      "height": 64,
+      "bytes": 1938
+    },
+    {
+      "url": "soundraw.io",
+      "path": "/icons/f1f7883d07f7c9.webp",
+      "width": 64,
+      "height": 64,
+      "bytes": 2048
+    },
+    {
+      "url": "chatpdf.com",
+      "path": "/icons/8b265567204d1b.webp",
+      "width": 48,
+      "height": 48,
+      "bytes": 840
+    },
+    {
+      "url": "github.com",
+      "path": "/icons/3aeb002460381c.webp",
+      "width": 64,
+      "height": 64,
+      "bytes": 2400
+    },
+    {
+      "url": "slack.com",
+      "path": "/icons/03caecac84f7d4.webp",
+      "width": 35,
+      "height": 34,
+      "bytes": 708
+    },
+    {
+      "url": "vercel.com",
+      "path": "/icons/9baad27eab20fb.webp",
+      "width": 48,
+      "height": 48,
+      "bytes": 594
+    },
+    {
+      "url": "producthunt.com",
+      "path": "/icons/94a534379572a8.webp",
+      "width": 64,
+      "height": 64,
+      "bytes": 1208
+    },
+    {
+      "url": "news.ycombinator.com",
+      "path": "/icons/7caff9e64d565c.webp",
+      "width": 18,
+      "height": 18,
+      "bytes": 206
+    },
+    {
+      "url": "developer.mozilla.org",
+      "path": "/icons/adaafd8d683312.webp",
+      "width": 48,
+      "height": 48,
+      "bytes": 586
+    },
+    {
+      "url": "roadmap.sh",
+      "path": "/icons/6089ea47c68524.webp",
+      "width": 64,
+      "height": 64,
+      "bytes": 498
+    },
+    {
+      "url": "devdocs.io",
+      "path": "/icons/5616b8277a6655.webp",
+      "width": 32,
+      "height": 32,
+      "bytes": 426
+    },
+    {
+      "url": "aws.amazon.com",
+      "path": "/icons/4741979b08a615.webp",
+      "width": 16,
+      "height": 16,
+      "bytes": 326
+    },
+    {
+      "url": "firebase.google.com",
+      "path": "/icons/6b218b009a97f7.webp",
+      "width": 32,
+      "height": 32,
+      "bytes": 698
+    },
+    {
+      "url": "supabase.com",
+      "path": "/icons/fc590e5b569b65.webp",
+      "width": 48,
+      "height": 48,
+      "bytes": 586
+    },
+    {
+      "url": "netlify.com",
+      "path": "/icons/28ad9919fb9239.webp",
+      "width": 48,
+      "height": 48,
+      "bytes": 718
+    },
+    {
+      "url": "heroku.com",
+      "path": "/icons/70ea4180040773.webp",
+      "width": 32,
+      "height": 32,
+      "bytes": 376
+    },
+    {
+      "url": "postman.com",
+      "path": "/icons/668fe961a8207b.webp",
+      "width": 48,
+      "height": 48,
+      "bytes": 1488
+    },
+    {
+      "url": "css-tricks.com",
+      "path": "/icons/879aed84dc6721.webp",
+      "width": 48,
+      "height": 48,
+      "bytes": 1152
+    },
+    {
+      "url": "codecademy.com",
+      "path": "/icons/e0dcfb9c7c8e5a.webp",
+      "width": 32,
+      "height": 32,
+      "bytes": 392
+    },
+    {
+      "url": "stackexchange.com",
+      "path": "/icons/eb3a3a64672f39.webp",
+      "width": 48,
+      "height": 48,
+      "bytes": 630
+    },
+    {
+      "url": "cursor.com",
+      "path": "/icons/7a4dc0a14dd972.webp",
+      "width": 64,
+      "height": 64,
+      "bytes": 1378
+    },
+    {
+      "url": "v0.app",
+      "path": "/icons/75b136319665e8.webp",
+      "width": 32,
+      "height": 32,
+      "bytes": 516
+    },
+    {
+      "url": "bolt.new",
+      "path": "/icons/6b78a481bff4ea.webp",
+      "width": 16,
+      "height": 16,
+      "bytes": 306
+    },
+    {
+      "url": "freecodecamp.org",
+      "path": "/icons/3bcc7ddeeba469.webp",
+      "width": 32,
+      "height": 32,
+      "bytes": 586
+    },
+    {
+      "url": "theodinproject.com",
+      "path": "/icons/cf920c7eb51382.webp",
+      "width": 64,
+      "height": 64,
+      "bytes": 2152
+    },
+    {
+      "url": "exercism.org",
+      "path": "/icons/1760a197ab823f.webp",
+      "width": 64,
+      "height": 64,
+      "bytes": 1634
+    },
+    {
+      "url": "frontendmentor.io",
+      "path": "/icons/c657829b81d1fb.webp",
+      "width": 16,
+      "height": 16,
+      "bytes": 106
+    },
+    {
+      "url": "javascript.info",
+      "path": "/icons/1dc42b22ef19af.webp",
+      "width": 64,
+      "height": 64,
+      "bytes": 1232
+    },
+    {
+      "url": "web.dev",
+      "path": "/icons/859bc83c065923.webp",
+      "width": 33,
+      "height": 32,
+      "bytes": 566
+    },
+    {
+      "url": "caniuse.com",
+      "path": "/icons/4d59338f48ef5d.webp",
+      "width": 64,
+      "height": 64,
+      "bytes": 1726
+    },
+    {
+      "url": "regex101.com",
+      "path": "/icons/a9b6b0452d4156.webp",
+      "width": 64,
+      "height": 64,
+      "bytes": 1264
+    },
+    {
+      "url": "regexr.com",
+      "path": "/icons/00aad3016426c6.webp",
+      "width": 64,
+      "height": 64,
+      "bytes": 796
+    },
+    {
+      "url": "jsoneditoronline.org",
+      "path": "/icons/f9e3b53d4d0867.webp",
+      "width": 64,
+      "height": 64,
+      "bytes": 936
+    },
+    {
+      "url": "hoppscotch.io",
+      "path": "/icons/784ab9b726918b.webp",
+      "width": 48,
+      "height": 48,
+      "bytes": 910
+    },
+    {
+      "url": "http.cat",
+      "path": "/icons/9215fd75c9394b.webp",
+      "width": 32,
+      "height": 32,
+      "bytes": 454
+    },
+    {
+      "url": "gitlab.com",
+      "path": "/icons/20a83b42cd540c.webp",
+      "width": 48,
+      "height": 48,
+      "bytes": 1114
+    },
+    {
+      "url": "docker.com",
+      "path": "/icons/26b9cccfe247fd.webp",
+      "width": 32,
+      "height": 32,
+      "bytes": 684
+    },
+    {
+      "url": "trends.google.com",
+      "path": "/icons/8381e3b19f36fe.webp",
+      "width": 48,
+      "height": 48,
+      "bytes": 876
+    },
+    {
+      "url": "earthcam.com",
+      "path": "/icons/26f574b6cf00b6.webp",
+      "width": 60,
+      "height": 60,
+      "bytes": 1150
+    },
+    {
+      "url": "internetlivestats.com",
+      "path": "/icons/bb50e5aab6e640.webp",
+      "width": 16,
+      "height": 16,
+      "bytes": 260
+    },
+    {
+      "url": "ted.com",
+      "path": "/icons/8bf423abeb4754.webp",
+      "width": 64,
+      "height": 64,
+      "bytes": 744
+    },
+    {
+      "url": "ourworldindata.org",
+      "path": "/icons/7bbeb523fc1099.webp",
+      "width": 48,
+      "height": 48,
+      "bytes": 752
+    },
+    {
+      "url": "statista.com",
+      "path": "/icons/f52185718cb8dd.webp",
+      "width": 64,
+      "height": 64,
+      "bytes": 810
+    },
+    {
+      "url": "gapminder.org",
+      "path": "/icons/69ef1cb8c396a4.webp",
+      "width": 48,
+      "height": 48,
+      "bytes": 1158
+    },
+    {
+      "url": "time.is",
+      "path": "/icons/bc7f7d7f5d77bb.webp",
+      "width": 16,
+      "height": 16,
+      "bytes": 156
+    },
+    {
+      "url": "wolframalpha.com",
+      "path": "/icons/9dcbc6dc415d44.webp",
+      "width": 64,
+      "height": 64,
+      "bytes": 1206
+    },
+    {
+      "url": "snopes.com",
+      "path": "/icons/8818ba9074a11b.webp",
+      "width": 64,
+      "height": 64,
+      "bytes": 2276
+    },
+    {
+      "url": "worldometers.info",
+      "path": "/icons/ce5f017be34a06.webp",
+      "width": 16,
+      "height": 16,
+      "bytes": 266
+    },
+    {
+      "url": "earth.google.com",
+      "path": "/icons/d812fd841fc718.webp",
+      "width": 48,
+      "height": 48,
+      "bytes": 988
+    },
+    {
+      "url": "numbeo.com",
+      "path": "/icons/c9825d2abd6518.webp",
+      "width": 16,
+      "height": 16,
+      "bytes": 416
+    },
+    {
+      "url": "wikipedia.org",
+      "path": "/icons/da6b3876018343.webp",
+      "width": 64,
+      "height": 64,
+      "bytes": 582
+    },
+    {
+      "url": "data.worldbank.org",
+      "path": "/icons/94ac7c30457777.webp",
+      "width": 16,
+      "height": 16,
+      "bytes": 482
+    },
+    {
+      "url": "data-explorer.oecd.org",
+      "path": "/icons/0ee98b673112f7.webp",
+      "width": 16,
+      "height": 16,
+      "bytes": 390
+    },
+    {
+      "url": "data.un.org",
+      "path": "/icons/5d65045d84a2ed.webp",
+      "width": 50,
+      "height": 50,
+      "bytes": 1152
+    },
+    {
+      "url": "unesco.org",
+      "path": "/icons/492581655f2e49.webp",
+      "width": 64,
+      "height": 64,
+      "bytes": 1076
+    },
+    {
+      "url": "data.who.int",
+      "path": "/icons/0117372482b9d2.webp",
+      "width": 16,
+      "height": 16,
+      "bytes": 426
+    },
+    {
+      "url": "ec.europa.eu/eurostat",
+      "path": "/icons/6a7c4faa261152.webp",
+      "width": 32,
+      "height": 32,
+      "bytes": 870
+    },
+    {
+      "url": "datawrapper.de",
+      "path": "/icons/90a97ce7d23c11.webp",
+      "width": 32,
+      "height": 32,
+      "bytes": 420
+    },
+    {
+      "url": "flourish.studio",
+      "path": "/icons/5a7c5d822f9b7a.webp",
+      "width": 64,
+      "height": 64,
+      "bytes": 1004
+    },
+    {
+      "url": "informationisbeautiful.net",
+      "path": "/icons/ce2f3c1ec7da9b.webp",
+      "width": 64,
+      "height": 64,
+      "bytes": 1054
+    },
+    {
+      "url": "data-is-plural.com",
+      "path": "/icons/52867fdaa99153.webp",
+      "width": 64,
+      "height": 64,
+      "bytes": 1344
+    },
+    {
+      "url": "nasa.gov",
+      "path": "/icons/a68202a9e3005a.webp",
+      "width": 57,
+      "height": 57,
+      "bytes": 1958
+    },
+    {
+      "url": "science.nasa.gov",
+      "path": "/icons/341d47c7ee34dc.webp",
+      "width": 57,
+      "height": 57,
+      "bytes": 1958
+    },
+    {
+      "url": "eyes.nasa.gov",
+      "path": "/icons/824224ef72e770.webp",
+      "width": 57,
+      "height": 57,
+      "bytes": 1958
+    },
+    {
+      "url": "apod.nasa.gov",
+      "path": "/icons/f8c94dc7082f59.webp",
+      "width": 57,
+      "height": 57,
+      "bytes": 1958
+    },
+    {
+      "url": "esa.int",
+      "path": "/icons/c54c33ffb2636a.webp",
+      "width": 16,
+      "height": 16,
+      "bytes": 296
+    },
+    {
+      "url": "esahubble.org",
+      "path": "/icons/a378c7ec43c987.webp",
+      "width": 48,
+      "height": 48,
+      "bytes": 1738
+    },
+    {
+      "url": "webbtelescope.org",
+      "path": "/icons/21d3074c2dde58.webp",
+      "width": 57,
+      "height": 57,
+      "bytes": 1958
+    },
+    {
+      "url": "eso.org",
+      "path": "/icons/786f5e079dace8.webp",
+      "width": 64,
+      "height": 64,
+      "bytes": 1294
+    },
+    {
+      "url": "home.cern",
+      "path": "/icons/2b6ec26c57dbf4.webp",
+      "width": 32,
+      "height": 32,
+      "bytes": 734
+    },
+    {
+      "url": "phet.colorado.edu",
+      "path": "/icons/0cc89cfad044f8.webp",
+      "width": 32,
+      "height": 32,
+      "bytes": 746
+    },
+    {
+      "url": "exploratorium.edu",
+      "path": "/icons/c8191e63f3c452.webp",
+      "width": 16,
+      "height": 16,
+      "bytes": 224
+    },
+    {
+      "url": "sciencemuseum.org.uk",
+      "path": "/icons/26e2624e548145.webp",
+      "width": 48,
+      "height": 48,
+      "bytes": 714
+    },
+    {
+      "url": "nhm.ac.uk",
+      "path": "/icons/f1c98646f16bbb.webp",
+      "width": 48,
+      "height": 48,
+      "bytes": 1612
+    },
+    {
+      "url": "noaa.gov",
+      "path": "/icons/006d7c8e77140e.webp",
+      "width": 32,
+      "height": 32,
+      "bytes": 1048
+    },
+    {
+      "url": "earthquake.usgs.gov",
+      "path": "/icons/3d2644e269c53c.webp",
+      "width": 16,
+      "height": 16,
+      "bytes": 226
+    },
+    {
+      "url": "nationalgeographic.com",
+      "path": "/icons/40126b6e630ae2.webp",
+      "width": 16,
+      "height": 16,
+      "bytes": 228
+    },
+    {
+      "url": "scientificamerican.com",
+      "path": "/icons/710b61bee0ff04.webp",
+      "width": 32,
+      "height": 32,
+      "bytes": 830
+    },
+    {
+      "url": "sciencenews.org",
+      "path": "/icons/a5047e4357e698.webp",
+      "width": 64,
+      "height": 64,
+      "bytes": 982
+    },
+    {
+      "url": "quantamagazine.org",
+      "path": "/icons/4d8fdab6c14468.webp",
+      "width": 32,
+      "height": 32,
+      "bytes": 666
+    },
+    {
+      "url": "nautil.us",
+      "path": "/icons/c726d0edc78fe9.webp",
+      "width": 64,
+      "height": 64,
+      "bytes": 3674
+    },
+    {
+      "url": "theconversation.com",
+      "path": "/icons/97b68392168642.webp",
+      "width": 64,
+      "height": 64,
+      "bytes": 1056
+    },
+    {
+      "url": "zooniverse.org",
+      "path": "/icons/ad8b51da77d7eb.webp",
+      "width": 64,
+      "height": 60,
+      "bytes": 1988
+    },
+    {
+      "url": "artsandculture.google.com",
+      "path": "/icons/7642068eebecac.webp",
+      "width": 64,
+      "height": 64,
+      "bytes": 970
+    },
+    {
+      "url": "tate.org.uk",
+      "path": "/icons/6cde59cde67762.webp",
+      "width": 48,
+      "height": 48,
+      "bytes": 734
+    },
+    {
+      "url": "rijksmuseum.nl",
+      "path": "/icons/af2062ad32803a.webp",
+      "width": 57,
+      "height": 57,
+      "bytes": 432
+    },
+    {
+      "url": "vangoghmuseum.nl",
+      "path": "/icons/fd5a450b82fd30.webp",
+      "width": 64,
+      "height": 64,
+      "bytes": 278
+    },
+    {
+      "url": "louvre.fr",
+      "path": "/icons/773d1ea1ad1e04.webp",
+      "width": 60,
+      "height": 60,
+      "bytes": 930
+    },
+    {
+      "url": "nationalgallery.org.uk",
+      "path": "/icons/a7767490f45cb7.webp",
+      "width": 16,
+      "height": 16,
+      "bytes": 348
+    },
+    {
+      "url": "vam.ac.uk",
+      "path": "/icons/699f222933eeb3.webp",
+      "width": 57,
+      "height": 57,
+      "bytes": 1180
+    },
+    {
+      "url": "getty.edu",
+      "path": "/icons/08992169f9f1e2.webp",
+      "width": 48,
+      "height": 48,
+      "bytes": 506
+    },
+    {
+      "url": "guggenheim.org",
+      "path": "/icons/2cc14979bf95e4.webp",
+      "width": 64,
+      "height": 64,
+      "bytes": 1062
+    },
+    {
+      "url": "whitney.org",
+      "path": "/icons/55f22a3239a874.webp",
+      "width": 64,
+      "height": 64,
+      "bytes": 638
+    },
+    {
+      "url": "cooperhewitt.org",
+      "path": "/icons/f4185063bdbdf5.webp",
+      "width": 32,
+      "height": 32,
+      "bytes": 416
+    },
+    {
+      "url": "loc.gov",
+      "path": "/icons/fef69d841fc465.webp",
+      "width": 64,
+      "height": 64,
+      "bytes": 1118
+    },
+    {
+      "url": "dp.la",
+      "path": "/icons/9cfb6813aadb5d.webp",
+      "width": 64,
+      "height": 64,
+      "bytes": 1192
+    },
+    {
+      "url": "commons.wikimedia.org",
+      "path": "/icons/2e8fe4a2c0cad2.webp",
+      "width": 64,
+      "height": 64,
+      "bytes": 2938
+    },
+    {
+      "url": "publicdomainreview.org",
+      "path": "/icons/4e57d5b6802b01.webp",
+      "width": 57,
+      "height": 57,
+      "bytes": 2494
+    },
+    {
+      "url": "khanacademy.org",
+      "path": "/icons/8ff7b738443111.webp",
+      "width": 32,
+      "height": 32,
+      "bytes": 778
+    },
+    {
+      "url": "coursera.org",
+      "path": "/icons/6a4f054d7c9f61.webp",
+      "width": 57,
+      "height": 57,
+      "bytes": 1890
+    },
+    {
+      "url": "edx.org",
+      "path": "/icons/dc81de607d05e3.webp",
+      "width": 64,
+      "height": 64,
+      "bytes": 1798
+    },
+    {
+      "url": "ocw.mit.edu",
+      "path": "/icons/a0d6a2953f1932.webp",
+      "width": 32,
+      "height": 32,
+      "bytes": 522
+    },
+    {
+      "url": "alison.com",
+      "path": "/icons/7fa4f331e091f5.webp",
+      "width": 16,
+      "height": 16,
+      "bytes": 460
+    },
+    {
+      "url": "saylor.org",
+      "path": "/icons/167e33397f6d23.webp",
+      "width": 64,
+      "height": 64,
+      "bytes": 1978
+    },
+    {
+      "url": "openstax.org",
+      "path": "/icons/2689a466fb48d0.webp",
+      "width": 64,
+      "height": 64,
+      "bytes": 1090
+    },
+    {
+      "url": "libretexts.org",
+      "path": "/icons/c1439378f7eb1a.webp",
+      "width": 16,
+      "height": 16,
+      "bytes": 446
+    },
+    {
+      "url": "brilliant.org",
+      "path": "/icons/732004f237f041.webp",
+      "width": 64,
+      "height": 64,
+      "bytes": 1066
+    },
+    {
+      "url": "duolingo.com",
+      "path": "/icons/a846c8062a35aa.webp",
+      "width": 64,
+      "height": 64,
+      "bytes": 1554
+    },
+    {
+      "url": "memrise.com",
+      "path": "/icons/cc62d8dcf46104.webp",
+      "width": 64,
+      "height": 64,
+      "bytes": 1202
+    },
+    {
+      "url": "busuu.com",
+      "path": "/icons/47e7174f929eba.webp",
+      "width": 64,
+      "height": 64,
+      "bytes": 1646
+    },
+    {
+      "url": "babbel.com",
+      "path": "/icons/688a8c9c52baa5.webp",
+      "width": 48,
+      "height": 48,
+      "bytes": 978
+    },
+    {
+      "url": "bbc.co.uk/learningenglish",
+      "path": "/icons/4befb5aed0cefd.webp",
+      "width": 48,
+      "height": 48,
+      "bytes": 284
+    },
+    {
+      "url": "dictionary.cambridge.org",
+      "path": "/icons/223977c88b4d0f.webp",
+      "width": 16,
+      "height": 16,
+      "bytes": 406
+    },
+    {
+      "url": "oxfordlearnersdictionaries.com",
+      "path": "/icons/93e3f51c1ded89.webp",
+      "width": 48,
+      "height": 48,
+      "bytes": 1318
+    },
+    {
+      "url": "languagetool.org",
+      "path": "/icons/8df7992099e0db.webp",
+      "width": 57,
+      "height": 57,
+      "bytes": 592
+    },
+    {
+      "url": "grammarly.com",
+      "path": "/icons/a8b63360acbee6.webp",
+      "width": 48,
+      "height": 48,
+      "bytes": 1352
+    },
+    {
+      "url": "gutenberg.org",
+      "path": "/icons/3c217918e3bee4.webp",
+      "width": 16,
+      "height": 16,
+      "bytes": 332
+    },
+    {
+      "url": "standardebooks.org",
+      "path": "/icons/a25523277548d0.webp",
+      "width": 64,
+      "height": 64,
+      "bytes": 1392
+    },
+    {
+      "url": "archive.org",
+      "path": "/icons/b83974d09bef2f.webp",
+      "width": 32,
+      "height": 32,
+      "bytes": 494
+    },
+    {
+      "url": "openlibrary.org",
+      "path": "/icons/c2160ffb03bcd5.webp",
+      "width": 64,
+      "height": 64,
+      "bytes": 1026
+    },
+    {
+      "url": "worldcat.org",
+      "path": "/icons/c8c540c75d98f5.webp",
+      "width": 64,
+      "height": 64,
+      "bytes": 3552
+    },
+    {
+      "url": "books.google.com",
+      "path": "/icons/12a13a90e5e45b.webp",
+      "width": 32,
+      "height": 32,
+      "bytes": 882
+    },
+    {
+      "url": "goodreads.com",
+      "path": "/icons/14325930310426.webp",
+      "width": 48,
+      "height": 48,
+      "bytes": 632
+    },
+    {
+      "url": "fivebooks.com",
+      "path": "/icons/a6068d562b7ecf.webp",
+      "width": 64,
+      "height": 64,
+      "bytes": 1016
+    },
+    {
+      "url": "themarginalian.org",
+      "path": "/icons/f686e8e484f31c.webp",
+      "width": 48,
+      "height": 48,
+      "bytes": 554
+    },
+    {
+      "url": "aeon.co",
+      "path": "/icons/8811cdf9fb84bd.webp",
+      "width": 48,
+      "height": 48,
+      "bytes": 768
+    },
+    {
+      "url": "psyche.co",
+      "path": "/icons/4c4e0ce6158e7f.webp",
+      "width": 48,
+      "height": 48,
+      "bytes": 574
+    },
+    {
+      "url": "daily.jstor.org",
+      "path": "/icons/2f08d7cb695f50.webp",
+      "width": 64,
+      "height": 64,
+      "bytes": 2476
+    },
+    {
+      "url": "arxiv.org",
+      "path": "/icons/1e7b5582c92072.webp",
+      "width": 64,
+      "height": 64,
+      "bytes": 2296
+    },
+    {
+      "url": "scholar.google.com",
+      "path": "/icons/eddb7ce2994063.webp",
+      "width": 48,
+      "height": 48,
+      "bytes": 1260
+    },
+    {
+      "url": "semanticscholar.org",
+      "path": "/icons/29a60b3e89002b.webp",
+      "width": 57,
+      "height": 57,
+      "bytes": 2574
+    },
+    {
+      "url": "plato.stanford.edu",
+      "path": "/icons/cf31deaf2e02d0.webp",
+      "width": 16,
+      "height": 16,
+      "bytes": 244
+    },
+    {
+      "url": "iep.utm.edu",
+      "path": "/icons/cef01837140fa9.webp",
+      "width": 64,
+      "height": 64,
+      "bytes": 2626
+    },
+    {
+      "url": "worldhistory.org",
+      "path": "/icons/f7c3d68eee2ca6.webp",
+      "width": 16,
+      "height": 16,
+      "bytes": 360
+    },
+    {
+      "url": "lithub.com",
+      "path": "/icons/b8d4225e37d420.webp",
+      "width": 16,
+      "height": 16,
+      "bytes": 132
+    },
+    {
+      "url": "bandcamp.com",
+      "path": "/icons/76314760962441.webp",
+      "width": 64,
+      "height": 64,
+      "bytes": 434
+    },
+    {
+      "url": "soundcloud.com",
+      "path": "/icons/5bf8b58f6a7bc9.webp",
+      "width": 32,
+      "height": 32,
+      "bytes": 396
+    },
+    {
+      "url": "open.spotify.com",
+      "path": "/icons/52c062f8400a8d.webp",
+      "width": 32,
+      "height": 32,
+      "bytes": 758
+    },
+    {
+      "url": "npr.org/music",
+      "path": "/icons/54fb650f4752b8.webp",
+      "width": 64,
+      "height": 64,
+      "bytes": 1062
+    },
+    {
+      "url": "kexp.org",
+      "path": "/icons/1d53187f5fb541.webp",
+      "width": 16,
+      "height": 16,
+      "bytes": 266
+    },
+    {
+      "url": "nts.live",
+      "path": "/icons/667f95d376ae8f.webp",
+      "width": 64,
+      "height": 64,
+      "bytes": 1324
+    },
+    {
+      "url": "radiofrance.fr",
+      "path": "/icons/96df805d1f94b8.webp",
+      "width": 48,
+      "height": 48,
+      "bytes": 600
+    },
+    {
+      "url": "bbc.co.uk/sounds",
+      "path": "/icons/ce8c93c8274f77.webp",
+      "width": 16,
+      "height": 16,
+      "bytes": 232
+    },
+    {
+      "url": "radioswissjazz.ch",
+      "path": "/icons/72af04191cb7d8.webp",
+      "width": 64,
+      "height": 64,
+      "bytes": 868
+    },
+    {
+      "url": "radioswissclassic.ch",
+      "path": "/icons/d59f8a044c92ba.webp",
+      "width": 64,
+      "height": 64,
+      "bytes": 1272
+    },
+    {
+      "url": "imslp.org",
+      "path": "/icons/ad438e9b1fc760.webp",
+      "width": 64,
+      "height": 64,
+      "bytes": 1208
+    },
+    {
+      "url": "musescore.org",
+      "path": "/icons/0d152544cefe6d.webp",
+      "width": 32,
+      "height": 32,
+      "bytes": 794
+    },
+    {
+      "url": "flat.io",
+      "path": "/icons/1bc724239ab720.webp",
+      "width": 32,
+      "height": 32,
+      "bytes": 688
+    },
+    {
+      "url": "noteflight.com",
+      "path": "/icons/3b928cde2ddbb7.webp",
+      "width": 64,
+      "height": 64,
+      "bytes": 542
+    },
+    {
+      "url": "bandlab.com",
+      "path": "/icons/e56e244c4e86bc.webp",
+      "width": 48,
+      "height": 48,
+      "bytes": 1038
+    },
+    {
+      "url": "soundtrap.com",
+      "path": "/icons/31f86447878c15.webp",
+      "width": 48,
+      "height": 48,
+      "bytes": 474
+    },
+    {
+      "url": "beepbox.co",
+      "path": "/icons/5362c457fbb6c8.webp",
+      "width": 64,
+      "height": 64,
+      "bytes": 996
+    },
+    {
+      "url": "learningmusic.ableton.com",
+      "path": "/icons/0da0c2e026a077.webp",
+      "width": 16,
+      "height": 16,
+      "bytes": 100
+    },
+    {
+      "url": "learningsynths.ableton.com",
+      "path": "/icons/7214a0f764a707.webp",
+      "width": 16,
+      "height": 16,
+      "bytes": 100
+    },
+    {
+      "url": "musictheory.net",
+      "path": "/icons/da10ce2bb4db44.webp",
+      "width": 16,
+      "height": 16,
+      "bytes": 360
+    },
+    {
+      "url": "teoria.com",
+      "path": "/icons/cb3c72e31bc418.webp",
+      "width": 16,
+      "height": 16,
+      "bytes": 296
+    },
+    {
+      "url": "freesound.org",
+      "path": "/icons/fc3603d552f20b.webp",
+      "width": 64,
+      "height": 64,
+      "bytes": 764
+    },
+    {
+      "url": "openstreetmap.org",
+      "path": "/icons/14b6734d6c2a81.webp",
+      "width": 57,
+      "height": 57,
+      "bytes": 1108
+    },
+    {
+      "url": "maps.google.com",
+      "path": "/icons/349a00105e0fb5.webp",
+      "width": 32,
+      "height": 32,
+      "bytes": 662
+    },
+    {
+      "url": "opentopomap.org",
+      "path": "/icons/104c60eb205e45.webp",
+      "width": 16,
+      "height": 16,
+      "bytes": 506
+    },
+    {
+      "url": "worldview.earthdata.nasa.gov",
+      "path": "/icons/fc12ea05348628.webp",
+      "width": 64,
+      "height": 64,
+      "bytes": 2078
+    },
+    {
+      "url": "browser.dataspace.copernicus.eu",
+      "path": "/icons/7cff722ec63131.webp",
+      "width": 64,
+      "height": 64,
+      "bytes": 2376
+    },
+    {
+      "url": "earth.nullschool.net",
+      "path": "/icons/f7bbc6ce9dd861.webp",
+      "width": 32,
+      "height": 32,
+      "bytes": 750
+    },
+    {
+      "url": "windy.com",
+      "path": "/icons/de0e6f8d0ba82e.webp",
+      "width": 64,
+      "height": 64,
+      "bytes": 1902
+    },
+    {
+      "url": "ventusky.com",
+      "path": "/icons/4ef0de2547c8d7.webp",
+      "width": 32,
+      "height": 32,
+      "bytes": 662
+    },
+    {
+      "url": "stellarium-web.org",
+      "path": "/icons/c6cda9a690be79.webp",
+      "width": 30,
+      "height": 30,
+      "bytes": 486
+    },
+    {
+      "url": "inaturalist.org",
+      "path": "/icons/9f6e7f2f18aa77.webp",
+      "width": 64,
+      "height": 64,
+      "bytes": 1478
+    },
+    {
+      "url": "birdsoftheworld.org",
+      "path": "/icons/f02490080ba3ea.webp",
+      "width": 64,
+      "height": 64,
+      "bytes": 608
+    },
+    {
+      "url": "obis.org",
+      "path": "/icons/18e9730fdceb8d.webp",
+      "width": 32,
+      "height": 32,
+      "bytes": 302
+    },
+    {
+      "url": "oceanconservancy.org",
+      "path": "/icons/e679da7de82fad.webp",
+      "width": 32,
+      "height": 32,
+      "bytes": 828
+    },
+    {
+      "url": "nature.org",
+      "path": "/icons/0ca9b45395c960.webp",
+      "width": 64,
+      "height": 64,
+      "bytes": 2962
+    },
+    {
+      "url": "audubon.org",
+      "path": "/icons/c9e8c8fe825ffc.webp",
+      "width": 32,
+      "height": 32,
+      "bytes": 544
+    },
+    {
+      "url": "globalforestwatch.org",
+      "path": "/icons/fb69d34a0420ab.webp",
+      "width": 64,
+      "height": 64,
+      "bytes": 1664
+    },
+    {
+      "url": "explore.org",
+      "path": "/icons/2b2a010a213c75.webp",
+      "width": 48,
+      "height": 48,
+      "bytes": 1156
+    },
+    {
+      "url": "bbcgoodfood.com",
+      "path": "/icons/b8b5acecdcb79b.webp",
+      "width": 32,
+      "height": 32,
+      "bytes": 964
+    },
+    {
+      "url": "epicurious.com",
+      "path": "/icons/39b8e0857a7047.webp",
+      "width": 16,
+      "height": 16,
+      "bytes": 328
+    },
+    {
+      "url": "bonappetit.com",
+      "path": "/icons/37e9d843cb3f80.webp",
+      "width": 48,
+      "height": 48,
+      "bytes": 640
+    },
+    {
+      "url": "budgetbytes.com",
+      "path": "/icons/505d6dad1e45fe.webp",
+      "width": 32,
+      "height": 32,
+      "bytes": 960
+    },
+    {
+      "url": "smittenkitchen.com",
+      "path": "/icons/781209f28a83e7.webp",
+      "width": 32,
+      "height": 32,
+      "bytes": 580
+    },
+    {
+      "url": "kingarthurbaking.com",
+      "path": "/icons/d72b1068b64242.webp",
+      "width": 48,
+      "height": 48,
+      "bytes": 1428
+    },
+    {
+      "url": "sallysbakingaddiction.com",
+      "path": "/icons/56cb63d32d233e.webp",
+      "width": 64,
+      "height": 64,
+      "bytes": 1526
+    },
+    {
+      "url": "minimalistbaker.com",
+      "path": "/icons/a9690ead5e5ce4.webp",
+      "width": 32,
+      "height": 32,
+      "bytes": 718
+    },
+    {
+      "url": "loveandlemons.com",
+      "path": "/icons/ce3f474f64ff3e.webp",
+      "width": 57,
+      "height": 57,
+      "bytes": 364
+    },
+    {
+      "url": "mykoreankitchen.com",
+      "path": "/icons/e961a9225c438c.webp",
+      "width": 32,
+      "height": 32,
+      "bytes": 1142
+    },
+    {
+      "url": "instructables.com",
+      "path": "/icons/0c51ac65e9f21c.webp",
+      "width": 48,
+      "height": 48,
+      "bytes": 1232
+    },
+    {
+      "url": "makezine.com",
+      "path": "/icons/e4a3bbbbe7e4e3.webp",
+      "width": 64,
+      "height": 64,
+      "bytes": 1112
+    },
+    {
+      "url": "hackaday.com",
+      "path": "/icons/b9532d499cccc7.webp",
+      "width": 64,
+      "height": 64,
+      "bytes": 1418
+    },
+    {
+      "url": "ravelry.com",
+      "path": "/icons/8de01cc312eeed.webp",
+      "width": 57,
+      "height": 57,
+      "bytes": 334
+    },
+    {
+      "url": "craftsy.com",
+      "path": "/icons/b4de3b164ef8ea.webp",
+      "width": 64,
+      "height": 64,
+      "bytes": 2092
+    },
+    {
+      "url": "rhs.org.uk",
+      "path": "/icons/6f79d785452ee8.webp",
+      "width": 16,
+      "height": 16,
+      "bytes": 418
+    },
+    {
+      "url": "gardenersworld.com",
+      "path": "/icons/cc2b2654c8b903.webp",
+      "width": 32,
+      "height": 32,
+      "bytes": 626
+    },
+    {
+      "url": "apartmenttherapy.com",
+      "path": "/icons/99c10d7e41ce79.webp",
+      "width": 64,
+      "height": 64,
+      "bytes": 1646
+    }
+  ]
+}
