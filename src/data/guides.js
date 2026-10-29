@@ -4,7 +4,9 @@
 export const guides = [
   {
     slug: 'boredom-websites',
-    title: '심심할 때 뭐하지? 짧게 시작하는 웹사이트 탐구',
+    title: '심심할 때 가는 사이트 추천 · 재미있는 웹사이트 탐구',
+    updatedAt: '2026-10-29',
+    relatedCategories: [['gl-games', '설치 없이 즐기는 웹게임 모음'], ['gl-detox', '재미있는 웹 실험 모음'], ['gl-quiz', '퍼즐·퀴즈 사이트 추천']],
     eyebrow: '가볍게 한 바퀴',
     description: '그림 맞히기, 조합 퍼즐, 작은 웹 실험, 온라인 전시. 지금의 기분과 남은 시간에 맞춰 재미있는 사이트를 고르는 방법.',
     readTime: '4분',

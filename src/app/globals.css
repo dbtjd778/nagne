@@ -86,3 +86,13 @@
 }
 
 .privacy-choices{padding:0;text-align:left;color:inherit;font-size:inherit}.privacy-choices:hover{text-decoration:underline;text-underline-offset:4px}
+
+.discovery-intro{padding-top:36px;padding-bottom:40px;border-top:1px solid var(--line)}
+.discovery-intro h2{font-size:24px;letter-spacing:-.6px;font-weight:550}
+.discovery-intro p{max-width:740px;margin:14px 0 20px;font-size:14px;line-height:1.9;color:#647457}
+.topic-links{display:flex;flex-wrap:wrap;gap:8px 20px;margin:18px 0}
+.topic-links a{display:inline-flex;align-items:center;min-height:44px;font-size:13px;color:#47613d;text-decoration:underline;text-underline-offset:4px}
+.category-reading{margin-top:42px;padding-top:4px;border-top:1px solid var(--line)}
+.category-reading-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:28px}
+.category-reading-grid h3{margin-top:10px}.category-reading-grid p{font-size:14px}
+@media(max-width:760px){.category-reading-grid{grid-template-columns:1fr;gap:0}.discovery-intro h2{font-size:21px}.topic-links{gap:4px 16px}}

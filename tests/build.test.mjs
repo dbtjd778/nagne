@@ -37,6 +37,24 @@ test('sitemap includes all detail pages and old SPA catch-all is gone',()=>{
  for(const g of guides)assert.ok(sitemap.includes(`/guide/${g.slug}/`))
  assert.ok(!existsSync('out/_redirects'))
  assert.ok(existsSync('out/404.html'))
+ const entries=[...sitemap.matchAll(/<url>([\s\S]*?)<\/url>/g)].map(([,xml])=>({url:xml.match(/<loc>(.*?)<\/loc>/)[1],modified:xml.match(/<lastmod>(.*?)<\/lastmod>/)[1]}))
+ assert.equal(new Set(entries.map(e=>e.url)).size,entries.length,'Sitemap must not contain duplicate URLs')
+ const titles=new Set()
+ for(const entry of entries){
+  const path=new URL(entry.url).pathname
+  const html=read(`${path.slice(1)}index.html`)
+  assert.ok(html.includes(`rel="canonical" href="${entry.url}"`),`Sitemap URL must be canonical: ${entry.url}`)
+  assert.ok(html.includes(`name="robots" content="${production?'index, follow':'noindex, nofollow'}"`),entry.url)
+  const title=html.match(/<title>(.*?)<\/title>/)[1]
+  assert.ok(!titles.has(title),`Duplicate page title: ${title}`);titles.add(title)
+  assert.match(entry.modified,/^\d{4}-\d{2}-\d{2}$/)
+ }
+ const dates=Object.fromEntries(entries.map(e=>[new URL(e.url).pathname,e.modified]))
+ assert.ok(dates['/']>dates['/privacy/'],'Catalogue updates must not change policy modification dates')
+ for(const g of guides){
+  const html=read(`guide/${g.slug}/index.html`)
+  assert.ok(html.includes(`"dateModified":"${dates[`/guide/${g.slug}/`]}"`),'Article and sitemap dates must agree')
+ }
 })
 test('every assigned logo is a local existing asset',()=>{
  for(const s of allSites.filter(s=>s.icon)){assert.ok(s.icon.startsWith('/icons/'));assert.ok(existsSync(`public${s.icon}`),s.icon)}

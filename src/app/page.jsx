@@ -13,6 +13,13 @@ export default function Home() {
     <JsonLd data={{'@context':'https://schema.org','@type':'WebSite',name:site.name,alternateName:['사이트맛집','vsites'],url:canonical(),description:site.description,inLanguage:'ko-KR'}}/>
     <EarthExplorer/>
     <Directory/>
+    <section className="discovery-intro wrap" aria-labelledby="discovery-title">
+      <h2 id="discovery-title">유용하고 재미있는 웹사이트 모음집</h2>
+      <p>{totalSiteCount.toLocaleString('ko-KR')}개의 국내외 사이트를 관심사와 나라별로 둘러보세요. 심심할 때 즐길 웹게임부터 작업에 필요한 도구까지, 용도를 읽고 마음에 드는 곳을 저장할 수 있습니다.</p>
+      <nav className="topic-links" aria-label="관심사별 사이트 추천">
+        <Link href="/c/gl-games/">웹게임 추천</Link><Link href="/guide/boredom-websites/">심심할 때 가는 사이트</Link><Link href="/c/gl-science/">우주·과학 사이트</Link><Link href="/c/gl-ai/">AI 사이트 모음</Link><Link href="/c/gl-utility/">유용한 도구 모음</Link>
+      </nav>
+    </section>
     <section className="journal-section" id="guides"><div className="wrap">
       <div className="section-heading reveal"><div><span className="eyebrow">탐방 가이드</span><h2>취향에 맞는 출발점.</h2></div><Link href="/guides/">탐방 가이드 전체 <Icon name="right" size={19}/></Link></div>
       <GuideCards/>
