@@ -1,4 +1,6 @@
 // Curated official destinations. Link checks and sources are retained in reports/.
+import extraSites from './extra-sites.json' with { type: 'json' }
+import countryRecords from './site-countries.json' with { type: 'json' }
 export const regions = [
   {
     "id": "kr",
@@ -7115,6 +7117,17 @@ export const regions = [
     ]
   }
 ]
+
+const countryById = new Map(countryRecords.map(record => [record.id, record]))
+for (const region of regions) for (const category of region.categories) {
+  category.sites.push(...extraSites.filter(site => site.categoryId === category.id))
+  for (const site of category.sites) {
+    const record = countryById.get(site.id) || site
+    site.countryCode = record.countryCode || null
+    site.countrySource = record.sourceUrl || null
+    site.countryBasis = record.basis || '공식 소재지 미확인'
+  }
+}
 
 export const countByRegion = Object.fromEntries(
   regions.map((r) => [r.id, r.categories.reduce((sum, c) => sum + c.sites.length, 0)])

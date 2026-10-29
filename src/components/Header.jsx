@@ -6,7 +6,8 @@ export default function Header() {
     <div className="wrap header-inner">
       <Link href="/" className="wordmark" aria-label="사이트 맛집 홈"><Icon name="compass" size={29} /><span>사이트 맛집<span className="brand-dot">.</span></span></Link>
       <nav aria-label="주 메뉴">
-        <Link href="/#directory">사이트 탐방</Link>
+        <Link href="/#explore">지구본 탐방</Link>
+        <Link href="/#directory">전체 사이트</Link>
         <Link href="/c/gl-games/">웹게임</Link>
         <Link href="/guides/">탐방 가이드</Link>
         <Link href="/about/">소개</Link>

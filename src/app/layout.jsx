@@ -1,4 +1,5 @@
 import './globals.css'
+import './earth.css'
 import Header from '../components/Header'
 import { site } from '../site.config'
 import Footer from '../components/Footer'
@@ -28,5 +29,5 @@ export const metadata = {
 export const viewport = { width:'device-width',initialScale:1,themeColor:'#173f35' }
 
 export default function RootLayout({ children }) {
-  return <html lang="ko"><body id="top"><a className="skip-link" href="#main-content">본문 바로가기</a><ScrollEffects/><BookmarkProvider><Header/><main id="main-content">{children}</main><Footer/></BookmarkProvider><Advertising enabled={isProduction && site.adsEnabled} productionOrigin={site.url} publisherId={site.adsensePublisherId} knownPaths={knownPaths}/></body></html>
+  return <html lang="ko" data-scroll-behavior="smooth"><body id="top"><a className="skip-link" href="#main-content">본문 바로가기</a><ScrollEffects/><BookmarkProvider><Header/><main id="main-content">{children}</main><Footer/></BookmarkProvider><Advertising enabled={isProduction && site.adsEnabled} productionOrigin={site.url} publisherId={site.adsensePublisherId} knownPaths={knownPaths}/></body></html>
 }

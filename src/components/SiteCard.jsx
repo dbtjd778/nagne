@@ -2,6 +2,7 @@
 import { useState } from 'react'
 import { Icon } from './Icons'
 import { useBookmarks } from './Bookmarks'
+import { countryName } from '../lib/world'
 
 export const siteHref = (site) => /^https?:\/\//.test(site.url) ? site.url : `https://${site.url}`
 
@@ -23,7 +24,7 @@ export default function SiteCard({ site, featured = false }) {
     <p className="site-desc">{site.desc}</p>
     <div className="site-card-bottom">
       <span className="site-category">{site.gameGenre || site.categoryName || '웹사이트'}</span>
-      <span className="site-region">{site.regionId === 'kr' ? '한국' : 'Global'}</span>
+      <span className="site-region">{countryName(site.countryCode)}</span>
     </div>
   </article>
 }

@@ -1,0 +1,12 @@
+Earth day, night and cloud textures: Solar System Scope
+https://www.solarsystemscope.com/textures/
+Licensed under Creative Commons Attribution 4.0 International:
+https://creativecommons.org/licenses/by/4.0/
+Changes: resized and converted to WebP for interactive display.
+Mobile day texture and grayscale cloud texture: resized and recompressed for lower transfer and GPU memory use.
+
+Country boundaries: Natural Earth, 1:110m Admin 0 Countries
+Public domain: https://www.naturalearthdata.com/about/terms-of-use/
+Changes: coordinate precision reduced; relevant country labels retained.
+Country boundaries, ocean specular mask and country highlights: rasterized ahead of time by scripts/prepare-earth.mjs.
+Boundaries are for navigation and do not imply a position on disputed territories.

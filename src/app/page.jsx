@@ -6,16 +6,12 @@ import { Icon } from '../components/Icons'
 import { JsonLd, canonical } from '../lib/metadata'
 import { totalSiteCount } from '../data/sites'
 import { site } from '../site.config'
+import EarthExplorer from '../components/EarthExplorer'
 
 export default function Home() {
   return <>
     <JsonLd data={{'@context':'https://schema.org','@type':'WebSite',name:site.name,alternateName:['사이트맛집','vsites'],url:canonical(),description:site.description,inLanguage:'ko-KR'}}/>
-    <section className="hero">
-      <div className="wrap hero-inner">
-        <div className="hero-copy"><h1>유용하고 재미있는<br/><span>웹사이트 모음집</span></h1><p>웹게임부터 생활 도구까지, 한국과 전세계 {totalSiteCount}곳.</p></div>
-        <div className="hero-orbit" aria-hidden="true"><svg viewBox="0 0 240 240"><circle cx="120" cy="120" r="96"/><ellipse cx="120" cy="120" rx="48" ry="96"/><ellipse cx="120" cy="120" rx="81" ry="96"/><ellipse cx="120" cy="120" rx="96" ry="37"/><ellipse cx="120" cy="120" rx="96" ry="70"/><path d="M24 120h192M120 24v192"/></svg><span className="orbit-point point-one"/><span className="orbit-point point-two"/></div>
-      </div>
-    </section>
+    <EarthExplorer/>
     <Directory/>
     <section className="journal-section" id="guides"><div className="wrap">
       <div className="section-heading reveal"><div><span className="eyebrow">탐방 가이드</span><h2>취향에 맞는 출발점.</h2></div><Link href="/guides/">탐방 가이드 전체 <Icon name="right" size={19}/></Link></div>
