@@ -1,0 +1,21 @@
+import { languageTags } from "../../i18n/routing";
+import { getLocaleData } from "../../i18n/server";
+import { localizedPath } from "../../i18n/routing";
+import PageHeading from "../../components/PageHeading";
+import { Icon } from "../../components/Icons";
+import { site } from "../../site.config";
+import { pageMetadata } from "../../lib/metadata";
+export const metadata = pageMetadata("사이트 제보와 문의 - 사이트 맛집", "웹사이트 추천, 끊긴 링크와 잘못된 설명 신고, 삭제 요청을 전달하는 사이트 맛집 문의 페이지입니다.", "/contact");
+export default async function Contact({
+  locale = "ko"
+}) {
+  const {
+    t
+  } = await getLocaleData(locale);
+  const path = href => localizedPath(href, locale);
+  const reportMail = `mailto:${site.email}?subject=${encodeURIComponent(t("[사이트 맛집] 사이트 제보 · 오류 신고"))}&body=${encodeURIComponent(t("사이트 이름: \n사이트 주소: \n추천 이유 또는 오류 내용: \n"))}`;
+  return <article className="wrap content-page"><PageHeading title={t("좋은 발견을 나눠주세요.")} description={t("사이트 추천, 링크 오류, 설명 수정과 삭제 요청을 받습니다.")} eyebrow="CONTACT" />
+  <div className="contact-options"><section className="contact-option"><h2>{t("사이트 제보 · 오류 신고")}</h2><p>{t("사이트 이름과 주소, 추천 이유 또는 오류 내용을 알려주세요.")}</p><a href={path(reportMail)}>{t("이메일로 제보하기")}<Icon name="arrow" size={16} /></a><p className="contact-alternative"><a href={path(`${site.repo}/issues/new`)} target="_blank" rel="noopener noreferrer">{t("GitHub 공개 제보 ↗")}</a><small>{t("GitHub 계정이 필요합니다.")}</small></p></section><section className="contact-option"><h2>{t("기타 문의")}</h2><p>{t("개인정보가 포함된 문의나 권리 관련 요청은 이메일로 보내주세요. 불필요한 개인정보는 첨부하지 않아도 됩니다.")}</p><a href={path(`mailto:${site.email}`)}>{site.email}<Icon name="arrow" size={16} /></a></section></div>
+  <div className="article-body"><h2>{t("이 내용을 함께 알려주시면 도움이 됩니다")}</h2><ul><li>{t("열리지 않는 링크: 사이트 이름, 주소와 오류가 발생한 시점")}</li><li>{t("화면 오류: 기기와 브라우저 이름, 문제가 생긴 동작")}</li><li>{t("삭제 요청: 대상 사이트와 요청 사유, 권리 관계를 확인할 수 있는 정보")}</li></ul><p>{t("제보한 사이트는 선정 기준과 접속 상태를 검토한 후 반영 여부를 결정합니다. 문의 내용은 답변과 수정에 필요한 범위에서만 사용합니다.")}</p></div>
+  </article>;
+}

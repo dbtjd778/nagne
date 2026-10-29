@@ -1,0 +1,1052 @@
+{
+  "사이트 맛집": [
+    "Vsites",
+    "Vsites",
+    "Vsites"
+  ],
+  "사이트 맛집.": [
+    "Vsites.",
+    "Vsites.",
+    "Vsites."
+  ],
+  "사이트 맛집 - 유용하고 재미있는 웹사이트 모음집": [
+    "Vsites — Discover Useful & Fun Websites",
+    "Vsites｜便利なサイト・面白いサイトまとめ",
+    "Vsites｜实用有趣的网站导航"
+  ],
+  "유용하고 재미있는 웹사이트 모음집": [
+    "Discover useful and fun websites",
+    "便利で面白いウェブサイトを見つけよう",
+    "发现实用有趣的网站"
+  ],
+  "유용하고 재미있는 웹사이트 모음집, 사이트 맛집. 심심할 때 즐길 웹게임, AI 도구, 우주 탐험과 디자인·공부 사이트를 지구본에서 나라별로 찾고 저장하세요.": [
+    "Discover useful and fun websites with Vsites. Explore browser games, AI tools, space, design and learning resources by country on an interactive globe, and save your favorites.",
+    "便利なサイト・面白いサイトを世界から探せるVsites。ブラウザゲーム、AIツール、宇宙探検、デザインや学習に役立つサイトを地球儀で国別に探して保存できます。",
+    "用Vsites发现世界各地的实用有趣网站。在互动地球仪上按国家查找网页游戏、AI工具、宇宙探索、设计和学习资源，并收藏喜欢的网站。"
+  ],
+  "다음 발견은,": [
+    "Your next discovery,",
+    "次の発見は、",
+    "下一站的惊喜，"
+  ],
+  "어느 나라일까요": [
+    "where will it take you",
+    "どの国にあるだろう",
+    "会在哪个国家"
+  ],
+  "지구를 돌리고, 숫자를 눌러보세요.": [
+    "Spin the globe. Pick a number. Start exploring.",
+    "地球儀を回して、数字を押してみよう。",
+    "转动地球，点击数字，开始探索。"
+  ],
+  "지구본 탐방": [
+    "Explore",
+    "地球儀",
+    "探索地球"
+  ],
+  "전체 사이트": [
+    "All sites",
+    "サイト一覧",
+    "网站列表"
+  ],
+  "탐방 가이드": [
+    "Guides",
+    "ガイド",
+    "探索指南"
+  ],
+  "소개": [
+    "About",
+    "このサイトについて",
+    "关于"
+  ],
+  "사이트 제보": [
+    "Suggest a site",
+    "サイトを紹介",
+    "推荐网站"
+  ],
+  "사이트 맛집 소개": [
+    "About Vsites",
+    "Vsitesについて",
+    "关于Vsites"
+  ],
+  "사이트 맛집 홈": [
+    "Vsites home",
+    "Vsites ホーム",
+    "Vsites首页"
+  ],
+  "문의 · 사이트 제보": [
+    "Contact & suggestions",
+    "お問い合わせ・サイト紹介",
+    "联系与网站推荐"
+  ],
+  "웹게임": [
+    "Browser games",
+    "ブラウザゲーム",
+    "网页游戏"
+  ],
+  "저장한 사이트": [
+    "Saved sites",
+    "保存したサイト",
+    "收藏的网站"
+  ],
+  "저장을 취소했습니다.": [
+    "Removed from saved sites.",
+    "保存を解除しました。",
+    "已取消收藏。"
+  ],
+  "저장한 사이트에 담았습니다.": [
+    "Added to saved sites.",
+    "サイトを保存しました。",
+    "已收藏网站。"
+  ],
+  "저장 취소": [
+    "Remove bookmark",
+    "保存を解除",
+    "取消收藏"
+  ],
+  "저장": [
+    "Save",
+    "保存",
+    "收藏"
+  ],
+  "저장됨": [
+    "Saved",
+    "保存済み",
+    "已收藏"
+  ],
+  "저장하기": [
+    "Save",
+    "保存する",
+    "收藏"
+  ],
+  "사이트 저장": [
+    "Save site",
+    "サイトを保存",
+    "收藏网站"
+  ],
+  "전체 탐방": [
+    "Explore all",
+    "すべて見る",
+    "浏览全部"
+  ],
+  "사이트 둘러보기": [
+    "Explore websites",
+    "サイトを探す",
+    "发现网站"
+  ],
+  "전체 사이트 보기": [
+    "Browse all sites",
+    "サイト一覧を見る",
+    "浏览全部网站"
+  ],
+  "랜덤 탐방": [
+    "Surprise me",
+    "ランダム",
+    "随便逛逛"
+  ],
+  "랜덤 사이트 추천": [
+    "Discover a random website",
+    "ランダムにサイトを探す",
+    "随机推荐网站"
+  ],
+  "무엇부터 볼지 고민이라면": [
+    "Not sure where to start?",
+    "何から見ようか迷ったら",
+    "不知道从哪里开始？"
+  ],
+  "국가 미확인": [
+    "Country unverified",
+    "国・地域未確認",
+    "国家或地区未确认"
+  ],
+  "{0}개 사이트 · {1}개 국가·지역": [
+    "{0} sites · {1} countries & regions",
+    "{0}サイト · {1}の国・地域",
+    "{0}个网站 · {1}个国家和地区"
+  ],
+  "국가 미확인 {0}개도 보기 ↗": [
+    "Also explore {0} without a verified country ↗",
+    "国・地域未確認の{0}サイトも見る ↗",
+    "查看{0}个国家或地区未确认的网站 ↗"
+  ],
+  "전체 {0}개의 웹사이트": [
+    "{0} websites in total",
+    "全{0}サイト",
+    "共{0}个网站"
+  ],
+  "{0}개의 발견": [
+    "{0} discoveries",
+    "{0}件の発見",
+    "{0}个发现"
+  ],
+  "개의 발견": [
+    "discoveries",
+    "件の発見",
+    "个发现"
+  ],
+  "개 국가·지역": [
+    "countries & regions",
+    "の国・地域",
+    "个国家和地区"
+  ],
+  "{0}개의 웹사이트를 탐방하세요": [
+    "Explore {0} websites",
+    "{0}のウェブサイトを探索",
+    "探索{0}个网站"
+  ],
+  "{0}개 중 {1}개 표시 중": [
+    "Showing {1} of {0} sites",
+    "{0}件中{1}件を表示",
+    "显示{0}个网站中的{1}个"
+  ],
+  "전체 {0}개 사이트를 확인했어요.": [
+    "You've reached all {0} sites.",
+    "全{0}サイトを表示しました。",
+    "已显示全部{0}个网站。"
+  ],
+  "어떤 사이트를 찾으세요?": [
+    "What would you like to discover?",
+    "どんなサイトを探しますか？",
+    "想发现什么样的网站？"
+  ],
+  "어느 나라가 궁금하세요?": [
+    "Search a country or region",
+    "国・地域を検索",
+    "搜索国家或地区"
+  ],
+  "나라 검색": [
+    "Search countries and regions",
+    "国・地域を検索",
+    "搜索国家和地区"
+  ],
+  "나라 목록": [
+    "Countries and regions",
+    "国・地域一覧",
+    "国家和地区列表"
+  ],
+  "나라별 웹사이트": [
+    "Websites by country",
+    "国・地域別のサイト",
+    "按国家探索网站"
+  ],
+  "나라 목록 열기": [
+    "Open country list",
+    "国・地域一覧を開く",
+    "打开国家和地区列表"
+  ],
+  "나라 목록 닫기": [
+    "Close country list",
+    "国・地域一覧を閉じる",
+    "关闭国家和地区列表"
+  ],
+  "새로운 나라 탐방": [
+    "Surprise destination",
+    "新しい国へ",
+    "随机探索国家"
+  ],
+  "지구본 카테고리": [
+    "Globe category",
+    "地球儀のカテゴリー",
+    "地球仪分类"
+  ],
+  "사이트 이름이나 관심사": [
+    "Site name or interest",
+    "サイト名・興味のあること",
+    "网站名称或兴趣"
+  ],
+  "이름·관심사로 검색": [
+    "Search by name or interest",
+    "名前・興味のあることで検索",
+    "搜索名称或兴趣"
+  ],
+  "국가 내 카테고리": [
+    "Category in this country",
+    "この国のカテゴリー",
+    "该国家的网站分类"
+  ],
+  "국가 근거 ↗": [
+    "Location source ↗",
+    "所在地の出典 ↗",
+    "所在地依据 ↗"
+  ],
+  "운영사·제작자의 공개 소재지 기준입니다.": [
+    "Countries reflect the operator's or creator's published location.",
+    "運営元・制作者が公表している所在地を基準にしています。",
+    "国家信息依据运营方或创作者公开的所在地。"
+  ],
+  "여러 나라에서 이용할 수 있으며, 서비스 언어와 다를 수 있습니다.": [
+    "Availability and service language may differ from this location.",
+    "利用できる国やサービスの言語とは異なる場合があります。",
+    "可访问的地区及服务语言可能与所在地不同。"
+  ],
+  "필터 초기화": [
+    "Reset filters",
+    "絞り込みをリセット",
+    "重置筛选"
+  ],
+  "검색·필터 초기화": [
+    "Reset search and filters",
+    "検索・絞り込みをリセット",
+    "重置搜索和筛选"
+  ],
+  "이번 탐방지는": [
+    "Your next discovery",
+    "次に訪れるサイト",
+    "下一站发现"
+  ],
+  "다른 곳 보기": [
+    "Try another",
+    "別のサイトを見る",
+    "换一个网站"
+  ],
+  "← 전체 탐방": [
+    "← Explore all",
+    "← サイト一覧へ",
+    "← 浏览全部"
+  ],
+  "자동 회전 시작": [
+    "Start rotation",
+    "自動回転を開始",
+    "开始自动旋转"
+  ],
+  "자동 회전 정지": [
+    "Pause rotation",
+    "自動回転を停止",
+    "暂停自动旋转"
+  ],
+  "처음 위치로": [
+    "Reset globe",
+    "地球儀をリセット",
+    "重置地球仪"
+  ],
+  "드래그로 회전 · 숫자를 눌러 탐방 · 방향키로 회전": [
+    "Drag or use arrow keys to rotate · Select a number to explore",
+    "ドラッグ・矢印キーで回転 · 数字を押して探索",
+    "拖动或使用方向键旋转 · 点击数字探索"
+  ],
+  "숫자는 등록된 사이트 수입니다.": [
+    "Numbers show the websites in our directory.",
+    "数字は登録サイト数です。",
+    "数字表示收录的网站数量。"
+  ],
+  "개인정보·쿠키 설정": [
+    "Privacy & cookie settings",
+    "プライバシー・Cookie設定",
+    "隐私与Cookie设置"
+  ],
+  "웹게임 추천 {0}개 · 심심할 때 즐기는 브라우저 게임 - 사이트 맛집": [
+    "{0} Browser Games to Play When You're Bored — Vsites",
+    "ブラウザゲームおすすめ{0}選｜暇つぶしに遊べるゲーム - Vsites",
+    "网页游戏推荐：{0}款免安装浏览器游戏 - Vsites"
+  ],
+  "웹게임 추천 · 브라우저 게임 모음": [
+    "Browser games to play when you're bored",
+    "おすすめブラウザゲームまとめ",
+    "网页游戏推荐与合集"
+  ],
+  "심심할 때 가는 사이트 추천 · 재미있는 웹사이트 탐구": [
+    "Fun Websites to Visit When You're Bored",
+    "暇つぶしにおすすめの面白いサイト",
+    "无聊时值得逛的有趣网站"
+  ],
+  "AI 사이트 모음": [
+    "AI tools and websites",
+    "AIツール・サイトまとめ",
+    "AI工具与网站导航"
+  ],
+  "우주·과학 사이트 추천": [
+    "Space and science websites",
+    "宇宙・科学のおすすめサイト",
+    "宇宙与科学网站推荐"
+  ],
+  "유용한 사이트 모음": [
+    "Useful websites and online tools",
+    "便利なサイト・オンラインツール",
+    "实用网站与在线工具"
+  ],
+  "{0} {1}곳 - 사이트 맛집": [
+    "{0}: {1} Sites — Vsites",
+    "{0}：{1}サイト - Vsites",
+    "{0}：{1}个网站 - Vsites"
+  ],
+  "{0} {1} 사이트 추천": [
+    "{0}: {1} websites",
+    "{0}：{1}のサイト",
+    "{0}：{1}网站"
+  ],
+  "{0} 사이트": [
+    "{0} websites",
+    "{0}のサイト",
+    "{0}网站"
+  ],
+  "설치 없이 즐기는 · {0}개 게임": [
+    "No installation · {0} games",
+    "インストール不要 · {0}ゲーム",
+    "无需安装 · {0}款游戏"
+  ],
+  "{0} · {1}곳": [
+    "{0} · {1} sites",
+    "{0} · {1}サイト",
+    "{0} · {1}个网站"
+  ],
+  "외국 사이트": [
+    "Around the world",
+    "世界のサイト",
+    "世界各地网站"
+  ],
+  "한국 사이트": [
+    "From Korea",
+    "韓国のサイト",
+    "韩国网站"
+  ],
+  "본문 바로가기": [
+    "Skip to content",
+    "本文へ移動",
+    "跳转到正文"
+  ],
+  "방구석연구소": [
+    "Banggooso",
+    "Banggooso",
+    "Banggooso"
+  ],
+  "푸망": [
+    "Poomang",
+    "Poomang",
+    "Poomang"
+  ],
+  "스모어": [
+    "Smore",
+    "Smore",
+    "Smore"
+  ],
+  "끄투코리아": [
+    "KKuTu Korea",
+    "KKuTu Korea",
+    "KKuTu Korea"
+  ],
+  "케이테스트": [
+    "Ktest",
+    "Ktest",
+    "Ktest"
+  ],
+  "내 트리를 꾸며줘!": [
+    "Color My Tree",
+    "Color My Tree",
+    "Color My Tree"
+  ],
+  "마이루틴": [
+    "MyRoutine",
+    "MyRoutine",
+    "MyRoutine"
+  ],
+  "루티너리": [
+    "Routinery",
+    "Routinery",
+    "Routinery"
+  ],
+  "한컴타자": [
+    "Hancom Taja",
+    "Hancom Taja",
+    "Hancom Taja"
+  ],
+  "미리캔버스": [
+    "MiriCanvas",
+    "MiriCanvas",
+    "MiriCanvas"
+  ],
+  "눈누": [
+    "Noonnu",
+    "Noonnu",
+    "Noonnu"
+  ],
+  "파파고": [
+    "Papago",
+    "Papago",
+    "Papago"
+  ],
+  "클로바노트": [
+    "CLOVA Note",
+    "CLOVA Note",
+    "CLOVA Note"
+  ],
+  "네이버 폼": [
+    "NAVER Form",
+    "NAVER Form",
+    "NAVER Form"
+  ],
+  "스티비": [
+    "Stibee",
+    "Stibee",
+    "Stibee"
+  ],
+  "망고보드": [
+    "MangoBoard",
+    "MangoBoard",
+    "MangoBoard"
+  ],
+  "비즈하우스": [
+    "Bizhows",
+    "Bizhows",
+    "Bizhows"
+  ],
+  "산돌구름": [
+    "SandollCloud",
+    "SandollCloud",
+    "SandollCloud"
+  ],
+  "한컴독스": [
+    "Hancom Docs",
+    "Hancom Docs",
+    "Hancom Docs"
+  ],
+  "폴라리스 오피스": [
+    "Polaris Office",
+    "Polaris Office",
+    "Polaris Office"
+  ],
+  "네이버 QR코드": [
+    "NAVER QR Code",
+    "NAVER QR Code",
+    "NAVER QR Code"
+  ],
+  "알툴즈": [
+    "ALTools",
+    "ALTools",
+    "ALTools"
+  ],
+  "반디소프트": [
+    "Bandisoft",
+    "Bandisoft",
+    "Bandisoft"
+  ],
+  "뤼튼": [
+    "Wrtn",
+    "Wrtn",
+    "Wrtn"
+  ],
+  "타입캐스트": [
+    "Typecast",
+    "Typecast",
+    "Typecast"
+  ],
+  "가비아": [
+    "Gabia",
+    "Gabia",
+    "Gabia"
+  ],
+  "프로그래머스": [
+    "Programmers",
+    "Programmers",
+    "Programmers"
+  ],
+  "생활코딩": [
+    "OpenTutorials (생활코딩)",
+    "OpenTutorials (생활코딩)",
+    "OpenTutorials (생활코딩)"
+  ],
+  "인프런": [
+    "Inflearn",
+    "Inflearn",
+    "Inflearn"
+  ],
+  "우피": [
+    "Oopy",
+    "Oopy",
+    "Oopy"
+  ],
+  "왈라": [
+    "Walla",
+    "Walla",
+    "Walla"
+  ],
+  "웨이브온": [
+    "Waveon",
+    "Waveon",
+    "Waveon"
+  ],
+  "구름": [
+    "Goorm",
+    "Goorm",
+    "Goorm"
+  ],
+  "구름EDU": [
+    "Goorm EDU",
+    "Goorm EDU",
+    "Goorm EDU"
+  ],
+  "엘리스": [
+    "Elice",
+    "Elice",
+    "Elice"
+  ],
+  "코드잇": [
+    "Codeit",
+    "Codeit",
+    "Codeit"
+  ],
+  "패스트캠퍼스": [
+    "Fast Campus",
+    "Fast Campus",
+    "Fast Campus"
+  ],
+  "노마드 코더": [
+    "Nomad Coders",
+    "Nomad Coders",
+    "Nomad Coders"
+  ],
+  "드림코딩": [
+    "Dream Coding",
+    "Dream Coding",
+    "Dream Coding"
+  ],
+  "코딩애플": [
+    "Coding Apple",
+    "Coding Apple",
+    "Coding Apple"
+  ],
+  "위니브": [
+    "Weniv",
+    "Weniv",
+    "Weniv"
+  ],
+  "벨로그": [
+    "Velog",
+    "Velog",
+    "Velog"
+  ],
+  "데보션": [
+    "DEVOCEAN",
+    "DEVOCEAN",
+    "DEVOCEAN"
+  ],
+  "네이버 D2": [
+    "NAVER D2",
+    "NAVER D2",
+    "NAVER D2"
+  ],
+  "다글로": [
+    "Daglo",
+    "Daglo",
+    "Daglo"
+  ],
+  "클로바더빙": [
+    "CLOVA Dubbing",
+    "CLOVA Dubbing",
+    "CLOVA Dubbing"
+  ],
+  "엔트리": [
+    "Entry",
+    "Entry",
+    "Entry"
+  ],
+  "네이버 데이터랩": [
+    "NAVER DataLab",
+    "NAVER DataLab",
+    "NAVER DataLab"
+  ],
+  "브이월드": [
+    "VWorld",
+    "VWorld",
+    "VWorld"
+  ],
+  "빅카인즈": [
+    "BIGKinds",
+    "BIGKinds",
+    "BIGKinds"
+  ],
+  "사이언스온": [
+    "ScienceON",
+    "ScienceON",
+    "ScienceON"
+  ],
+  "탈잉": [
+    "Taling",
+    "Taling",
+    "Taling"
+  ],
+  "교보문고": [
+    "Kyobo Book Centre",
+    "Kyobo Book Centre",
+    "Kyobo Book Centre"
+  ],
+  "알라딘": [
+    "Aladin",
+    "Aladin",
+    "Aladin"
+  ],
+  "브런치스토리": [
+    "Brunch Story",
+    "Brunch Story",
+    "Brunch Story"
+  ],
+  "문학동네": [
+    "Munhakdongne",
+    "Munhakdongne",
+    "Munhakdongne"
+  ],
+  "창비": [
+    "Changbi",
+    "Changbi",
+    "Changbi"
+  ],
+  "민음사": [
+    "Minumsa",
+    "Minumsa",
+    "Minumsa"
+  ],
+  "뉴닉": [
+    "NEWNEEK",
+    "NEWNEEK",
+    "NEWNEEK"
+  ],
+  "어피티": [
+    "UPPITY",
+    "UPPITY",
+    "UPPITY"
+  ],
+  "코레일": [
+    "KORAIL",
+    "KORAIL",
+    "KORAIL"
+  ],
+  "버스타고": [
+    "Bustago",
+    "Bustago",
+    "Bustago"
+  ],
+  "카카오맵": [
+    "KakaoMap",
+    "KakaoMap",
+    "KakaoMap"
+  ],
+  "에어코리아": [
+    "AirKorea",
+    "AirKorea",
+    "AirKorea"
+  ],
+  "두루누비": [
+    "Durunubi",
+    "Durunubi",
+    "Durunubi"
+  ],
+  "고캠핑": [
+    "GoCamping",
+    "GoCamping",
+    "GoCamping"
+  ],
+  "복지로": [
+    "Bokjiro",
+    "Bokjiro",
+    "Bokjiro"
+  ],
+  "홈택스": [
+    "Hometax",
+    "Hometax",
+    "Hometax"
+  ],
+  "위택스": [
+    "Wetax",
+    "Wetax",
+    "Wetax"
+  ],
+  "원티드": [
+    "Wanted",
+    "Wanted",
+    "Wanted"
+  ],
+  "사람인": [
+    "Saramin",
+    "Saramin",
+    "Saramin"
+  ],
+  "잡코리아": [
+    "JobKorea",
+    "JobKorea",
+    "JobKorea"
+  ],
+  "점핏": [
+    "Jumpit",
+    "Jumpit",
+    "Jumpit"
+  ],
+  "리멤버": [
+    "Remember",
+    "Remember",
+    "Remember"
+  ],
+  "링커리어": [
+    "Linkareer",
+    "Linkareer",
+    "Linkareer"
+  ],
+  "캐치": [
+    "CATCH",
+    "CATCH",
+    "CATCH"
+  ],
+  "올콘": [
+    "ALL-CON",
+    "ALL-CON",
+    "ALL-CON"
+  ],
+  "씽굿": [
+    "Thinkgood",
+    "Thinkgood",
+    "Thinkgood"
+  ],
+  "디스콰이엇": [
+    "Disquiet",
+    "Disquiet",
+    "Disquiet"
+  ],
+  "요즘IT": [
+    "Yozm IT",
+    "Yozm IT",
+    "Yozm IT"
+  ],
+  "서핏": [
+    "Surfit",
+    "Surfit",
+    "Surfit"
+  ],
+  "디지털 인사이트": [
+    "Digital Insight",
+    "Digital Insight",
+    "Digital Insight"
+  ],
+  "플래텀": [
+    "Platum",
+    "Platum",
+    "Platum"
+  ],
+  "벤처스퀘어": [
+    "VentureSquare",
+    "VentureSquare",
+    "VentureSquare"
+  ],
+  "바이라인네트워크": [
+    "Byline Network",
+    "Byline Network",
+    "Byline Network"
+  ],
+  "디자인DB": [
+    "DesignDB",
+    "DesignDB",
+    "DesignDB"
+  ],
+  "오픈애즈": [
+    "OpenAds",
+    "OpenAds",
+    "OpenAds"
+  ],
+  "EO 플래닛": [
+    "EO Planet",
+    "EO Planet",
+    "EO Planet"
+  ],
+  "사운드로우": [
+    "SOUNDRAW",
+    "SOUNDRAW",
+    "SOUNDRAW"
+  ],
+  "챗PDF": [
+    "ChatPDF",
+    "ChatPDF",
+    "ChatPDF"
+  ],
+  "방글라피디아": [
+    "Banglapedia",
+    "Banglapedia",
+    "Banglapedia"
+  ],
+  "미라이칸": [
+    "Miraikan",
+    "Miraikan",
+    "Miraikan"
+  ],
+  "프로그ID": [
+    "FrogID",
+    "FrogID",
+    "FrogID"
+  ],
+  "화면 너머로 잠깐 떠나는 랜선 여행": [
+    "Travel the World from Your Browser",
+    "ブラウザで楽しむ世界旅行",
+    "在浏览器中环游世界"
+  ],
+  "작은 웹 실험": [
+    "Web experiments",
+    "小さなウェブ体験",
+    "趣味网页实验"
+  ],
+  "음식·생활의 발견": [
+    "Food & everyday life",
+    "食と暮らし",
+    "美食与生活"
+  ],
+  "웹게임 추천": [
+    "Browser games",
+    "ブラウザゲーム",
+    "网页游戏推荐"
+  ],
+  "심심할 때 가는 사이트": [
+    "Fun websites for when you’re bored",
+    "暇つぶしにおすすめのサイト",
+    "无聊时值得逛的网站"
+  ],
+  "개의 국내외 사이트를 관심사와 나라별로 둘러보세요. 심심할 때 즐길 웹게임부터 작업에 필요한 도구까지, 용도를 읽고 마음에 드는 곳을 저장할 수 있습니다.": [
+    " websites to explore by interest and country. Find browser games for a break and useful tools for your next project. Read the descriptions and save your favorites.",
+    " 件の世界のサイトを、興味や国・地域から探せます。暇つぶしのブラウザゲームから仕事に役立つツールまで、紹介を読んで気になるサイトを保存しましょう。",
+    " 个来自世界各地的网站，按兴趣和国家或地区探索。从休闲网页游戏到工作工具，阅读介绍并收藏喜欢的网站。"
+  ],
+  "이 사이트는 Netlify의 호스팅을 사용합니다. Netlify는 서비스 제공과 보안을 위해 IP 주소, 요청 시각, 브라우저 정보 등 접속 기록을 처리할 수 있습니다. 보관과 처리는": [
+    "This site is hosted by Netlify. Netlify may process IP addresses, request times and browser information to provide and secure its services. Storage and processing are governed by the ",
+    "このサイトは Netlify でホスティングしています。サービスの提供と安全性の確保のため、Netlify が IP アドレス、リクエスト日時、ブラウザ情報などを処理する場合があります。保存と処理については、",
+    "本网站由 Netlify 托管。为提供服务和保障安全，Netlify 可能处理 IP 地址、请求时间、浏览器信息等访问记录。存储和处理方式遵循 "
+  ],
+  "에 따릅니다. 사이트 아이콘과 글꼴은 사이트 맛집에서 함께 제공하며, 검색어는 브라우저 안에서 목록을 필터링하는 데 사용합니다. 주소에 직접 검색어를 포함한 링크로 접속하면 해당 주소가 호스팅 접속 기록에 포함될 수 있습니다.": [
+    ". Site icons and fonts are served by Vsites. Search terms filter the directory in your browser. If a URL contains a search term, that URL may appear in hosting access logs.",
+    "に従います。アイコンとフォントは Vsites から配信し、検索語はブラウザ内で一覧を絞り込むために使います。検索語を含む URL にアクセスすると、その URL がホスティングのアクセスログに記録される場合があります。",
+    "。网站图标和字体由 Vsites 提供，搜索词用于在浏览器内筛选列表。若访问的网址包含搜索词，该网址可能出现在托管服务的访问日志中。"
+  ],
+  "이메일 문의 시 이메일 주소와 문의 내용을 답변 및 오류 처리에 필요한 기간 동안 처리하며, 목적이 끝나면 삭제합니다. 보관 의무가 있는 경우 해당 기간 동안 보관합니다. 문의 처리는 Gmail을 이용하며": [
+    "We retain your email address and inquiry for as long as needed to respond and resolve the issue, then delete them unless a retention obligation applies. Inquiries are handled through Gmail under the ",
+    "メールでのお問い合わせでは、回答や不具合対応に必要な期間、メールアドレスと内容を保管し、目的の終了後に削除します。保存義務がある場合はその期間に従います。お問い合わせには Gmail を使用し、",
+    "通过邮件联系我们时，邮箱地址和咨询内容仅在答复和处理问题所需的期间内保留，之后删除；存在保留义务的情况除外。咨询使用 Gmail 处理，适用 "
+  ],
+  "이 적용됩니다. GitHub 이슈는 공개 공간이며": [
+    ". GitHub issues are public and subject to the ",
+    "が適用されます。GitHub の Issue は公開され、",
+    "。GitHub Issue 是公开空间，适用 "
+  ],
+  "이 적용됩니다. 공개 문의에 민감한 개인정보를 적지 않도록 주의해 주세요.": [
+    ". Please do not include sensitive personal information in public inquiries.",
+    "が適用されます。公開のお問い合わせには機密性の高い個人情報を記載しないでください。",
+    "。请勿在公开咨询中填写敏感个人信息。"
+  ],
+  "Google 및 광고 사업자는 쿠키 또는 유사 식별자를 이용해 광고를 제공하고 성과를 측정할 수 있습니다. 개인 맞춤 광고는 이 사이트 및 다른 웹사이트의 방문 정보를 활용할 수 있습니다. 처리 방식은 적용 지역과 동의 선택에 따라 달라집니다. 자세한 내용은": [
+    "Google and advertising providers may use cookies or similar identifiers to serve ads and measure performance. Personalized ads may use visits to this and other websites. Processing depends on your region and consent choices. See ",
+    "Google や広告事業者は、Cookie などの識別子を使って広告の配信や効果測定を行う場合があります。パーソナライズ広告には、このサイトや他のサイトへの訪問情報が使われる場合があります。処理方法は地域や同意の選択によって異なります。詳しくは、",
+    "Google 及广告服务商可能使用 Cookie 或类似标识符来投放广告和衡量效果。个性化广告可能使用您访问本网站及其他网站的信息，处理方式取决于所在地区和您的同意选择。详情请参阅 "
+  ],
+  "와": [
+    " and ",
+    "と",
+    " 和 "
+  ],
+  "에서 확인할 수 있습니다.": [
+    " for details.",
+    "をご確認ください。",
+    "。"
+  ],
+  "EEA·영국·스위스 등 동의가 필요한 방문자에게는 Google의 동의 관리 메시지를 사용합니다. 메시지에서 동의, 동의하지 않음, 옵션 관리를 선택할 수 있으며, 동의 관리 기능이 제공되는 경우 사이트 하단의": [
+    "For visitors who require a consent notice, including in the EEA, UK and Switzerland, we use Google’s consent management message. You can agree, decline or manage options in that message. Where available, you can revisit your choices using ",
+    "EEA、英国、スイスなど、同意が必要な訪問者には Google の同意管理メッセージを表示します。メッセージでは同意、拒否、オプションの管理を選べます。同意管理機能が利用できる場合は、ページ下部の",
+    "对于欧洲经济区、英国、瑞士等需要征求同意的访客，我们使用 Google 的同意管理消息。您可选择同意、不同意或管理选项。如果同意管理功能可用，您可以通过页面底部的"
+  ],
+  "에서 선택을 다시 변경할 수 있습니다. 브라우저 설정에서도 쿠키를 삭제하거나 차단할 수 있습니다. 비개인 맞춤 광고나 제한된 광고도 제공 방식에 따라 일부 정보를 처리할 수 있습니다.": [
+    " in the footer. You can also delete or block cookies in your browser settings. Non-personalized or limited ads may still process some information, depending on how they are served.",
+    "から選択を変更できます。ブラウザの設定でも Cookie を削除・ブロックできます。非パーソナライズ広告や制限付き広告でも、配信方法によって一部の情報が処理される場合があります。",
+    "重新更改选择。您也可以在浏览器设置中删除或屏蔽 Cookie。非个性化广告或受限广告仍可能根据投放方式处理部分信息。"
+  ],
+  "운영 및 개인정보 문의 담당은 사이트 맛집 운영자입니다. 문의 내용의 열람·정정·삭제 또는 처리에 관한 요청은": [
+    "The Vsites operator handles site and privacy inquiries. To request access, correction, deletion or information about the handling of an inquiry, email ",
+    "運営と個人情報に関するお問い合わせは Vsites の運営者が対応します。お問い合わせ内容の閲覧、訂正、削除、処理についてのご依頼は、",
+    "网站运营和隐私相关咨询由 Vsites 运营者负责。若要查阅、更正、删除咨询内容或了解其处理情况，请发送邮件至 "
+  ],
+  "로 보내주세요. 현재 기기에 저장한 책갈피는 사이트의 저장 해제 기능이나 브라우저의 사이트 데이터 삭제 기능으로 직접 지울 수 있습니다. 제공 기능이나 처리 방식이 달라지면 이 페이지의 내용과 수정일을 갱신합니다. 시행일은": [
+    ". You can remove bookmarks with the site’s unsave controls or by clearing site data in your browser. We update this page and its revision date when features or processing practices change. Effective date: ",
+    "までお送りください。この端末に保存したブックマークは、サイトの保存解除ボタンやブラウザのサイトデータ削除機能で消せます。機能や処理方法が変わる場合は、このページと更新日を改訂します。施行日：",
+    "。您可通过取消收藏或清除浏览器的网站数据来删除本设备上的书签。功能或处理方式变化时，我们会更新本页及修订日期。生效日期："
+  ],
+  "입니다.": [
+    ".",
+    "。",
+    "。"
+  ],
+  "과학 · 우주": [
+    "Science · Space",
+    "科学・宇宙",
+    "科学·宇宙"
+  ],
+  "음식과 생활의 발견": [
+    "Food & everyday life",
+    "食と暮らし",
+    "美食与生活"
+  ],
+  "생활 · 공공정보": [
+    "Life · Public services",
+    "暮らし・公共サービス",
+    "生活·公共服务"
+  ],
+  "우주·과학 사이트": [
+    "Space & science websites",
+    "宇宙・科学のサイト",
+    "宇宙与科学网站"
+  ],
+  "정보 · 데이터": [
+    "Information · Data",
+    "情報・データ",
+    "信息·数据"
+  ],
+  "음식 · 생활의 발견": [
+    "Food & everyday life",
+    "食と暮らし",
+    "美食与生活"
+  ],
+  "가볍게 한 바퀴": [
+    "A quick discovery break",
+    "気軽にひとめぐり",
+    "轻松逛一圈"
+  ],
+  "낯선 풍경, 느린 시간": [
+    "New places, a slower pace",
+    "知らない景色を、ゆっくりと",
+    "慢下来，看看新风景"
+  ],
+  "만드는 사람의 책상": [
+    "The creator’s desk",
+    "つくる人のデスク",
+    "创作者的工具桌"
+  ],
+  "호기심에서 한 걸음": [
+    "Follow your curiosity",
+    "好奇心から一歩先へ",
+    "从好奇心出发"
+  ],
+  "일상에 두는 북마크": [
+    "Everyday bookmarks",
+    "暮らしのブックマーク",
+    "日常实用收藏"
+  ],
+  "탭은 적게, 할 일은 또렷하게": [
+    "Fewer tabs, more focus",
+    "タブを減らして、やることを明確に",
+    "减少标签页，专注手头事"
+  ],
+  "디자인이 막힐 때, 도구를 여는 순서": [
+    "A Practical Toolkit for Your Next Design",
+    "デザインに迷ったときの便利なツール",
+    "设计遇到瓶颈时的实用工具指南"
+  ],
+  "온라인 공부 사이트, 끝까지 활용하는 고르는 법": [
+    "How to Choose Online Learning Websites",
+    "使い続けられるオンライン学習サイトの選び方",
+    "如何挑选适合自己的在线学习网站"
+  ],
+  "알아두면 쓸모 있는 한국 공공 웹사이트": [
+    "Useful Korean Public Service Websites",
+    "知っておきたい韓国の公共サービスサイト",
+    "值得收藏的韩国公共服务网站"
+  ],
+  "일을 줄여주는 웹 도구, 네 가지 역할로 고르기": [
+    "Four Ways Web Tools Can Simplify Your Work",
+    "仕事に役立つウェブツール、4つの選び方",
+    "四类提升工作效率的网页工具"
+  ],
+  "탐방 가이드 전체": [
+    "All guides",
+    "ガイド一覧",
+    "全部指南"
+  ]
+}

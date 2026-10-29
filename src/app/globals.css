@@ -96,3 +96,20 @@
 .category-reading-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:28px}
 .category-reading-grid h3{margin-top:10px}.category-reading-grid p{font-size:14px}
 @media(max-width:760px){.category-reading-grid{grid-template-columns:1fr;gap:0}.discovery-intro h2{font-size:21px}.topic-links{gap:4px 16px}}
+
+.language-switcher{display:inline-flex;align-items:center;gap:6px;border:1px solid currentColor;border-radius:7px;padding:5px 8px;color:inherit;flex-shrink:0}
+.language-switcher select{border:0;background:transparent;color:inherit;font:inherit;font-size:12px;min-height:30px;max-width:104px;cursor:pointer}
+.language-switcher option{color:#1f292a;background:#fff}
+.language-links{display:flex;flex-wrap:wrap;gap:8px 22px;margin-top:24px;font-size:13px}
+.language-links a{display:inline-flex;align-items:center;min-height:44px}.language-links a[aria-current=true]{font-weight:650;text-decoration:underline;text-underline-offset:5px}
+html:not([lang=ko]) .earth-heading{max-width:360px}
+html:not([lang=ko]) .earth-heading h1{font-size:clamp(27px,2.7vw,38px);letter-spacing:-.8px}
+html:not([lang=ko]) .earth-heading p{max-width:310px;line-height:1.7}
+html:not([lang=ko]) .earth-instructions{max-width:90%;white-space:normal;text-align:center}
+html:not([lang=ko]) .earth-stats span{max-width:80px}
+@media(max-width:1150px){.header-contact{display:none}.header-inner{gap:18px}.header nav{gap:22px}}
+@media(max-width:760px){.header-inner{height:auto;min-height:103px;display:grid;grid-template-columns:1fr auto;gap:0 10px;padding-top:10px;padding-bottom:6px}.header nav{grid-column:1/-1;order:3;display:flex;justify-content:space-between;gap:12px;margin:0;width:100%}.header nav a{font-size:11px;padding:12px 0}.header .wordmark{font-size:22px}.language-switcher{padding:2px 6px;font-size:15px}.language-switcher select{font-size:11px}.earth-explorer{height:calc(100svh - 103px)}html:not([lang=ko]) .earth-heading{right:22px;max-width:none}html:not([lang=ko]) .earth-heading h1{font-size:27px}html:not([lang=ko]) .earth-heading p{font-size:11px}.earth-bottom{gap:6px}html:not([lang=ko]) .earth-stats{gap:4px}html:not([lang=ko]) .earth-stats strong{font-size:17px}html:not([lang=ko]) .earth-stats span{font-size:8px;max-width:56px}html:not([lang=ko]) .earth-all{font-size:9px;gap:5px;padding-left:6px}}
+
+html:not([lang=ko]) body{word-break:normal;overflow-wrap:break-word}
+html:not([lang=ko]) .guide-card-body{min-width:0}
+html:not([lang=ko]) .guide-card-body h3{overflow-wrap:anywhere}
