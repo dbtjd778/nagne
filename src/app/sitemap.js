@@ -2,14 +2,15 @@ import { allCategories } from '../data/sites'
 import { guides } from '../data/guides'
 import { locales } from '../i18n/routing'
 import { canonical, languageAlternates } from '../lib/metadata'
-import { catalogueUpdatedAt, homeUpdatedAt, aboutUpdatedAt, originalPublishedAt, guideUpdatedAt, localizedContentDate } from '../data/content-dates'
+import { catalogueUpdatedAt, homeUpdatedAt, aboutUpdatedAt, privacyUpdatedAt, originalPublishedAt, guideUpdatedAt, localizedContentDate } from '../data/content-dates'
 export const dynamic='force-static'
 export default function sitemap(){
   const entries = [
     ['/', homeUpdatedAt],
     ['/guides', guides.map(guideUpdatedAt).sort().at(-1)],
     ['/about', aboutUpdatedAt],
-    ...['/contact', '/privacy', '/terms'].map(path => [path, originalPublishedAt]),
+    ['/privacy', privacyUpdatedAt],
+    ...['/contact', '/terms'].map(path => [path, originalPublishedAt]),
     ...allCategories.map(c => [`/c/${c.id}`, catalogueUpdatedAt]),
     ...guides.map(g => [`/guide/${g.slug}`, guideUpdatedAt(g)]),
   ]

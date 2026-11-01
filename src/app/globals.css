@@ -138,4 +138,23 @@ html:not([lang=ko]) .guide-card-body h3{overflow-wrap:anywhere}
 .discovery-pick-grid>a:hover{border-color:#708f9e}.discovery-pick-grid span{font-size:10px;color:var(--muted)}
 .discovery-pick-grid h3{font-size:17px;margin:9px 0}.discovery-pick-grid p{font-size:13px;line-height:1.8;margin:0;color:var(--muted)}
 .page-heading small{display:flex;gap:5px}
+.affiliate-disclosure{font-size:13px!important;line-height:1.8!important;color:#45503e;margin:0 0 25px;padding:12px 15px;background:#f0f2ec;border-radius:5px}
+.affiliate-disclosure strong{font-weight:650;margin-right:5px}
+.article-body .affiliate-products{margin:36px 0;padding:26px;border:1px solid #cbd3c2;border-radius:10px;background:#f6f7f2;scroll-margin-top:110px}
+.affiliate-label{display:flex;align-items:center;gap:8px;font-size:12px;font-weight:650;color:#52634a;letter-spacing:.03em}
+.article-body .affiliate-products h2{margin:9px 0 10px;font-size:23px;line-height:1.45;letter-spacing:-.6px}
+.article-body .affiliate-products .affiliate-intro{font-size:14px;margin:0 0 16px;line-height:1.85}
+.affiliate-products .affiliate-disclosure{background:transparent;padding:0;margin-bottom:20px}
+.affiliate-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
+.affiliate-card{min-width:0;background:#fff;border:1px solid #dce1d6;border-radius:8px;padding:22px;display:flex;flex-direction:column;align-items:flex-start}
+.affiliate-kind{font-size:11px;color:#52634a;padding:4px 8px;background:#f0f2ec;border-radius:4px;line-height:1.4}
+.article-body .affiliate-card h3{font-size:17px;line-height:1.55;letter-spacing:-.3px;margin:14px 0 4px}
+.article-body .affiliate-card p{font-size:13px;line-height:1.85;margin:12px 0}
+.article-body .affiliate-card .affiliate-option{font-size:12px;color:#63705b;margin:0 0 4px}
+.article-body .affiliate-card .affiliate-check{font-size:12px;border-top:1px solid #e7eae2;padding-top:12px;margin-top:0;margin-bottom:20px;color:#59614f}
+.affiliate-check strong{display:block;font-size:11px;margin-bottom:4px;font-weight:650}
+.affiliate-card a{display:flex;align-items:center;justify-content:space-between;gap:12px;width:100%;min-height:44px;margin-top:auto;padding:10px 13px;border-radius:5px;background:#293b28;color:white;font-size:13px;font-weight:600;text-decoration:none}
+.affiliate-card a:hover{background:#3f5436}.affiliate-card a:focus-visible{outline:3px solid #70935f;outline-offset:3px}
+.article-body .affiliate-footnote{font-size:12px;line-height:1.85;color:#5f6857;margin:17px 0 0}
+@media(max-width:760px){.article-body .affiliate-products{padding:20px 16px;margin-block:28px}.affiliate-grid{grid-template-columns:1fr}.affiliate-card{padding:18px}.article-body .affiliate-products h2{font-size:20px}.affiliate-disclosure{font-size:13px!important}.affiliate-products .affiliate-disclosure{font-size:12px!important}}
 @media(max-width:760px){.discovery-pick-grid{grid-template-columns:1fr;gap:9px}.discovery-picks{padding-block:25px 15px}.discovery-picks h2{font-size:21px}.discovery-pick-grid>a{padding:15px}.discovery-pick-grid span{display:none}.discovery-pick-grid h3{font-size:15px;margin-top:0}.guide-exercise{padding:20px 16px}.guide-exercise li{font-size:14px}.editorial-byline{margin-top:-15px}.guide-comparison th,.guide-comparison td{padding:12px}.guide-comparison table{min-width:510px;font-size:13px}}

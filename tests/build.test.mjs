@@ -50,7 +50,7 @@ test('sitemap includes all detail pages and old SPA catch-all is gone',()=>{
   assert.match(entry.modified,/^\d{4}-\d{2}-\d{2}$/)
  }
  const dates=Object.fromEntries(entries.map(e=>[new URL(e.url).pathname,e.modified]))
- assert.ok(dates['/']>dates['/privacy/'],'Catalogue updates must not change policy modification dates')
+ assert.ok(dates['/']>dates['/terms/'],'Catalogue updates must not change unchanged terms dates')
  for(const g of guides){
   const html=read(`guide/${g.slug}/index.html`)
   assert.ok(html.includes(`"dateModified":"${dates[`/guide/${g.slug}/`]}"`),'Article and sitemap dates must agree')

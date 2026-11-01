@@ -6,7 +6,7 @@ import { notFound } from "next/navigation";
 import { guides } from "../../../data/guides";
 import { allSites } from "../../../data/sites";
 import PageHeading from "../../../components/PageHeading";
-import AdSlot from "../../../components/AdSlot";
+import AffiliateProducts, { AffiliateDisclosure } from "../../../components/AffiliateProducts";
 import { Icon } from "../../../components/Icons";
 import { JsonLd, canonical, pageMetadata } from "../../../lib/metadata";
 import { originalPublishedAt, guideUpdatedAt, localizedContentDate } from "../../../data/content-dates";
@@ -76,10 +76,11 @@ export default async function Guide({
     }} />
     <PageHeading title={g.title} description={g.description} eyebrow={`${g.eyebrow} · ${g.readTime}`} updated={(localizedContentDate(guideUpdatedAt(g), locale)).replaceAll("-", ".")} />
     <p className="editorial-byline"><Link href={path("/about/#editorial-policy")}>{labels.byline}</Link></p>
+    <AffiliateDisclosure slug={slug} locale={locale} />
     <div className="article-layout"><div className="article-body"><p className="intro">{g.intro}</p><GuideComparison slug={slug} locale={locale} />{g.sections.map((section, i) => <section id={`section-${i}`} key={section.heading}><h2>{section.heading}</h2>{section.paragraphs.map((p, j) => <p key={j}>{p}</p>)}{section.sites?.map(s => {
             const registered = allSites.find(v => v.name === s.name);
             const url = registered?.url || s.url;
             return <a className="guide-site-link" href={path(/^https?:\/\//.test(url) ? url : `https://${url}`)} target="_blank" rel="noopener noreferrer" key={s.name}><strong>{s.name}<Icon name="arrow" size={16} /></strong><span>{s.note}</span></a>;
-          })}{i === 1 && <AdSlot placement={`article-${slug}`} />}</section>)}<p>{g.conclusion}</p><GuideEvidence slug={slug} locale={locale} />{g.relatedCategories && <nav className="topic-links" aria-label={t("관련 사이트 모음")}>{g.relatedCategories.map(([id, label]) => <Link key={id} href={path(`/c/${id}/`)}>{label} →</Link>)}</nav>}<Link href={path("/#directory")}>{t("전체 사이트에서 더 찾아보기 →")}</Link></div><aside className="article-sidebar"><h2>{t("이 글에서")}</h2><a href="#choose">{labels.comparison}</a><a href="#try-it">{labels.exercise}</a>{g.sections.map((s, i) => <a key={s.heading} href={path(`#section-${i}`)}>{s.heading}</a>)}<Link href={path("/guides/")}>{t("다른 탐방 가이드 →")}</Link></aside></div>
+          })}{i === 1 && <AffiliateProducts slug={slug} locale={locale} />}</section>)}<p>{g.conclusion}</p><GuideEvidence slug={slug} locale={locale} />{g.relatedCategories && <nav className="topic-links" aria-label={t("관련 사이트 모음")}>{g.relatedCategories.map(([id, label]) => <Link key={id} href={path(`/c/${id}/`)}>{label} →</Link>)}</nav>}<Link href={path("/#directory")}>{t("전체 사이트에서 더 찾아보기 →")}</Link></div><aside className="article-sidebar"><h2>{t("이 글에서")}</h2><a href="#choose">{labels.comparison}</a><a href="#try-it">{labels.exercise}</a>{g.sections.map((s, i) => <a key={s.heading} href={path(`#section-${i}`)}>{s.heading}</a>)}<Link href={path("/guides/")}>{t("다른 탐방 가이드 →")}</Link></aside></div>
   </article>;
 }
