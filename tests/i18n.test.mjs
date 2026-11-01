@@ -16,6 +16,7 @@ test('all 148 language pages have reciprocal search alternates and valid structu
   const path=new URL(url).pathname
   const locale=foreignLocales.find(lang=>path.startsWith(`/${lang}/`))||'ko'
   const html=read(`${path.slice(1)}index.html`)
+  if(locale!=='ko')assert.ok(html.match(/<title>(.*?)<\/title>/)[1].includes('Vsites'),`${url}: consistent brand in search title`)
   assert.ok(html.includes(`<html lang="${languageTags[locale]}"`),url)
   const alternates=[...html.matchAll(/<link rel="alternate" hrefLang="([^"]+)" href="([^"]+)"/g)]
   assert.equal(alternates.length,5,url)

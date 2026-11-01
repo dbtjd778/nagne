@@ -1053,5 +1053,25 @@
     "6 min",
     "6分",
     "6分钟"
+  ],
+  "{0} - 사이트 맛집": [
+    "{0} - Vsites",
+    "{0} - Vsites",
+    "{0} - Vsites"
+  ],
+  "© 2026 사이트 맛집": [
+    "© 2026 Vsites",
+    "© 2026 Vsites",
+    "© 2026 Vsites"
+  ],
+  "사이트 맛집 소개와 사이트 선정 기준 - 사이트 맛집": [
+    "About Vsites and Our Selection Criteria - Vsites",
+    "Vsitesの紹介とサイト掲載基準 - Vsites",
+    "Vsites介绍与网站收录标准 - Vsites"
+  ],
+  "한국과 전세계 웹사이트를 발견하는 디렉터리 사이트 맛집. 사이트 선정 기준, 링크 점검 방식, 운영 정보를 안내합니다.": [
+    "Discover websites in Korea and around the world with Vsites. Read how we select sites, check links and maintain the directory.",
+    "韓国と世界のウェブサイトを見つけるディレクトリVsites。掲載基準、リンクの確認方法、運営方針をご案内します。",
+    "Vsites是发现韩国及世界各地网站的导航目录。本页说明网站收录标准、链接检查方式与运营方针。"
   ]
 }
