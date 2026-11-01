@@ -31,7 +31,7 @@ function EarthUrlState({
   }, [params, onChange]);
   return null;
 }
-export default function EarthExplorer() {
+export default function EarthExplorer({ guideLabel }) {
   const {
     t,
     path,
@@ -224,7 +224,7 @@ export default function EarthExplorer() {
   return <section ref={section} className={`earth-explorer ${selected ? "has-country" : ""}`} id="explore" aria-label={t("지구본으로 웹사이트 탐방")}>
     <Suspense fallback={null}><EarthUrlState onChange={readCountry} /></Suspense>
     <div className="space-stars" aria-hidden="true" />
-    <div className="earth-heading"><div className="earth-kicker"><span /> THE INTERNET, AROUND THE WORLD</div><h1>{t("다음 발견은,")}<br />{t("어느 나라일까요")}<span>?</span></h1><p>{t("지구를 돌리고, 숫자를 눌러보세요.")}</p></div>
+    <div className="earth-heading"><div className="earth-kicker"><span /> THE INTERNET, AROUND THE WORLD</div><h1>{t("다음 발견은,")}<br />{t("어느 나라일까요")}<span>?</span></h1><p>{t("지구를 돌리고, 숫자를 눌러보세요.")}</p><a className="earth-guide-link" href="#start-here">{guideLabel}</a></div>
     <div className="earth-category"><label htmlFor="globe-category">{t("어떤 사이트를 찾으세요?")}</label><select id="globe-category" aria-label={t("지구본 카테고리")} value={globeCategory} onChange={e => changeGlobeCategory(e.target.value)}><option value="all">{t("전체 카테고리")}</option>{allCategories.map(c => <option key={c.id} value={c.id}>{c.category} · {c.count}</option>)}</select><p role="status">{t("{0}개 사이트 · {1}개 국가·지역",{0:siteCount.toLocaleString(locale),1:countries.length})}</p>{globeCategory !== "all" && unknownCount > 0 && <button onClick={() => choose("unknown")}>{t("국가 미확인 {0}개도 보기 ↗",{0:unknownCount})}</button>}</div>
     <div className="earth-top-tools">
       <div className="country-picker" ref={countryPicker}><div className="earth-search"><Icon name="search" size={17} /><input aria-label={t("나라 검색")} placeholder={t("어느 나라가 궁금하세요?")} value={countryQuery} maxLength={80} onFocus={() => setCountryList(true)} onChange={e => {

@@ -1,7 +1,7 @@
 import { languageTags } from "../../../i18n/routing";
 import { getLocaleData } from "../../../i18n/server";
 import { localizedPath } from "../../../i18n/routing";
-import Link from "next/link";
+import Link from "../../../components/SiteLink";
 import { notFound } from "next/navigation";
 import { allCategories } from "../../../data/sites";
 import SiteCard from "../../../components/SiteCard";
@@ -9,6 +9,7 @@ import AdSlot from "../../../components/AdSlot";
 import PageHeading from "../../../components/PageHeading";
 import { JsonLd, canonical, pageMetadata } from "../../../lib/metadata";
 import { categoryEditorial } from "../../../data/category-editorial";
+import { discoveryPicks } from "../../../data/editorial-policy";
 export const dynamicParams = false;
 export function generateStaticParams() {
   return allCategories.map(c => ({
@@ -104,11 +105,12 @@ export default async function Category({
       "0": c.regionLabel,
       "1": items.length
     })} />
+    {editorial && <a className="selection-jump" href="#selection-guide">{discoveryPicks.selection[locale]}</a>}
     <nav className="category-tools" aria-label={t("목록 도구")}><Link href={path(`/?category=${c.id}#directory`)}>{t("이 카테고리에서 검색")}</Link><Link href={path("/?saved=1#directory")}>{t("저장한 사이트 보기 ↗")}</Link></nav>
     <div className="site-grid">{items.slice(0, 12).map(s => <SiteCard key={s.url} site={s} />)}</div>
     <AdSlot placement={`category-${c.id}`} />
     <div className="site-grid">{items.slice(12).map(s => <SiteCard key={s.url} site={s} />)}</div>
-    {editorial && <section className="category-reading article-body" aria-label={editorial.sectionTitle}>
+    {editorial && <section id="selection-guide" className="category-reading article-body" aria-label={editorial.sectionTitle}>
       <h2>{editorial.sectionTitle}</h2>
       <div className="category-reading-grid">{editorial.tips.map(([title, text]) => <div key={title}><h3>{title}</h3><p>{text}</p></div>)}</div>
       {editorial.note && <p>{editorial.note}</p>}

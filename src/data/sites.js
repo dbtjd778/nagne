@@ -1312,7 +1312,7 @@ export const regions = [
           },
           {
             "name": "KMDb 한국영화데이터베이스",
-            "url": "kmdb.or.kr",
+            "url": "https://www.kmdb.or.kr/",
             "desc": "한국 영화의 작품과 인물, 관련 자료를 검색합니다. 오래된 작품의 제작 정보와 기록을 찾아보기 좋습니다.",
             "id": "3c42da857bde6f",
             "tags": [
@@ -2025,7 +2025,7 @@ export const regions = [
           },
           {
             "name": "기후에너지환경부",
-            "url": "me.go.kr",
+            "url": "https://mcee.go.kr/",
             "desc": "기후와 에너지, 환경 분야의 정책과 공공 자료를 제공합니다. 제도 안내와 공식 발표를 찾아볼 수 있습니다.",
             "id": "530ecb7decddfb",
             "tags": [
@@ -2382,7 +2382,7 @@ export const regions = [
           },
           {
             "name": "한국무역협회",
-            "url": "kita.net",
+            "url": "https://www.kita.net/",
             "desc": "무역 통계와 해외 시장, 수출입 실무 정보를 제공합니다. 산업과 국가별 자료를 검색해 보세요.",
             "id": "09cf1364985247",
             "tags": [

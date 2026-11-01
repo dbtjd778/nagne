@@ -22,6 +22,7 @@ export async function layoutMetadata(locale = "ko") {
     ...pageMetadata(t(site.title), t(site.description), "/", locale),
     metadataBase: new URL(site.url),
     applicationName: t(site.name),
+    other: isProduction ? { "google-adsense-account": site.adsensePublisherId } : {},
     verification: {
       other: {
         "naver-site-verification": "0f0bebae78c1b2563ddfc0368798cdba86d27bee"

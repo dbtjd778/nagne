@@ -1,7 +1,7 @@
 'use client';
 
 import { useLocale } from "./LocaleProvider";
-import Link from "next/link";
+import Link from "./SiteLink";
 import { Icon } from "./Icons";
 import PrivacyChoices from "./PrivacyChoices";
 import LanguageSwitcher from "./LanguageSwitcher";

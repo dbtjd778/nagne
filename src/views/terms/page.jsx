@@ -1,7 +1,7 @@
 import { languageTags } from "../../i18n/routing";
 import { getLocaleData } from "../../i18n/server";
 import { localizedPath } from "../../i18n/routing";
-import Link from "next/link";
+import Link from "../../components/SiteLink";
 import PageHeading from "../../components/PageHeading";
 import { pageMetadata } from "../../lib/metadata";
 export const metadata = pageMetadata("이용약관 - 사이트 맛집", "사이트 맛집 서비스 이용, 외부 링크, 명칭과 로고의 권리, 콘텐츠 변경 및 문의 방법을 안내합니다.", "/terms");

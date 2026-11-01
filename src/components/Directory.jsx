@@ -2,7 +2,7 @@
 
 import { useLocale } from "./LocaleProvider";
 import { Suspense, useEffect, useMemo, useRef, useState } from "react";
-import Link from "next/link";
+import Link from "./SiteLink";
 import { useSearchParams } from "next/navigation";
 import { filterSites } from "../lib/directory";
 import { defaultDirectoryState, readDirectoryState, directorySearch } from "../lib/directory-state";

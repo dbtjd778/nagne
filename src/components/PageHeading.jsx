@@ -1,7 +1,7 @@
 'use client';
 
 import { useLocale } from "./LocaleProvider";
-import Link from "next/link";
+import Link from "./SiteLink";
 export default function PageHeading({
   title,
   description,
