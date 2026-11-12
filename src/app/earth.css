@@ -59,3 +59,43 @@ body:has(.earth-explorer) .header-contact{color:#a4aebb;border:1px solid #ffffff
 @media(max-width:760px){.earth-guide-link{font-size:11px;margin-top:0;padding:4px 0}}
 
 .has-country .earth-guide-link{pointer-events:none;visibility:hidden}
+
+/* Approved homepage spacing — 2026-11-12. Ad settings are unchanged. */
+body:has(.earth-explorer) #main-content { background: linear-gradient(#070a0f 740px, #f5f6f7 740px); }
+body:has(.earth-explorer) .wrap { width: min(1040px, calc(100% - 40px)); max-width: 1040px; padding-inline: 0; }
+body:has(.earth-explorer) .header .wrap { padding-inline: 0; }
+.earth-explorer { width: min(1040px, calc(100% - 40px)); margin-inline: auto; height: 740px; min-height: 740px; max-height: none; }
+/* Keep the existing light reading sections below the dark globe. */
+@media (min-width: 701px) {
+  .earth-heading { left: 0; top: 38px; }
+  .earth-heading h1 { font-size: 34px; }
+  .earth-category { left: 0; top: 270px; width: 230px; }
+  .earth-coordinate { left: 0; top: 440px; }
+  .earth-top-tools { right: 0; top: 38px; }
+  .earth-search { width: 260px; }
+  .planet-stage { inset: 90px 0 150px 240px; }
+  .earth-controls { right: 0; bottom: 136px; }
+  .earth-bottom { left: 0; right: 0; }
+  .earth-credits { left: 0; }
+  .earth-instructions { left: 62%; bottom: 142px; }
+  .country-panel { right: 0; width: 340px; }
+  .has-country .planet-stage { transform: translateX(-32%); }
+  .has-country .earth-controls { right: 364px; }
+  .has-country .earth-category { visibility: hidden; }
+}
+@media (min-width: 701px) and (max-width: 900px) {
+  .earth-heading h1 { font-size: 29px; }
+  .earth-category { width: 200px; }
+  .earth-search { width: 220px; }
+  .planet-stage { left: 160px; top: 145px; }
+}
+@media (max-width: 700px) {
+  body:has(.earth-explorer) #main-content { background: linear-gradient(#070a0f 800px, #f5f6f7 800px); }
+  .earth-explorer { height: 800px; min-height: 800px; }
+  .earth-heading, .earth-category, .earth-top-tools, .earth-bottom, .earth-credits { left: 0; }
+  .earth-category, .earth-top-tools, .earth-bottom, .earth-credits { right: 0; }
+  .earth-controls, .has-country .earth-controls { right: 0; }
+  .earth-category { top: 206px; }
+  .earth-top-tools { top: 287px; }
+  .planet-stage { inset: 321px -25% 190px; }
+}
